@@ -8,6 +8,7 @@
 * Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.) . 
 * Discuss License, procedures for making contributions, and contributor agreements . 
 * Summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ) . 
-* Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.  
+* Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task. 
+https://github.com/jacob-barna/TripleJR
 * Github Project Boards . 
 * Kanban boards . 
