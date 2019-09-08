@@ -17,10 +17,10 @@ https://github.com/brave/brave-browser
 -Open source web broswer offers a great solution for users who are looking for privacy and security when surfing the web   
 
 * Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)   
-- Open source Brave broswer . 
-- 96 % Javascript . 
-- very popular amongst open source web browsers .  
--  include github submission for issues or suggestions docs  
+-Open source Brave broswer .   
+-96 % Javascript .   
+-very popular amongst open source web browsers .    
+-include github submission for issues or suggestions docs    
 
 * Discuss License, procedures for making contributions, and contributor agreements . 
 * Summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ) . 
