@@ -5,8 +5,16 @@ Our idea that we will be going with if everyone is okay with this.
 https://github.com/brave/brave-browser
 
 * #### An assumed/hypothetical operational environment (e.g., home, office, enterprise, bank, government, etc.) where the users will expect security functionality from the software in its intended use.  
+
+This browser is intended to provide privacy, security, and an alternative approach to monetizing the web.  Because of the wide adoption of standard browsers, with "other" browsers sharing just 3.5% of the world-wide marketshare [1], the current target market appears to be privacy-minded users who will use the browser at home, on their mobile devices, or at work if permitted.  These users ...
+
 * #### What are the security needs of users from this software in its intended threat environment ? If there are none or very few, then re-evaluate your selection.  
+The security needs 
+
 * #### Develop a list of security features in the software. Again, if there are none or very few, then re-evaluate your choice.
+
+
+
 * #### Motivation for selecting this project .   
 (just some points i will expand on later - ronald ) .   
 -in IT, rapid growth has brought many cool inovations     
@@ -27,3 +35,5 @@ https://github.com/brave/brave-browser
 * ####[Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.](https://github.com/jacob-barna/TripleJR)
 * #### Github Project Boards . 
 * #### Kanban boards . 
+
+[1]: https://gs.statcounter.com/browser-market-share#monthly-200901-201905
