@@ -24,8 +24,12 @@ A solution that users could look into, happens to be an open source web called B
 
 
 * #### Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)   
+ 
+-should we include images ?   
+-references ?   
 
 As we briefly described, the Brave application is an open source web browser application that integrates privacy, security and fast browsing. This application is written in 96% JavaScript but includes other languages like python as well. The project is fairly popular in the world of web browsers. It has over 3,800 stars, 350 forks, with thousands of issues waiting to be closed. (not sure if we should include an image?). The Brave application also provides a variety of instruction sets depending on what operating system the user is wishing to install the application. The GitHub repository for the Brave application also includes helpful templates for users who wish to contribute, by adding templates for how to open an issue and creating a pull request.   
+
 
 * #### Discuss License, procedures for making contributions, and contributor agreements . 
 * #### Summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ) . 
