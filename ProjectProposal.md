@@ -16,10 +16,11 @@ The security needs
 
 
 * #### Motivation for selecting this project .   
-As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook, were fined $5 billion for violating consumers’ privacy rights. [source here ] Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
+As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook, were fined $5 billion for violating consumers’ privacy rights. [source here] Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
 
 A solution that users could look into, happens to be an open source web called Brave. The Brave browser allows users to enjoy private, secure and fast browsing. Our group is determined to conduct an analysis on this application throughout the semester and determine whether the Brave application holds up to their security features they present. 
 
+[source here]  Facebook privacy https://www.usatoday.com/story/tech/news/2019/07/24/facebook-pay-record-5-billion-fine-u-s-privacy-violations/1812499001/
 
 
 * #### Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)   
