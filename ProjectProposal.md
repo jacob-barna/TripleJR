@@ -16,13 +16,7 @@ The security needs
 
 
 * #### Motivation for selecting this project .   
-(just some points i will expand on later - ronald ) .   
--in IT, rapid growth has brought many cool inovations     
--specifically, with surfing the web, buy stuff online or using different enterntainment services, is now very easy for users .   
--however, companies are now using our personal data profiles in the online space, and sell it to other companies to benefit and target specific ads to users     
--facebook privacy issue not too long ago . 
--privacy & security is something our group values and believes should be respected for all users   
--Open source web broswer offers a great solution for users who are looking for privacy and security when surfing the web   
+As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook, were fined $5 billion for violating consumers’ privacy rights. [source here ] Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.
 
 * #### Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)   
 -Open source Brave broswer .   
