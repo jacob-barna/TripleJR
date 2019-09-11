@@ -35,8 +35,7 @@ As we briefly described, the Brave application is an open source web browser app
 
 ![Screen Shot 2019-09-10 at 8 45 01 PM](https://user-images.githubusercontent.com/45551925/64661891-1647a180-d40c-11e9-8586-6819ef990b05.png)
 
-The Brave application also provides a variety of instruction sets depending on what operating system the user is wishing to install the application. The GitHub repository for the Brave application also includes helpful templates for users who wish to contribute, by adding templates for how to open an issue and creating a pull request.   
-
+The Brave application also provides a variety of instruction sets depending on what operating system the user is wishing to install the application. The application is available on all platforms, covering desktop users such as macOS, Windows, Linux, as well as mobile users on iOS and Android. The GitHub repository for the Brave application also includes helpful templates for users who wish to contribute, by adding templates for how to open an issue and creating a pull request. Lastly, from our brief interaction with this open source web broswer, we noticed that they also have a community page for users who would like to get more involved with Brave. Here, users can ask for assistance and even discuss features that should be implemented into the application.   
 
 * #### Discuss License, procedures for making contributions, and contributor agreements . 
 * #### Summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ) . 
