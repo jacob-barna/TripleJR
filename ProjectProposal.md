@@ -16,11 +16,24 @@ Brave also offers several built-in features that users expect to be secure.  One
 One last concern not explicitly discussed by Brave deal with the privileges that are granted to Brave.  Brave promises to keep your data secure and anonymous in several areas: when gathering advertising data, when sending tips to content providers, and when syncing bookmarks and settings.  How can one assure themselves that a Brave insider will not use their position to merge malicious code and steal data or cryptocurrency?  Brave points out that they produce open-source software which can be audited by anyone to answer these concerns [8].  Is this enough? We have seen many examples of people using such an attack vector to spread malware [9].  In a similar vein, there has been some chatter about the trust that must be placed in Brave.  For example, to some users, Brave acts as a "mafia" by controlling access to your cryptocurrency [10] for 90 days if they suspect fraud or malicious activity.  There has also been concern that Brave has "whitelisted" ad trackers for companies like Facebook [11], which may or may not allow Facebook to track user data.  
 
 * #### Develop a list of security features in the software. Again, if there are none or very few, then re-evaluate your choice.
-Insert Brave security features here. (https://brave.com/features/)
+As discussed above, the Brave browser project focuses primarily on privacy and security. The following are are security features that browser contains. (https://brave.com/features/)
+
+* Ad Blocking
+* Fingerprinting Prevention
+* Cookie Control
+* HTTPS Upgrading
+* Block Scripts
+* Per-Site & Global Sheild Settings/Defaults
+* Clear Browser Data
+* Password Manager
+* Form Autofill
+* Control Content Access To Fullscreen Presentation
+* Control Site Access To Autoplay Media
+* Send "Do Not Track" With Browsing Requests
 
 Insert additional security topics/features here. (https://brave.com/faq/)
 
-Noting other sources for possible information. (https://www.wired.com/story/privacy-browsers-duckduckgo-ghostery-brave/) (https://www.netsparker.com/blog/web-security/brave-browser-sacrifices-security/) (https://www.techrepublic.com/article/how-to-protect-and-secure-your-web-browsing-with-the-brave-browser/) (https://www.cnet.com/how-to/this-is-the-browser-youll-want-if-you-care-about-online-privacy/)
+Noting other sources for possible information. (https://www.wired.com/story/privacy-browsers-duckduckgo-ghostery-brave/) (https://www.techrepublic.com/article/how-to-protect-and-secure-your-web-browsing-with-the-brave-browser/) (https://www.cnet.com/how-to/this-is-the-browser-youll-want-if-you-care-about-online-privacy/)
 
 
 * #### Motivation for selecting this project .   
