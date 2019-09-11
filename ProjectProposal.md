@@ -31,10 +31,7 @@ As discussed above, the Brave browser project focuses primarily on privacy and s
 * Control Site Access To Autoplay Media
 * Send "Do Not Track" With Browsing Requests
 
-Insert additional security topics/features here. (https://brave.com/faq/)
-
-Noting other sources for possible information. (https://www.wired.com/story/privacy-browsers-duckduckgo-ghostery-brave/) (https://www.techrepublic.com/article/how-to-protect-and-secure-your-web-browsing-with-the-brave-browser/) (https://www.cnet.com/how-to/this-is-the-browser-youll-want-if-you-care-about-online-privacy/)
-
+In addition to the features above, Brave does not access data that is user identifiable and all ad campaign data collected is anonymized for the purpose of reporting and accounting. The browser does track user activities inside the application, however the code contains this information on the client device and does not allow server access to this data. (https://brave.com/faq/)
 
 * #### Motivation for selecting this project .   
 As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook, were fined $5 billion for violating consumers’ privacy rights. [source here] Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
