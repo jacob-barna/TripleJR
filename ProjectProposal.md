@@ -16,7 +16,7 @@ Brave also offers several built-in features that users expect to be secure.  One
 One last concern not explicitly discussed by Brave deal with the privileges that are granted to Brave.  Brave promises to keep your data secure and anonymous in several areas: when gathering advertising data, when sending tips to content providers, and when syncing bookmarks and settings.  How can one assure themselves that a Brave insider will not use their position to merge malicious code and steal data or cryptocurrency?  Brave points out that they produce open-source software which can be audited by anyone to answer these concerns [8].  Is this enough? We have seen many examples of people using such an attack vector to spread malware [9].  In a similar vein, there has been some chatter about the trust that must be placed in Brave.  For example, to some users, Brave acts as a "mafia" by controlling access to your cryptocurrency [10] for 90 days if they suspect fraud or malicious activity.  There has also been concern that Brave has "whitelisted" ad trackers for companies like Facebook [11], which may or may not allow Facebook to track user data.  
 
 * #### Develop a list of security features in the software. Again, if there are none or very few, then re-evaluate your choice.
-As discussed above, the Brave browser project focuses primarily on privacy and security. The following are are security features that browser contains. (https://brave.com/features/)
+As discussed above, the Brave browser project focuses primarily on privacy and security. The following are are security features that browser contains [12].
 
 * Ad Blocking
 * Fingerprinting Prevention
@@ -31,7 +31,7 @@ As discussed above, the Brave browser project focuses primarily on privacy and s
 * Control Site Access To Autoplay Media
 * Send "Do Not Track" With Browsing Requests
 
-In addition to the features above, Brave does not access data that is user identifiable and all ad campaign data collected is anonymized for the purpose of reporting and accounting. The browser does track user activities inside the application, however the code contains this information on the client device and does not allow server access to this data. (https://brave.com/faq/)
+In addition to the features above, Brave does not access data that is user identifiable and all ad campaign data collected is anonymized for the purpose of reporting and accounting. The browser does track user activities inside the application, however the code contains this information on the client device and does not allow server access to this data [13].
 
 * #### Motivation for selecting this project .   
 As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook, were fined $5 billion for violating consumers’ privacy rights. [source here] Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
@@ -85,3 +85,5 @@ Brave browser has had two known vulnerabilities back in 2017 and 2018.  In 2017,
 [9]: https://hackaday.com/2018/10/31/when-good-software-goes-bad-malware-in-open-source/
 [10]: https://thenextweb.com/hardfork/2018/11/23/brave-blockchain-cryptocurrency-browser/
 [11]: https://nakedsecurity.sophos.com/2019/02/12/privacy-browser-braves-user-concern-over-facebook-whitelist/
+[12]: https://brave.com/features/
+[13]: https://brave.com/faq/
