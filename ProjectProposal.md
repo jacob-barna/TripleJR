@@ -34,16 +34,11 @@ As discussed above, the Brave browser project focuses primarily on privacy and s
 In addition to the features above, Brave does not access data that is user identifiable and all ad campaign data collected is anonymized for the purpose of reporting and accounting. The browser does track user activities inside the application, however the code contains this information on the client device and does not allow server access to this data [13].
 
 * #### Motivation for selecting this project.   
-As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook, were fined $5 billion for violating consumers’ privacy rights. [source here] Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
+As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook, were fined $5 billion for violating consumers’ privacy rights [14](https://www.usatoday.com/story/tech/news/2019/07/24/facebook-pay-record-5-billion-fine-u-s-privacy-violations/1812499001/). Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
 
 A solution that users could look into, happens to be an open source web called Brave. The Brave browser allows users to enjoy private, secure and fast browsing. Our group is determined to conduct an analysis on this application throughout the semester and determine whether the Brave application holds up to their security features they present. From the knowledge that we will obtain throughout the semester, we hope that we are able to provide contributions to this open source application. 
 
-[source here]  Facebook privacy https://www.usatoday.com/story/tech/news/2019/07/24/facebook-pay-record-5-billion-fine-u-s-privacy-violations/1812499001/
-
-
 * #### Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)   
-
--references ?   
 
 As we briefly described, the Brave application is an open source web browser application that integrates privacy, security and fast browsing. This application is written in 96% JavaScript but includes other languages like python as well. The project is fairly popular in the world of web browsers. It has over 3,800 stars, 350 forks, with thousands of issues waiting to be closed. 
 
