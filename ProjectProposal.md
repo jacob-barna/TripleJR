@@ -1,6 +1,9 @@
 **Cyber8420 Project Proposal**
+
 **Github Repository: https://github.com/jacob-barna/TripleJR**
+
 **Authors:** Jeffrey Smith, Ronald Ramirez, Jacob Barna, Jill Lenz
+
 **Team Name:** TripleJR
 
 Brave browser is intended to provide privacy, security, and an alternative approach to monetizing the web. Because of the wide adoption of standard browsers, with "other" browsers sharing just 3.5% of the world-wide market share [1], the current target market appears to be privacy-minded users who use the browser at home, on their mobile devices, or at work if permitted. These users may have philosophical reasons for their aversion to browser tracking. Also, they may wish to keep their activities private from the prying eyes of their government or hacker groups [2].
