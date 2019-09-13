@@ -61,10 +61,6 @@ Brave browser has had two known vulnerabilities back in 2017 and 2018.  In 2017,
 
 Other milestones for the Brave browser can be found here: [26]
 
-* ####[Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.](https://github.com/jacob-barna/TripleJR)
-* #### Github Project Boards . 
-* #### Kanban boards . 
-
 [1]: https://gs.statcounter.com/browser-market-share#monthly-200901-201905
 [2]: https://www.fastcompany.com/3058432/the-top-3-web-browsers-in-china-leave-users-vulnerable-report-says
 [3]: https://blog.chromium.org/2019/05/improving-privacy-and-security-on-web.html
