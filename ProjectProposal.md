@@ -19,11 +19,11 @@ One last concern not explicitly discussed by Brave deal with the privileges that
 * #### Develop a list of security features in the software. Again, if there are none or very few, then re-evaluate your choice.
 As discussed above, the Brave browser project focuses primarily on privacy and security. The following are are security features that browser contains [12].
 
-* Ad Blocking
+* Ad Blocking [13]
 * Fingerprinting Prevention
 * Cookie Control
 * HTTPS Upgrading
-* Block Scripts
+* Block Scripts [14]
 * Per-Site & Global Sheild Settings/Defaults
 * Clear Browser Data
 * Password Manager
@@ -31,11 +31,12 @@ As discussed above, the Brave browser project focuses primarily on privacy and s
 * Control Content Access To Fullscreen Presentation
 * Control Site Access To Autoplay Media
 * Send "Do Not Track" With Browsing Requests
+* Hardware Security Key Support (YubiKey) [15]
 
-In addition to the features above, Brave does not access data that is user identifiable and all ad campaign data collected is anonymized for the purpose of reporting and accounting. The browser does track user activities inside the application, however the code contains this information on the client device and does not allow server access to this data [13].
+In addition to the features above, Brave does not access data that is user identifiable and all ad campaign data collected is anonymized for the purpose of reporting and accounting. The browser does track user activities inside the application, however the code contains this information on the client device and does not allow server access to this data [16]. This feature of having a private system in which the browser preserve privacy is what Brave has named Privacy-Preserving Product Analytics (P3A) [17]
 
 * #### Motivation for selecting this project.   
-As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook were fined $5 billion for violating consumers’ privacy rights [14]. Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
+As information technology students, we have seen many digital advancements in technology. We are living in an era where our online data is being sold to companies to promote products and target specific content to us, the users. Security and privacy are characteristics we value highly, and hope companies hold their promises when saying they do so as well. However, trusting companies becomes more difficult for us to do. Previous outbreaks which include tech conglomerates such as Facebook were fined $5 billion for violating consumers’ privacy rights [18]. Finding solutions to keep our privacy and security as we utilize technology and different online outlets is something we strive to do.  
 
 A solution that users could look into happens to be an open-source web browser application called Brave. The Brave browser allows users to enjoy private, secure, and fast browsing. Our group is determined to conduct an analysis of this application throughout the semester and determine whether the Brave application holds up to their security features they present. We also feel that other users who value privacy and security can relate to this project, which is why we have assumed an environment that targets users who would be using a desktop or mobile device in a home setting or even work if permitted. As we move along throughout the semester, we hope that we are able to successfully assess this open-source application and even provide contributions to the Brave community. 
 
@@ -48,9 +49,9 @@ As we briefly described, the Brave application is an open-source web browser app
 The Brave application also provides a variety of instruction sets depending on what operating system the user is wishing to install the application. The application is available on all platforms, covering desktop users such as macOS, Windows, Linux, as well as mobile users on iOS and Android. The GitHub repository for the Brave application also includes helpful templates for users who wish to contribute, by adding templates for how to open an issue and creating a pull request. Lastly, from our brief interaction with this open-source web browser, we noticed that they also have a community page for users who would like to get more involved with Brave. Here, users can ask for assistance and even discuss features that should be implemented into the application.
 
 * #### Discuss License, procedures for making contributions, and contributor agreements. 
-The Mozilla Foundation is currently the license steward for The Brave project and holds all rights in regards to modifying or publishing new versions of the license. All licenses under this steward must be adhered to and can only be modified by another entity other than the steward when the software is developed that is not governed under the current Brave license. Contributions are permitted and each contributor is granted a worldwide, royalty-free, non-exclusive license. Contributors are permitted to use, modify, and distribute the source code with the exceptiong that all source code used must comply with the license agreement and users must be made aware of the location of the original Brave license. In the event a contributor distributes an executable form of the software, then the source code and original license must be made available to users. Failing to comply with the terms set forth in the license will result in contributors having their rights terminated with the possibility of reinstatement once back in compliance [15].
+The Mozilla Foundation is currently the license steward for The Brave project and holds all rights in regards to modifying or publishing new versions of the license. All licenses under this steward must be adhered to and can only be modified by another entity other than the steward when the software is developed that is not governed under the current Brave license. Contributions are permitted and each contributor is granted a worldwide, royalty-free, non-exclusive license. Contributors are permitted to use, modify, and distribute the source code with the exceptiong that all source code used must comply with the license agreement and users must be made aware of the location of the original Brave license. In the event a contributor distributes an executable form of the software, then the source code and original license must be made available to users. Failing to comply with the terms set forth in the license will result in contributors having their rights terminated with the possibility of reinstatement once back in compliance [19].
 
-Contributions to the Brave project are active and supported by the community. All levels of contributor experience regarding the open-source software contribution are welcomed with several categories available depending on interests. Basic contributions can be made by supporting others or attempting to replicate reported issues. Other contribution categories include quality assurance, development, and design. By assisting in these categories, contributors can assist with automation features, compatibility checks and testing, resource developments, and usability testing or research. To further assist potential contributors, the Brave community provides contact names for each aspect of contributions that can be contacted to provide guidance and assistance with contributions that are of interest. This can be completed by creating an account on their support community website or through contributions on their GitHub repository [16].
+Contributions to the Brave project are active and supported by the community. All levels of contributor experience regarding the open-source software contribution are welcomed with several categories available depending on interests. Basic contributions can be made by supporting others or attempting to replicate reported issues. Other contribution categories include quality assurance, development, and design. By assisting in these categories, contributors can assist with automation features, compatibility checks and testing, resource developments, and usability testing or research. To further assist potential contributors, the Brave community provides contact names for each aspect of contributions that can be contacted to provide guidance and assistance with contributions that are of interest. This can be completed by creating an account on their support community website or through contributions on their GitHub repository [20].
 
 * #### Summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ). 
 
@@ -82,7 +83,11 @@ Brave browser has had two known vulnerabilities back in 2017 and 2018.  In 2017,
 [10]: https://thenextweb.com/hardfork/2018/11/23/brave-blockchain-cryptocurrency-browser/
 [11]: https://nakedsecurity.sophos.com/2019/02/12/privacy-browser-braves-user-concern-over-facebook-whitelist/
 [12]: https://brave.com/features/
-[13]: https://brave.com/faq/
-[14]: https://www.usatoday.com/story/tech/news/2019/07/24/facebook-pay-record-5-billion-fine-u-s-privacy-violations/1812499001/
-[15]: https://raw.githubusercontent.com/cyb3rc0wb0y/brave-browser/master/LICENSE
-[16]: https://community.brave.com/t/about-the-contributing-category/1891
+[13]: https://brave.com/improved-ad-blocker-performance/
+[14]: https://brave.com/script-blocking-exceptions-update/
+[15]: https://brave.com/partnership-with-yubico/
+[16]: https://brave.com/faq/
+[17]: https://brave.com/privacy-preserving-product-analytics-p3a/
+[18]: https://www.usatoday.com/story/tech/news/2019/07/24/facebook-pay-record-5-billion-fine-u-s-privacy-violations/1812499001/
+[19]: https://raw.githubusercontent.com/cyb3rc0wb0y/brave-browser/master/LICENSE
+[20]: https://community.brave.com/t/about-the-contributing-category/1891
