@@ -55,17 +55,11 @@ Contributions to the Brave project are active and supported by the community. Al
 
 * #### Summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ). 
 
-Since the launch of Brave Software back in January of 2016, Brave has had many notable additions to their software.  In June 2018, Brave released a pay-to-surf test version of the browser [wiki?]. The Brave browser blocks tracking scripts and many web ads.  However, Brave gives the users the option to see ads but as desktop notifications rather than directly on the website the user is visiting. In return for turning this option on, the user gets 70% of the revenue they generate. (https://www.wired.com/story/brave-browser-will-pay-surf-web/)
+Since the launch of Brave Software back in January of 2016, Brave has had many notable additions to their software.  In June 2018, Brave released a pay-to-surf test version of the browser [21]. The Brave browser blocks tracking scripts and many web ads.  However, Brave gives the users the option to see ads but as desktop notifications rather than directly on the website the user is visiting. In return for turning this option on, the user gets 70% of the revenue they generate [22]. Later in June of 2018, Brave added support for Tor in its desktop browser’s private browsing mode. Brave called this technology onion routing, and it gives the ability for the user to stay anonymous by shuttling the internet communications by obscuring the true address of the Internet [23]. In December 2018, Brave replaced Muon interface and moved to Chromium codebase that does support Chrome extensions [24]. 
 
-Later in June of 2018, Brave added support for Tor in its desktop browser’s private browsing mode [cite].  Brave called this technology onion routing, and it gives the ability for the user to stay anonymous by shuttling the internet communications by obscuring the true address of the Internet [cite].(https://www.cnet.com/news/brave-advances-browser-privacy-with-tor-powered-tabs/)
+Brave browser has had two known vulnerabilities back in 2017 and 2018.  In 2017, browser version 0.19.73, and earlier, was vulnerable to an incorrect access control issue in the “JS fingerprinting blocking” component, resulting in a malicious website being able to access the fingerprinting-associated browser functionality.  In 2018, the browser in iOS before 1.2.18 and Brave Browser Android 1.9.56 and earlier suffered from Full Address Bar Spoofing, allowing attackers to trick a victim by displaying a malicious page for legitimate domain names [25]. Both vulnerabilities were resolved within 30 days or less. 
 
-Until December 2018, Brave replaced Muon interface and moved to Chromium codebase that does support Chrome extensions. (https://www.zdnet.com/article/brave-browser-moves-to-chromium-codebase-now-supports-chrome-extensions/)
-
-In June 2019 Brave started testing new ad-blocking rule matching algorithm implemented in Rust that Brave claims are on average 69 times faster than the previous implementation in C++ [wiki?]
-
-Other milestones for the Brave browser can be found here: (https://github.com/brave/brave-browser/wiki/Roadmap-Archive)
-
-Brave browser has had two known vulnerabilities back in 2017 and 2018.  In 2017, browser version 0.19.73, and earlier, was vulnerable to an incorrect access control issue in the “JS fingerprinting blocking” component, resulting in a malicious website being able to access the fingerprinting-associated browser functionality [cite].  In 2018, the browser in iOS before 1.2.18 and Brave Browser Android 1.9.56 and earlier suffered from Full Address Bar Spoofing, allowing attackers to trick a victim by displaying a malicious page for legitimate domain names [cite]. Both vulnerabilities were resolved within 30 days or less. (https://www.cvedetails.com/vulnerability-list/vendor_id-16266/product_id-36540/Brave-Browser.html)
+Other milestones for the Brave browser can be found here: [26]
 
 * ####[Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.](https://github.com/jacob-barna/TripleJR)
 * #### Github Project Boards . 
@@ -91,3 +85,9 @@ Brave browser has had two known vulnerabilities back in 2017 and 2018.  In 2017,
 [18]: https://www.usatoday.com/story/tech/news/2019/07/24/facebook-pay-record-5-billion-fine-u-s-privacy-violations/1812499001/
 [19]: https://raw.githubusercontent.com/cyb3rc0wb0y/brave-browser/master/LICENSE
 [20]: https://community.brave.com/t/about-the-contributing-category/1891
+[21]: https://en.wikipedia.org/wiki/Brave_(web_browser)
+[22]: https://www.wired.com/story/brave-browser-will-pay-surf-web/
+[23]: https://www.cnet.com/news/brave-advances-browser-privacy-with-tor-powered-tabs/
+[24]: https://www.zdnet.com/article/brave-browser-moves-to-chromium-codebase-now-supports-chrome-extensions/
+[25]: https://www.cvedetails.com/vulnerability-list/vendor_id-16266/product_id-36540/Brave-Browser.html
+[26]: https://github.com/brave/brave-browser/wiki/Roadmap-Archive
