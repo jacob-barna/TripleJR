@@ -11,3 +11,6 @@ A markdown report that describes the following:
 - Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
 - Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.
+
+## Rubric 
+
