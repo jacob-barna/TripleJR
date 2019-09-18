@@ -14,3 +14,4 @@ A markdown report that describes the following:
 
 ## Rubric 
 
+![image](https://user-images.githubusercontent.com/45551925/65192235-ffbcce00-da3b-11e9-83e3-6ff43a87f146.png)
