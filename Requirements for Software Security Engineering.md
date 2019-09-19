@@ -1,4 +1,11 @@
-## **Requirements for Software Security Engineering**:  
+## CYBR 8420 - Requirements for Software Security Engineering
+
+**Github Repository: https://github.com/jacob-barna/TripleJR**
+
+**Authors:** Jeffrey Smith, Ronald Ramirez, Jacob Barna, Jill Lenz
+
+**Team Name:** TripleJR
+
 A markdown report that describes the following:
 
 - Identify five essential data flows (source-transformations-sink) through the software. Develop use-cases diagrams related to these data flows. 
