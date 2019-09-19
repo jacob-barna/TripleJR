@@ -7,6 +7,7 @@
 **Team Name:** TripleJR
 
 ## Backstory
+- short intro/description about Brave and begin to introduce this assignment (see info below Use case 1)
 
 ### Use Case 1
 A markdown report that describes the following:
