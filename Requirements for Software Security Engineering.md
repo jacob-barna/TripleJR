@@ -6,6 +6,9 @@
 
 **Team Name:** TripleJR
 
+## Backstory
+
+### Use Case 1
 A markdown report that describes the following:
 
 - Identify five essential data flows (source-transformations-sink) through the software. Develop use-cases diagrams related to these data flows. 
@@ -14,9 +17,21 @@ A markdown report that describes the following:
 
 - Derive security requirements for the use-cases using misuse case diagrams. Briefly describe the analysis in each misuse case diagram.
     - The misusers should be contextualized in your environment of operation and relevant to the dataflows identified above. Use names that help the reader understand their motives, resources, attack of choice, and the available access to the system to carry out their attack.
+    
+### Use Case 2 
+
+### Use Case 3
+
+### Use Case 4
+
+### Use Case 5
+
+
+## Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
 - Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
+
 - > Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.
 
 ## Rubric 
