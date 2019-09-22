@@ -23,7 +23,19 @@ A markdown report that describes the following:
 
 ### Use Case 3
 
-### Use Case 4
+### Use Case 4 - Wallet Scenerio
+
+#### Use Case
+Peter the privacy-minded user, needs to use a web browser that allows for users to take full control of where advertisement revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
+
+#### Misuse Case
+
+#### Diagram 
+<img width="752" alt="Screen Shot 2019-09-22 at 1 48 01 AM" src="https://user-images.githubusercontent.com/45551925/65383424-17fe4880-dcdb-11e9-9f97-ec09de978798.png">
+
+
+
+
 
 ### Use Case 5
 
