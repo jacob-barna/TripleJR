@@ -29,7 +29,9 @@ A markdown report that describes the following:
 Peter the privacy-minded user, needs to use a web browser that allows for users to take full control of where advertisement revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
 
 #### Misuse Case
+Billy the hacker, wants to exploit any vulnerabilities in the browser, specifically targeting the ability for a Peter to take full control of his advertisement support. Billy the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution. 
 
+* more info will go here about preventions and threats that follow 
 #### Diagram 
 <img width="752" alt="Screen Shot 2019-09-22 at 1 48 01 AM" src="https://user-images.githubusercontent.com/45551925/65383424-17fe4880-dcdb-11e9-9f97-ec09de978798.png">
 
