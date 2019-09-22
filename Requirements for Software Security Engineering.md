@@ -52,7 +52,29 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
 - Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.
+
+By default, first party cookies are not blocked as they are typically needed to log into a given site.  This means that sites like Google can use to track users while on their domain.  
+(https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-).  Some users do not like this, but they can use site specific settings or third party extensions to block first party cookies by default.
+
+There are also open issues that seem to indicate that some third party cookies are accepted due to a race condition: 
+https://github.com/brave/brave-browser/issues/2223
+
+There are also reports that users have explictily disabled sites like FaceBook from running scripts on the browser, to find out there is a "secret whitelist" enabling FaceBook to run scripts, ignoring the user setting: 
+https://community.brave.com/t/how-to-disable-facebook-twitter-secret-whitelist/44961
+
+
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
+
+todo: peruse FAQs for any manual setup needed / what defaults are chosen, etc. https://community.brave.com/c/faq
+
+Brave allows users to configure "Shields" that are the differentiators for this browser.  These shields currently control ad blocking, script permissions, connection type (http or https), cookie policies, and tracking protections.
+(sources: 
+https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-, https://github.com/brave/brave-browser/issues/1288)
+
+
+
+
+
 
 - > Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.
 
