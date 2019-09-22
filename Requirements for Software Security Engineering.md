@@ -7,7 +7,14 @@
 **Team Name:** TripleJR
 
 ## Backstory
-- short intro/description about Brave and begin to introduce this assignment (see info below Use case 1)
+short intro/description about Brave and begin to introduce this assignment (see info below Use case 1) .  
+
+Brave is an open source web browser that secures users privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a “better” experience to the users using their site. 
+* More info should go here 
+
+The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser simply want to browse the web without being tracked or have advertisements popup. 
+* More info should go here 
+
 
 ### Use Case 1
 A markdown report that describes the following:
