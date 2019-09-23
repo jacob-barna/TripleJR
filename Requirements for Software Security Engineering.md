@@ -38,21 +38,21 @@ A markdown report that describes the following:
 
 ### Browse Use Case
 
-### Use Case
+#### Use Case
 
-### Misuse Case
+#### Misuse Case
     
 ### SSL Use Case
 
-### Use Case
+#### Use Case
 
-### Misuse Case
+#### Misuse Case
 
 ### Password Manager Use Case
 
-### Use Case
+#### Use Case
 
-### Misuse Case
+#### Misuse Case
 
 ### Wallet Use Case
 
@@ -68,9 +68,9 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 
 ### Autofill Use Case
 
-### Use Case
+#### Use Case
 
-### Misuse Case
+#### Misuse Case
 
 
 
