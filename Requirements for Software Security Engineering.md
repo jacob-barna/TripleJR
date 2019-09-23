@@ -12,10 +12,11 @@
 - [Use Case 2](#use-case-2)
 - [Use Case 3](#use-case-3)
 - [Wallet Use Case](#wallet-use-case)
-- [Use Case 5](#use-case-5)   
+- [Use Case 5](#use-case-5) 
+-[Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
 
-- [Observation Review of OSS Project Documentation for Security Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
 
+ 
 
 ## Backstory
 short intro/description about Brave and begin to introduce this assignment (see info below Use case 1) .  
@@ -26,8 +27,6 @@ Brave is an open source web browser that secures users privacy while still provi
 The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser simply want to browse the web without being tracked or have advertisements popup. 
 * More info should go here 
 
-
-### Use Case 1
 A markdown report that describes the following:
 
 - Identify five essential data flows (source-transformations-sink) through the software. Develop use-cases diagrams related to these data flows. 
@@ -36,10 +35,24 @@ A markdown report that describes the following:
 
 - Derive security requirements for the use-cases using misuse case diagrams. Briefly describe the analysis in each misuse case diagram.
     - The misusers should be contextualized in your environment of operation and relevant to the dataflows identified above. Use names that help the reader understand their motives, resources, attack of choice, and the available access to the system to carry out their attack.
-    
-### Use Case 2 
 
-### Use Case 3
+### Browse Use Case
+
+### Use Case
+
+### Misuse Case
+    
+### SSL Use Case
+
+### Use Case
+
+### Misuse Case
+
+### Password Manager Use Case
+
+### Use Case
+
+### Misuse Case
 
 ### Wallet Use Case
 
@@ -53,14 +66,16 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 #### Diagram 
 <img width="752" alt="Screen Shot 2019-09-22 at 1 48 01 AM" src="https://user-images.githubusercontent.com/45551925/65383424-17fe4880-dcdb-11e9-9f97-ec09de978798.png">
 
+### Autofill Use Case
+
+### Use Case
+
+### Misuse Case
 
 
 
 
-### Use Case 5
-
-
-## Observation Review of OSS Project Documentation for Security Related Configuration and Installation Issues
+## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
 - Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.
 
