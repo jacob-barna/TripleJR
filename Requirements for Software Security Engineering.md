@@ -12,11 +12,10 @@
 - [Use Case 2](#use-case-2)
 - [Use Case 3](#use-case-3)
 - [Wallet Use Case](#wallet-use-case)
-- [Use Case 5](#use-case-5) 
--[Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
+- [Use Case 5](#use-case-5)   
 
+- [Observation Review of OSS Project Documentation for Security Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
 
- 
 
 ## Backstory
 short intro/description about Brave and begin to introduce this assignment (see info below Use case 1) .  
@@ -61,7 +60,7 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 ### Use Case 5
 
 
-## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
+## Observation Review of OSS Project Documentation for Security Related Configuration and Installation Issues
 
 - Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.
 
