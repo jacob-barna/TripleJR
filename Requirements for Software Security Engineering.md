@@ -6,6 +6,18 @@
 
 **Team Name:** TripleJR
 
+(this is just going to be a table of contents section -- will delete this text later)
+- [Backstory](#backstory)
+- [Use Case 1](#use-case-1)
+- [Use Case 2](#use-case-2)
+- [Use Case 3](#use-case-3)
+- [Wallet Use Case](#wallet-use-case)
+- [Use Case 5](#use-case-5) 
+-[Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
+
+
+ 
+
 ## Backstory
 short intro/description about Brave and begin to introduce this assignment (see info below Use case 1) .  
 
@@ -30,7 +42,7 @@ A markdown report that describes the following:
 
 ### Use Case 3
 
-### Use Case 4 - Wallet Scenerio
+### Wallet Use Case
 
 #### Use Case
 Peter the privacy-minded user, needs to use a web browser that allows for users to take full control of where advertisement revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
