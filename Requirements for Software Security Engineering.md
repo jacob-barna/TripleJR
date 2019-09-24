@@ -52,7 +52,13 @@ A markdown report that describes the following:
 
 #### Use Case
 
+Peter, the privacy minded user, understands the importance of utilizing strong, complex and long passwords but he needs access to several different places and in a quick fashion.  Bobby Joe doesn’t want to have to remember several different passwords and doesn’t want to just have one password for all sites. He has decided to store all his passwords in the Brave browser built-in password manager. Brave allows the ability to add third party password managers so Peter could install LastPass to enable more secure password manager.  If Peter uses a third party manager, he must delete/disable Brave’s built-in password manager. 
+
 #### Misuse Case
+
+Billy, the hacker, wants to exploit any vulnerabilities that the built-in password manager may have so he can gain access to all Billy’s passwords. Billy is able to create a fake login form using a third-party JavaScript (cross-site scripting attack) on the most visited website in attempts to steal Peter’s credentials. 
+
+Insert graph 
 
 ### Wallet Use Case
 
@@ -70,10 +76,15 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 
 #### Use Case
 
+Peter, the privacy minded user, uses Brave Browser to store all his passwords. With that capability, comes auto-fill which can’t be disabled on Brave.  This provides ease of use for Peter when visited multiple websites that require several different username types and passwords.  
+
 #### Misuse Case
 
+Billy, the hacker, wants to exploit any vulnerabilities that the auto-fill feature has.  The most common threat is tracking scripts. Peter goes to a website and fills out a login form on the page and asks the browser to save the login.  The tracking script is not present on the login script.  Peter visits another page on the same website which includes a tracking script and the tracking script inserts an invisible login form which is automatically filled in by the browsers login manager. That script then retrieves the user’s username and password by reading the populated form and sends the email hashes to the attacker. 
 
+https://freedom-to-tinker.com/2017/12/27/no-boundaries-for-user-identities-web-trackers-exploit-browser-login-managers/
 
+Insert graph
 
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
