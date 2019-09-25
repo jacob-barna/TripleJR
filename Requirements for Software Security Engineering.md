@@ -8,7 +8,7 @@
 
 (this is just going to be a table of contents section -- will delete this text later)
 - [Backstory](#backstory)
-- [Use Case 1](#use-case-1)
+- [Search Engine Use Case](#use-case-1)
 - [Use Case 2](#use-case-2)
 - [Use Case 3](#use-case-3)
 - [Wallet Use Case](#wallet-use-case)
@@ -36,7 +36,7 @@ A markdown report that describes the following:
 - Derive security requirements for the use-cases using misuse case diagrams. Briefly describe the analysis in each misuse case diagram.
     - The misusers should be contextualized in your environment of operation and relevant to the dataflows identified above. Use names that help the reader understand their motives, resources, attack of choice, and the available access to the system to carry out their attack.
 
-### Browse Use Case
+### Search Engine Use Case
 
 #### Use Case
 
