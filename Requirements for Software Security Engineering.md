@@ -39,9 +39,17 @@ A markdown report that describes the following:
 
 ### Search Engine Use Case
 
-#### Use Case
+#### Use CaseB
+Bobby Joe is constantly looking at ninja swords online but he doesn't want to be identified by advertisers because they send him too much junk mail about swords and ninja stars and occassionally call him on his cellular telephone to harangue him about brand new sword materials used in their state of the art katanas or offer him free martial arts classes or fedoras.  Bobby really wishes there was some way to prevent his online activity from being tracked by advertising networks and sold to advertisers.
 
 #### Misuse Case
+1) Set third-party tracking cookies as first-party to prevent being blocked on search engine.
+
+2) Initialize thrid-party tracking cookies inside JavaScript to render and appear as first-party cookies on search engine.
+
+3) Use DNS aliasing to mask third-party tracking servers as a first-party server.
+
+*Temp https://ptolemy.berkeley.edu/projects/truststc/education/reu/10/Papers/GomezG,YalajuJ_paper.pdf*
     
 ### SSL Use Case
 
