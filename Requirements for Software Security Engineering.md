@@ -12,8 +12,9 @@
 - [Use Case 2](#use-case-2)
 - [Use Case 3](#use-case-3)
 - [Wallet Use Case](#wallet-use-case)
-- [Use Case 5](#use-case-5) 
--[Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
+- [Use Case 5](#use-case-5)  
+
+- [Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
 
 
  
