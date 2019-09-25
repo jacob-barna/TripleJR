@@ -8,7 +8,7 @@
 
 (this is just going to be a table of contents section -- will delete this text later)
 - [Backstory](#backstory)
-- [Search Engine Use Case](#use-case-1)
+- [Search Engine Use Case](#Search-Engine-Use-Case)
 - [Use Case 2](#use-case-2)
 - [Use Case 3](#use-case-3)
 - [Wallet Use Case](#wallet-use-case)
