@@ -25,7 +25,8 @@ short intro/description about Brave and begin to introduce this assignment (see 
 Brave is an open source web browser that secures users privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a “better” experience to the users using their site. 
 * More info should go here 
 
-The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser simply want to browse the web without being tracked or have advertisements popup. 
+The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser simply want to browse the web without being tracked or have advertisements popup. These users also wish to have the latest functionalities that browsers have to offer. This functionality includes a built-in password manager and autofill capabilities to allow users to securely manage their passwords for their desired applications. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy minded stakeholders’ value deeply and are looking for in a web browser in the digital age today. 
+
 * More info should go here 
 
 A markdown report that describes the following:
