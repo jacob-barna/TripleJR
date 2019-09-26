@@ -55,7 +55,21 @@ Bobby Joe is constantly looking at ninja swords online but he doesn't want to be
 
 #### Use Case
 
+Peter, the privacy minded user, expects that when visiting sites using SSL, the network traffic moving back and forth between his browser and the destination server is strongly encrypted.  Peter expects this because he often purchases items online using his credit card number and sends other confidential information in chat programs.  If SSL breaks down, these expectations are not met.  
+
 #### Misuse Case
+
+Billy, the hacker wants to eavesdrop on the communications between Billy's browser and the sites he visits with SSL.  Billy expects that he will find information he will be able to exploit for nefarious uses such as: identity theft, credit card fraud, and blackmail.  Billy can use several attacks at his disposal to attempt to monitor the communications.  The ideal attack would be to create a Man-in-the-middle (MiTM) attack in which a certificate that he owns is used by Peter to encrypt traffic.  This would compromise all of Peter's SSL communications as Billy would surreptitiously siphon unencrypted traffic as it flows past.  If this doesn't work, there is a variation of the attack in which Billy could create a certificate through a Certificate Authority (CA) and use this in conjunction with a Web Proxy Auto-Discovery Protocol (WPAD) exploit to achieve the same goal: unfettered access to all of Peter's unencrypted traffic.  This latter attack is rather common as some browsers (and the administrators that configure them) use WPAD in Local Area Network (LAN) settings.  To exacerbate the problem, some trusted CA companies have been compromised through social engineering or lax processes in issuing certificates to unauthorized users (such as Billy).  
+
+If a MiTM attack cannot be launched, Billy has some more complicated attacks he can fall back on which all offer the promise of unencrypted traffic with varying degrees of success and completeness.  Browsers use Pseudo random number generator (PRNG) algorithms to encrypt traffic.  If this PRNG is predictable in some way, an attacker could gain access to unencrypted traffic.  In a similar vein, attackers can exploit side channel information – such as a compression side channel attack.  This particular side channel attack involves sending guesses about the encrypted data to the server and monitoring if the compressed data sent back is smaller – which, if using a common compression algorithm, would indicate that the guess is correct.  The attack proceeds by fixing the first (now verified) correct guess and proceeding with the second guess.  
+
+#### Security Requirements
+
+To prevent the attacks described in the Misuse Case section, there are several features Peter expects from the Brave Browser.  To prevent MiTM attacks, the Brave Browser has features to let him know when he is not using a certificate issued by a trusted CA.  The browser can also by default disable the WPAD feature to prevent the MiTM variation involving this protocol.  To prevent PRNG attacks, a known secure PRNG algorithm such as ChaCha20 should be used.  Lastly, to prevent side channel attacks, the browser should avoid returning useful timing or size information when compressing data.  Furthermore, one site's javascript code should not be able to perform side channel attacks on another site using privileged side channel attacks like SPECTRE.  SPECTRE relied on the fact that all sites open in a browser (along with their javascript code) run in the same process.  The attack leveraged this, along with some hardware design decisions to spy on other sites open in the browser.  To mitigate this attack without replacing the hardware, one solution is to use Site Isolation, which runs each site open in the browser in a separate process, preventing an attack like SPECTRE.
+
+#### Diagram
+
+![SSL_Misuse_Cases](https://user-images.githubusercontent.com/31263469/65651646-aa9d3100-dfd4-11e9-82ed-23ff0a1396a9.PNG)
 
 ### Password Manager Use Case
 
