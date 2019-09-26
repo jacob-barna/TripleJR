@@ -50,7 +50,10 @@ Bobby Joe is constantly looking at ninja swords online but he doesn't want to be
 3) Use DNS aliasing to mask third-party tracking servers as a first-party server.
 
 *Temp https://ptolemy.berkeley.edu/projects/truststc/education/reu/10/Papers/GomezG,YalajuJ_paper.pdf*
-    
+
+#### Security Requirements
+- *still need to finish*
+
 ### SSL Use Case
 
 #### Use Case
@@ -81,6 +84,9 @@ Peter, the privacy minded user, understands the importance of utilizing strong, 
 
 Billy, the hacker, wants to exploit any vulnerabilities that the built-in password manager may have so he can gain access to all Billy’s passwords. Billy is able to create a fake login form using a third-party JavaScript (cross-site scripting attack) on the most visited website in attempts to steal Peter’s credentials. 
 
+#### Security Requirements
+- *still need to finish*
+
 #### Diagram
 <img width="916" alt="Screen Shot 2019-09-25 at 7 44 13 PM" src="https://user-images.githubusercontent.com/54923995/65649617-efbd6500-dfcc-11e9-911b-ddad546e6642.png">
 
@@ -93,6 +99,10 @@ Peter the privacy-minded user, needs to use a web browser that allows for users 
 Billy the hacker, wants to exploit any vulnerabilities in the browser, specifically targeting the ability for a Peter to take full control of his advertisement support. Billy the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution. 
 
 * more info will go here about preventions and threats that follow 
+
+#### Security Requirements
+- *still need to finish*
+
 #### Diagram 
 <img width="752" alt="Screen Shot 2019-09-22 at 1 48 01 AM" src="https://user-images.githubusercontent.com/45551925/65383424-17fe4880-dcdb-11e9-9f97-ec09de978798.png">
 
@@ -101,6 +111,9 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 #### Use Case 
 
 #### Misuse Case 
+
+#### Security Requirements
+- *still need to finish*
 
 #### Diagram
 
