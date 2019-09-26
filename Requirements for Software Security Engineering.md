@@ -67,7 +67,8 @@ Peter, the privacy minded user, understands the importance of utilizing strong, 
 
 Billy, the hacker, wants to exploit any vulnerabilities that the built-in password manager may have so he can gain access to all Billy’s passwords. Billy is able to create a fake login form using a third-party JavaScript (cross-site scripting attack) on the most visited website in attempts to steal Peter’s credentials. 
 
-<img width="913" alt="Screen Shot 2019-09-25 at 7 42 46 PM" src="https://user-images.githubusercontent.com/54923995/65649560-aff67d80-dfcc-11e9-8eaa-86735d41952b.png">
+#### Diagram
+<img width="916" alt="Screen Shot 2019-09-25 at 7 44 13 PM" src="https://user-images.githubusercontent.com/54923995/65649617-efbd6500-dfcc-11e9-911b-ddad546e6642.png">
 
 ### Wallet Use Case
 
@@ -81,15 +82,11 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 #### Diagram 
 <img width="752" alt="Screen Shot 2019-09-22 at 1 48 01 AM" src="https://user-images.githubusercontent.com/45551925/65383424-17fe4880-dcdb-11e9-9f97-ec09de978798.png">
 
-### Autofill Use Case
+### 3rd Party Extensions Use Case
 
-#### Use Case
+#### Use Case 
 
-Peter, the privacy minded user, uses Brave Browser to store all his passwords. With that capability, comes auto-fill which can’t be disabled on Brave.  This provides ease of use for Peter when visited multiple websites that require several different username types and passwords.  
-
-#### Misuse Case
-
-Billy, the hacker, wants to exploit any vulnerabilities that the auto-fill feature has.  The most common threat is tracking scripts. Peter goes to a website and fills out a login form on the page and asks the browser to save the login.  The tracking script is not present on the login script.  Peter visits another page on the same website which includes a tracking script and the tracking script inserts an invisible login form which is automatically filled in by the browsers login manager. That script then retrieves the user’s username and password by reading the populated form and sends the email hashes to the attacker. 
+#### Misuse Case 
 
 https://freedom-to-tinker.com/2017/12/27/no-boundaries-for-user-identities-web-trackers-exploit-browser-login-managers/
 
