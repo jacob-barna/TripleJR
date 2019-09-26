@@ -67,7 +67,7 @@ Peter, the privacy minded user, understands the importance of utilizing strong, 
 
 Billy, the hacker, wants to exploit any vulnerabilities that the built-in password manager may have so he can gain access to all Billy’s passwords. Billy is able to create a fake login form using a third-party JavaScript (cross-site scripting attack) on the most visited website in attempts to steal Peter’s credentials. 
 
-Insert graph 
+<img width="913" alt="Screen Shot 2019-09-25 at 7 42 46 PM" src="https://user-images.githubusercontent.com/54923995/65649560-aff67d80-dfcc-11e9-8eaa-86735d41952b.png">
 
 ### Wallet Use Case
 
