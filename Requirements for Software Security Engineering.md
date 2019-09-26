@@ -88,9 +88,7 @@ Billy the hacker, wants to exploit any vulnerabilities in the browser, specifica
 
 #### Misuse Case 
 
-https://freedom-to-tinker.com/2017/12/27/no-boundaries-for-user-identities-web-trackers-exploit-browser-login-managers/
-
-Insert graph
+#### Diagram
 
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
