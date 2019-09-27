@@ -108,12 +108,17 @@ Billy, the hacker, wants to exploit any vulnerabilities in the browser, explicit
 
 #### Use Case 
 
+Peter, the privacy-minded user, wants the ability to customize Brave browser to fully utilize any third-party extensions he wants.  The Brave browser allows the option to install third-party extensions and that comes with extension validation. With extension validation also comes script blocking which both prevent malicious extensions to be installed (need more).
+
 #### Misuse Case 
+
+Billy, the hacker, wants to disrupt browser customizability that includes installing malicious extensions without the user knowledge. Which includes creating or using malicious extension author. (need more)
 
 #### Security Requirements
 - *still need to finish*
 
 #### Diagram
+<img width="1028" alt="Screen Shot 2019-09-27 at 1 56 52 PM" src="https://user-images.githubusercontent.com/54923995/65794897-b4d34280-e12e-11e9-86b8-b3aebb1e5af8.png">
 
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
