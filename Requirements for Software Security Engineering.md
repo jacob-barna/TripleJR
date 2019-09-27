@@ -16,17 +16,6 @@
 
 - [Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
 
-
- 
-
-## Backstory
-short intro/description about Brave and begin to introduce this assignment (see info below Use case 1) .  
-
-Brave is an open source web browser that secures users privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a “better” experience to the users using their site. 
-* More info should go here 
-
-The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser simply want to browse the web without being tracked or have advertisements popup. These users also wish to have the latest functionalities that browsers have to offer. This functionality includes a built-in password manager and autofill capabilities to allow users to securely manage their passwords for their desired applications. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy minded stakeholders’ value deeply and are looking for in a web browser in the digital age today. 
-
 ---------------------------------------------------------------------------------------------------------------------
 A markdown report that describes the following:
 
@@ -37,15 +26,26 @@ A markdown report that describes the following:
 - Derive security requirements for the use-cases using misuse case diagrams. Briefly describe the analysis in each misuse case diagram.
     - The misusers should be contextualized in your environment of operation and relevant to the dataflows identified above. Use names that help the reader understand their motives, resources, attack of choice, and the available access to the system to carry out their attack.
 ---------------------------------------------------------------------------------------------------------------------
+ 
+
+## Backstory
+
+Brave is an open-source web browser that secures users privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a “better” experience to the users using their site.
+* More info should go here 
+
+The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser want to browse the web without being tracked or have advertisements popup. These users also wish to have the latest functionalities that browsers have to offer. This functionality includes a built-in password manager and autofill capabilities to allow users to manage their passwords for their desired applications securely. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy-minded stakeholders’ value deeply and are looking for in a web browser in the digital age today.
+
 ### Search Engine Use Case
 
-#### Use CaseB
-Bobby Joe is constantly looking at ninja swords online but he doesn't want to be identified by advertisers because they send him too much junk mail about swords and ninja stars and occassionally call him on his cellular telephone to harangue him about brand new sword materials used in their state of the art katanas or offer him free martial arts classes or fedoras.  Bobby really wishes there was some way to prevent his online activity from being tracked by advertising networks and sold to advertisers.
+#### Use Case
+
+Bobby Joe is constantly looking at ninja swords online but he doesn't want to be identified by advertisers because they send him too much junk mail about swords and ninja stars and occasionally call him on his cellular telephone to harangue him about brand new sword materials used in their state of the art katanas or offer him free martial arts classes or fedoras. Bobby wishes there was some way to prevent his online activity from being tracked by advertising networks and sold to advertisers.
 
 #### Misuse Case
-1) Set third-party tracking cookies as first-party to prevent being blocked on search engine.
 
-2) Initialize thrid-party tracking cookies inside JavaScript to render and appear as first-party cookies on search engine.
+1) Set third-party tracking cookies as first party to prevent being blocked on a search engine.
+
+2) Initialize third-party tracking cookies inside JavaScript to render and appear as first-party cookies on a search engine.
 
 3) Use DNS aliasing to mask third-party tracking servers as a first-party server.
 
@@ -58,17 +58,16 @@ Bobby Joe is constantly looking at ninja swords online but he doesn't want to be
 
 #### Use Case
 
-Peter, the privacy minded user, expects that when visiting sites using SSL, the network traffic moving back and forth between his browser and the destination server is strongly encrypted.  Peter expects this because he often purchases items online using his credit card number and sends other confidential information in chat programs.  If SSL breaks down, these expectations are not met.  
+Peter, the privacy-minded user, expects that when visiting sites using SSL, the network traffic moving back and forth between his browser and the destination server is strongly encrypted. Peter expects this because he often purchases items online using his credit card number and sends other confidential information in chat programs. If SSL breaks down, these expectations will not be met.
 
 #### Misuse Case
 
-Billy, the hacker wants to eavesdrop on the communications between Billy's browser and the sites he visits with SSL.  Billy expects that he will find information he will be able to exploit for nefarious uses such as: identity theft, credit card fraud, and blackmail.  Billy can use several attacks at his disposal to attempt to monitor the communications.  The ideal attack would be to create a Man-in-the-middle (MiTM) attack in which a certificate that he owns is used by Peter to encrypt traffic.  This would compromise all of Peter's SSL communications as Billy would surreptitiously siphon unencrypted traffic as it flows past.  If this doesn't work, there is a variation of the attack in which Billy could create a certificate through a Certificate Authority (CA) and use this in conjunction with a Web Proxy Auto-Discovery Protocol (WPAD) exploit to achieve the same goal: unfettered access to all of Peter's unencrypted traffic.  This latter attack is rather common as some browsers (and the administrators that configure them) use WPAD in Local Area Network (LAN) settings.  To exacerbate the problem, some trusted CA companies have been compromised through social engineering or lax processes in issuing certificates to unauthorized users (such as Billy).  
-
-If a MiTM attack cannot be launched, Billy has some more complicated attacks he can fall back on which all offer the promise of unencrypted traffic with varying degrees of success and completeness.  Browsers use Pseudo random number generator (PRNG) algorithms to encrypt traffic.  If this PRNG is predictable in some way, an attacker could gain access to unencrypted traffic.  In a similar vein, attackers can exploit side channel information – such as a compression side channel attack.  This particular side channel attack involves sending guesses about the encrypted data to the server and monitoring if the compressed data sent back is smaller – which, if using a common compression algorithm, would indicate that the guess is correct.  The attack proceeds by fixing the first (now verified) correct guess and proceeding with the second guess.  
+Billy, the hacker wants to eavesdrop on the communications between Billy's browser and the sites he visits with SSL. Billy expects that he will find the information and he will be able to exploit for nefarious uses such as identity theft, credit card fraud, and blackmail. Billy can use several attacks at his disposal to attempt to monitor the communications. The ideal attack would be to create a Man-in-the-middle (MiTM) attack in which a certificate that he owns is used by Peter to encrypt traffic. This type of attack would compromise all of Peter's SSL communications as Billy would surreptitiously siphon unencrypted traffic as it flows past. If this attack doesn't work, there is a variation of the attack in which Billy could create a certificate through a Certificate Authority (CA). This method would be used in conjunction with a Web Proxy Auto-Discovery Protocol (WPAD) exploit to achieve the same goal of unfettered access to all of Peter's unencrypted traffic. This latter attack is rather common as some browsers (and the administrators that configure them) use WPAD in Local Area Network (LAN) settings. To exacerbate the problem, some trusted CA companies had been compromised through social engineering or lax processes in issuing certificates to unauthorized users (such as Billy).
+If a MiTM attack cannot launch, Billy has some more complicated attacks he can fall back on which all offer the promise of unencrypted traffic with varying degrees of success and completeness. Browsers use Pseudo-random number generator (PRNG) algorithms to encrypt traffic. If this PRNG is predictable in some way, an attacker could gain access to unencrypted traffic. In a similar vein, attackers can exploit side-channel information – such as a compression side-channel attack. This particular side-channel attack involves sending guesses about the encrypted data to the server and monitoring if the compressed data sent back is smaller – which, if using a common compression algorithm, would indicate that the guess is correct. The attack proceeds by fixing the first (now verified) correct guess and proceeding with the second guess.
 
 #### Security Requirements
 
-To prevent the attacks described in the Misuse Case section, there are several features Peter expects from the Brave Browser.  To prevent MiTM attacks, the Brave Browser has features to let him know when he is not using a certificate issued by a trusted CA.  The browser can also by default disable the WPAD feature to prevent the MiTM variation involving this protocol.  To prevent PRNG attacks, a known secure PRNG algorithm such as ChaCha20 should be used.  Lastly, to prevent side channel attacks, the browser should avoid returning useful timing or size information when compressing data.  Furthermore, one site's javascript code should not be able to perform side channel attacks on another site using privileged side channel attacks like SPECTRE.  SPECTRE relied on the fact that all sites open in a browser (along with their javascript code) run in the same process.  The attack leveraged this, along with some hardware design decisions to spy on other sites open in the browser.  To mitigate this attack without replacing the hardware, one solution is to use Site Isolation, which runs each site open in the browser in a separate process, preventing an attack like SPECTRE.
+To prevent the attacks described in the Misuse Case section, there are several features Peter expects from the Brave Browser. To prevent MiTM attacks, the Brave Browser has features to let him know when he is not using a certificate issued by a trusted CA. The browser can also by default disable the WPAD feature to prevent the MiTM variation involving this protocol. To prevent PRNG attacks, a known secure PRNG algorithm such as ChaCha20 should be used. Lastly, to prevent side-channel attacks, the browser should avoid returning useful timing or size information when compressing data. Furthermore, one site's javascript code should not be able to perform side-channel attacks on another site using privileged side-channel attacks like SPECTRE. SPECTRE relied on the fact that all sites open in a browser (along with their javascript code) run in the same process. The attack leveraged this, along with some hardware design decisions to spy on other sites open in the browser. To mitigate this attack without replacing the hardware, one solution is to use Site Isolation, which runs each site open in the browser in a separate process, preventing an attack like SPECTRE.
 
 #### Diagram
 
@@ -78,11 +77,11 @@ To prevent the attacks described in the Misuse Case section, there are several f
 
 #### Use Case
 
-Peter, the privacy minded user, understands the importance of utilizing strong, complex and long passwords but he needs access to several different places and in a quick fashion.  Bobby Joe doesn’t want to have to remember several different passwords and doesn’t want to just have one password for all sites. He has decided to store all his passwords in the Brave browser built-in password manager. Brave allows the ability to add third party password managers so Peter could install LastPass to enable more secure password manager.  If Peter uses a third party manager, he must delete/disable Brave’s built-in password manager. 
+Peter, the privacy-minded user, understands the importance of utilizing strong, complex, and long passwords, but he needs access to several different places and in a quick fashion. Bobby Joe doesn’t want to have to remember several different passwords and doesn’t want to have one password for all sites. He has decided to store all his passwords in the Brave browser built-in password manager. Brave allows the ability to add third-party password managers so Peter could install LastPass to enable more secure password manager. If Peter uses a third-party manager, he must delete/disable Brave’s built-in password manager.
 
 #### Misuse Case
 
-Billy, the hacker, wants to exploit any vulnerabilities that the built-in password manager may have so he can gain access to all Billy’s passwords. Billy is able to create a fake login form using a third-party JavaScript (cross-site scripting attack) on the most visited website in attempts to steal Peter’s credentials. 
+Billy, the hacker, wants to exploit any vulnerabilities that the built-in password manager may have so he can gain access to all Billy’s passwords. Billy can create a fake login form using a third-party JavaScript (cross-site scripting attack) on the most visited website in attempts to steal Peter’s credentials. 
 
 #### Security Requirements
 - *still need to finish*
@@ -93,12 +92,11 @@ Billy, the hacker, wants to exploit any vulnerabilities that the built-in passwo
 ### Wallet Use Case
 
 #### Use Case
-Peter the privacy-minded user, needs to use a web browser that allows for users to take full control of where advertisement revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
+Peter, the privacy-minded user, needs to use a web browser that allows users to take full control of where advertisement revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
 
 #### Misuse Case
-Billy the hacker, wants to exploit any vulnerabilities in the browser, specifically targeting the ability for a Peter to take full control of his advertisement support. Billy the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution. 
-
-* more info will go here about preventions and threats that follow 
+Billy, the hacker, wants to exploit any vulnerabilities in the browser, explicitly targeting the ability for a Peter to take full control of his advertisement support. Billy, the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution.
+•	more info will go here about preventions and threats that follow
 
 #### Security Requirements
 - *still need to finish*
