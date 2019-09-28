@@ -27,11 +27,11 @@ Brave is an open-source web browser that secures users privacy while still provi
 
 The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser want to browse the web without being tracked or have advertisements popup. These users also wish to have the latest functionalities that browsers have to offer. This functionality includes a built-in password manager and autofill capabilities to allow users to manage their passwords for their desired applications securely. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy-minded stakeholders’ value deeply and are looking for in a web browser in the digital age today.
 
-### Search Engine Use Case
+### Brave Browser Search Engine Use Case
 
 #### Use Case
 
-Bobby Joe is constantly looking at ninja swords online but he doesn't want to be identified by advertisers because they send him too much junk mail about swords and ninja stars and occasionally call him on his cellular telephone to harangue him about brand new sword materials used in their state of the art katanas or offer him free martial arts classes or fedoras. Bobby wishes there was some way to prevent his online activity from being tracked by advertising networks and sold to advertisers.
+Peter, the privacy-minded user, expects that when utilizing the default search engine defined inside the Brave broswer that his privacy is respected. Peter excepts that the searches and sites visted from the search engine results are not tracked by thrid-parties and contained only in the local cache of his personal device. Brave browser does not block first-party cookies by default to allow for better user experience while navigating through individual sites to maintain persistance of user activities such as logins and shopping carts. Peter understands that disabling all cookies could result in the loss of these user experiences but the enabling of cookies could led to the possiblity of being tracked by third-party cookies or servers.
 
 #### Misuse Case
 
