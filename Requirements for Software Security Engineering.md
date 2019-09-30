@@ -48,7 +48,7 @@ Peter, the privacy-minded user, expects that when utilizing the default search e
 
 #### Diagram
 
-![Brave Browser Search Use Case](https://user-images.githubusercontent.com//.PNG)
+<img width="1092" alt="Screen Shot 2019-09-30 at 12 05 27 PM" src="https://user-images.githubusercontent.com/25576618/65900082-babd6380-e37a-11e9-980d-1a70ed0059e5.png">
 
 ### SSL Use Case
 
