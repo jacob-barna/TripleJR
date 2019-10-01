@@ -35,13 +35,7 @@ Peter, the privacy-minded user, expects that when utilizing the default search e
 
 #### Misuse Case
 
-Billy, the hacker wants to utilize third-party cookies on the Brave browser to track the sites and items Peter looks at while browsing the search engine and web.
-
-1) Set third-party tracking cookies as first party to prevent being blocked on a search engine.
-
-2) Initialize third-party tracking cookies inside JavaScript to render and appear as first-party cookies on a search engine.
-
-3) Use DNS aliasing to mask third-party tracking servers as a first-party server.
+Billy, the hacker wants to utilize third-party cookies on the Brave browser to track the sites and items Peter looks at while browsing the search engine and web. Billy expects that he will be able to monitize off of Peter's browsing activities by selling it to venders. He also hopes that the data can be used to determine what Peter is interested in to utilize targeted items to lure Peter to malicious sites or downloads. To accomplish this, Billy has determined that he can carry his malicious plan out in three different ways. The first action Billy takes is by setting a third-party tracking cookie as a first-party cookie to prevent being blocked on the search engine and browser. This will bypass any default or user set settings that attempt to block third-party cookies by being stored on Peter's device as a first-party cookie. The second action Billy takes is by initializing the third-party tracking cookies inside JavaScript to render and appear as first-party cookies on the search engine and broswer. Since the JavaScript is being rendered and executed on the website domain that is currently being displayed, Billy can have his third-party cookie used inside the code and appear as a first-party cookie. The last action Billy can take is by using DNS aliasing to mask his third-party tracking servers as a first-party server. By doing this, when the third-party server is contacted, the DNS aliasing can spoof a first-party server resulting in Peter's device to think that Billy's server is a first-party server.
 
 #### Security Requirements
 - *still need to finish*
