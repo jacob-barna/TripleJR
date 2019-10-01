@@ -22,17 +22,10 @@ A markdown report that describes the following:
 
 ## Backstory
 
-Brave is an open-source web browser that secures users privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a “better” experience to the users using their site. In our hypothetical environment, our targeted users continue to be privacy-minded people who will use the browser in a home or work environment if permitted on desktop and mobile devices.  
- 
-These users are also considered our stakeholders. Users using the Brave browser want to browse the web without being tracked or have advertisements popup, all while having privacy in mind. The Brave browser also provides a built-in password manager and autofill capabilities to allow our stakeholders to securely manage their passwords for their desired applications. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy minded stakeholders’ value deeply and are looking for in a web browser in the digital age today. 
- 
-With that being said, the five essential data flows that we have analyzed for the Brave browser is the following:
-- Brave Browser Search Use Case
-- SSL Use Case
-- Password Manager Use Case
-- Wallet Use Case
-- Third-Party Extensions Use Case
+Brave is an open-source web browser that secures users privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a “better” experience to the users using their site.
+* More info should go here 
 
+The stakeholders in our scenarios are primarily users who have privacy in mind. Users using the Brave browser want to browse the web without being tracked or have advertisements popup. These users also wish to have the latest functionalities that browsers have to offer. This functionality includes a built-in password manager and autofill capabilities to allow users to manage their passwords for their desired applications securely. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy-minded stakeholders’ value deeply and are looking for in a web browser in the digital age today.
 
 ### Brave Browser Search Use Case
 
@@ -45,7 +38,8 @@ Peter, the privacy-minded user, expects that when utilizing the default search e
 Billy, the hacker wants to utilize third-party cookies on the Brave browser to track the sites and items Peter looks at while browsing the search engine and web. Billy expects that he will be able to monitize off of Peter's browsing activities by selling it to venders. He also hopes that the data can be used to determine what Peter is interested in to utilize targeted items to lure Peter to malicious sites or downloads. To accomplish this, Billy has determined that he can carry his malicious plan out in three different ways. The first action Billy takes is by setting a third-party tracking cookie as a first-party cookie to prevent being blocked on the search engine and browser. This will bypass any default or user set settings that attempt to block third-party cookies by being stored on Peter's device as a first-party cookie. The second action Billy takes is by initializing the third-party tracking cookies inside JavaScript to render and appear as first-party cookies on the search engine and broswer. Since the JavaScript is being rendered and executed on the website domain that is currently being displayed, Billy can have his third-party cookie used inside the code and appear as a first-party cookie. The last action Billy can take is by using DNS aliasing to mask his third-party tracking servers as a first-party server. By doing this, when the third-party server is contacted, the DNS aliasing can spoof a first-party server resulting in Peter's device to think that Billy's server is a first-party server.
 
 #### Security Requirements
-- *still need to finish*
+
+In order to prevent the attacks listed above in the misuse cases, there are features and settings that Peter excepts to see inside the Brave browser. To prevent the threat of third-party cookies being inialized as first-party cookies, Brave has default settings that will block all cookies except the first-party cookies of the domain that is currently being viewed in the browser. However, there is always the potential that the third-party cookie is implemented inside JavaScript which would appear to be a first-party cookie since the code is being executed on the current domain. To prevent this, site or global settings can be set by Peter to block JavaScript from being executed inside the browser. Lastly, if a third-party cookie server attempts to spoof a first-party server, through DNS aliasing, Peter can resort to disabling both third and first-party cookies. In doing so, the blocking of first-party cookies would prevent all three of the misuse cases resulting in Peter receiving the privacy he expects from the Brave broswer.
 
 #### Diagram
 
@@ -89,13 +83,14 @@ Billy, the hacker, wants to exploit any vulnerabilities that the built-in passwo
 ### Wallet Use Case
 
 #### Use Case
-Peter, the privacy-minded user, needs to use a web browser that allows users to take full control of where advertising revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
+Peter, the privacy-minded user, needs to use a web browser that allows users to take full control of where advertisement revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
 
 #### Misuse Case
-Billy, the hacker, wants to exploit any vulnerabilities in the browser, explicitly targeting the ability for Peter to take full control of his advertisement support. Billy, the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution. 
+Billy, the hacker, wants to exploit any vulnerabilities in the browser, explicitly targeting the ability for a Peter to take full control of his advertisement support. Billy, the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution.
+•	more info will go here about preventions and threats that follow
 
 #### Security Requirements
-Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-minded user expects the Brave browser to keep the integrity the advertisement rewards implementation secure. Brave allows for users like Peter, to earn Basic Attention Tokens (BAT) to collect while surfing the web. Because of this, Billy the hacker can exploit vulnerabilities in the browser that include malicious code execution inorder to attempt to steal the BAT’s. Peter the hacker will expect the Brave browser to have a mechanism of blocking any scripts inserted by the Billy the hacker. Peter also expects the browser to be able to prevent any malicious advertisements Billy the hacker could use to threaten the availability of the Brave wallet feature.    
+- *still need to finish*
 
 #### Diagram 
 <img width="752" alt="Screen Shot 2019-09-22 at 1 48 01 AM" src="https://user-images.githubusercontent.com/45551925/65383424-17fe4880-dcdb-11e9-9f97-ec09de978798.png">
