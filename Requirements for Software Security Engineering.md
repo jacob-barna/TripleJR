@@ -35,13 +35,13 @@ Peter, the privacy-minded user, expects that when utilizing the default search e
 
 #### Misuse Case
 
+Billy, the hacker wants to utilize third-party cookies on the Brave browser to track the sites and items Peter looks at while browsing the search engine and web.
+
 1) Set third-party tracking cookies as first party to prevent being blocked on a search engine.
 
 2) Initialize third-party tracking cookies inside JavaScript to render and appear as first-party cookies on a search engine.
 
 3) Use DNS aliasing to mask third-party tracking servers as a first-party server.
-
-*Temp https://ptolemy.berkeley.edu/projects/truststc/education/reu/10/Papers/GomezG,YalajuJ_paper.pdf*
 
 #### Security Requirements
 - *still need to finish*
