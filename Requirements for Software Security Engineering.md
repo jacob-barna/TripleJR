@@ -6,19 +6,11 @@
 
 **Team Name:** TripleJR
  
+ ----------------------
+ - need to clean this up
 - [Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
+ ----------------------
 
----------------------------------------------------------------------------------------------------------------------
-A markdown report that describes the following:
-
-- Identify five essential data flows (source-transformations-sink) through the software. Develop use-cases diagrams related to these data flows. 
-    - Make sure you have a back story in your operational environment. Where is this system being used? What is its criticality? Who are the stakeholders?
-    - Ideally, the dataflows need to be spread across different external interactors (humans or systems) of your software. Once different external interactors have been identified, the use cases can focus on the most sensitive features used by the external interactor.
-
-- Derive security requirements for the use-cases using misuse case diagrams. Briefly describe the analysis in each misuse case diagram.
-    - The misusers should be contextualized in your environment of operation and relevant to the dataflows identified above. Use names that help the reader understand their motives, resources, attack of choice, and the available access to the system to carry out their attack.
----------------------------------------------------------------------------------------------------------------------
- 
 
 ## Backstory
 
