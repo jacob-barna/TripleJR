@@ -14,9 +14,9 @@
 
 ## Backstory
 
-Brave is an open-source web browser that secures users privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a “better” experience to the users using their site. In our hypothetical environment, our targeted users continue to be privacy-minded people who will use the browser in a home or work environment if permitted on desktop and mobile devices.  
+Brave is an open-source web browser that secures users' privacy while still providing a fast browsing experience. The Brave browser blocks all advertisements and tracking mechanisms sites implement to provide a "better" experience to the users using their site. In our hypothetical environment, our targeted users continue to be privacy-minded people who will use the browser in a home or work environment if permitted on desktop and mobile devices.  
 
-These users are also considered our stakeholders. Users using the Brave browser want to browse the web without being tracked or have advertisements popup, all while having privacy in mind. The Brave browser also provides a built-in password manager and autofill capabilities to allow our stakeholders to securely manage their passwords for their desired applications. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy minded stakeholders’ value deeply and are looking for in a web browser in the digital age today. 
+These users are also considered our stakeholders. Users using the Brave browser want to browse the web without being tracked or have advertisements popup, all while having privacy in mind. The Brave browser also provides a built-in password manager and autofill capabilities to allow our stakeholders to manage their passwords for their desired applications securely. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy-minded stakeholders' value deeply and are looking for in a web browser in the digital age today. 
 
 With that being said, the five essential data flows that we have analyzed for the Brave browser is the following:
 - [Brave Browser Search Use Case](#brave-browser-search-use-case)
@@ -86,9 +86,10 @@ Peter, the privacy-minded user, expects the built-in password manager within the
 Peter, the privacy-minded user, needs to use a web browser that allows users to take full control of where advertising revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
  
 #### Misuse Case
-Billy, the hacker, wants to steal the funds Peter has collected, disrupting the ability for Peter to take full control of his advertisement support. Billy, the hacker, notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution. Billy, wants to hijack this account by setting up a man-in-the-middle attack. Setting up this attack would allow Billy to analyze transactions to alter. Billy also wants to execute malicious code in the Browser to further disrupt Peter’s wallet functionality. 
+Billy, the hacker, wants to steal the funds Peter has collected, disrupting the ability for Peter to take full control of his advertisement support. Billy, the hacker, notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution. Billy wants to hijack this account by setting up a man-in-the-middle attack. Setting up this attack would allow Billy to analyze transactions to alter. Billy also intends to execute malicious code in the Browser to further disrupt Peter’s wallet functionality. 
+
 #### Security Requirements
-Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-minded user expects the Brave browser to keep the integrity the advertisement rewards implementation secure. Brave allows for users like Peter, to earn Basic Attention Tokens (BAT) to collect while surfing the web and store in the Brave wallet. Billy, the hacker is aware of this and will setup a man-in-the-middle attack to analyze transactions made. This would allow Billy to alter transactions. Peter expects the Brave browser to encrypt transactions that are made in case this attack has taken place. Billy. the hacker can also exploit vulnerabilities in the browser by injecting malicious code in order to attempt to steal the further funds in the wallet. Peter expects the Brave browser to have a mechanism of blocking any scripts inserted by the Billy which threatens the availability to use the Brave wallet feature. Lastly, Peter expects the Brave browser to validate the user making transactions, to further prevent Billy from hijacking the account. 
+Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-minded user expects the Brave browser to keep the integrity the advertisement rewards implementation secure. Brave allows for users like Peter, to earn Basic Attention Tokens (BAT) to collect while surfing the web and store in the Brave wallet. Billy, the hacker is aware of this and will set up a man-in-the-middle attack to analyze transactions made. This would allow Billy to alter transactions. Peter expects the Brave browser to encrypt transactions that are made in case this attack has taken place. Billy, the hacker, can also exploit vulnerabilities in the browser by injecting malicious code to attempt to steal further funds in the wallet. Peter expects the Brave browser to have a mechanism of blocking any scripts inserted by Billy, which threatens the availability to use the Brave wallet feature. Lastly, Peter expects the Brave browser to validate the user making transactions, to further prevent Billy from hijacking the account. 
  
 
 #### Diagram 
@@ -98,14 +99,13 @@ Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-m
 ### Third-Party Extensions Use Case
 
 #### Use Case 
-Peter, the privacy-minded user, wants the ability to customize the Brave browser to their desire. As a result, the Brave browser gives users the option to install third-party extension, which gives the user a customizable experience.   
+Peter, the privacy-minded user, wants the ability to customize the Brave browser to their desire. As a result, the Brave browser gives users the option to install third-party extension, which provides the user with a customizable experience.   
 
 #### Misuse Case 
-Billy, the hacker, wants to disrupt the browser customization, which includes installing malicious extensions without the users knowledge. This entails the creation of a malicious extension, allowing a malicious author to publish and simply wait for a user to download the creation. Billy, the hacker, will conduct this attack by appearing like a legitimate non-threatening author; when in the end, they are truly acting malicious once their extension has been downloaded and installed.   
+Billy, the hacker, wants to disrupt the browser customization, which includes installing malicious extensions without the users' knowledge. This entails the creation of a malicious extension, allowing a malicious author to publish and wait for a user to download the creation. Billy, the hacker, will conduct this attack by appearing like a legitimate non-threatening author; when in the end, they are truly acting maliciously once their extension has been downloaded and installed.   
 
 #### Security Requirements
-Peter, the privacy-minded user, expects the Brave browser to have the ability to prevent malicious actors from being able to upload malicious extensions to the platform. Peter expects their to be a process of validating the extensions that are uploaded. Also, Peter expects the Brave browser to block any malicious extensions that installed as another form of protection. The Brave browser would need to review authors who are creating extensions and further mitigate any malicious extensions when installed to prevent Billy the hacker from disrupting the ability to customize the browser to Peter’s choosing.  
-
+Peter, the privacy-minded user, expects the Brave browser to have the ability to prevent malicious actors from being able to upload malicious extensions to the platform. Peter expects there to be a process of validating the extensions that are uploaded. Also, Peter expects the Brave browser to block any malicious extensions that installed as another form of protection. The Brave browser would need to review authors who are creating extensions and further mitigate any malicious extensions when installed to prevent Billy, the hacker from disrupting the ability to customize the browser to Peter’s choosing.  
 
 #### Diagram
 ![Use Case Diagram - 3rd party ext 2 0 (1)](https://user-images.githubusercontent.com/45551925/66016149-12eb8700-e49b-11e9-8de5-987a2deb7d5f.png)
@@ -114,26 +114,15 @@ Peter, the privacy-minded user, expects the Brave browser to have the ability to
 
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
-*Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.*
+- Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.
 
-One of the advertised security features listed on the Brave Browser Feature List is the implementation of Shields [1]. This feature includes items such as cookie control, ad blocking, and script blocking. By default, first-party cookies are not blocked as they are typically needed to provide a better user experience and assist with different site functions and activities. This means that sites like Google can use to track users while on their domain [2]. Some users do not like this, but they can use site specific settings or third party extensions to block first party cookies by default. Brave documentation explains this further and identifies the individual controls and settings to custom tailor the security per-site [3]. This aligns with the security requirement that user’s privacy is priority and can be explicitly configured for each site that the user visits. Searching the Brave community, it can be seen that the Shield feature has contributions from multiple users along with feature requests to work into future builds [4].
+One of the advertised security features listed on the Brave Browser Feature List is the implementation of Shields [1]. This feature includes items such as cookie control, ad blocking, and script blocking. By default, first-party cookies are not blocked as they are typically needed to provide a better user experience and assist with different site functions and activities. This means that sites like Google can use to track users while on their domain [2]. Some users do not like this, but they can use site specific settings or third party extensions to block first-party cookies by default. Brave documentation explains this further and identifies the individual controls and settings to custom tailor the security per-site [3]. This aligns with the security requirement that user’s privacy is a priority and can be explicitly configured for each site that the user visits. Searching the Brave community, it can be seen that the Shield feature has contributions from multiple users along with feature requests to work into future builds [4].
 
-*Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.*
-*todo: peruse FAQs for any manual setup needed / what defaults are chosen, etc. https://community.brave.com/c/faq*
+- Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
 
-Brave allows users to configure "Shields" that are the differentiators for this browser.  These shields currently control ad blocking, script permissions, connection type (http or https), cookie policies, and tracking protections [3][5]. The following code snippet is referenced from the Brave ad-block repository, demonstrating how they block advertisement URL’s [6]. 
-```c++
-  // Do the checks
-  std::for_each(urlsToCheck, urlsToCheck + sizeof(urlsToCheck) / sizeof(urlsToCheck[0]), [&client, currentPageDomain](std::string const &urlToCheck) {
-    if (client.matches(urlToCheck.c_str(), FONoFilterOption, currentPageDomain)) {
-      cout << urlToCheck << ": You should block this URL!" << endl;
-    } else {
-      cout << urlToCheck << ": You should NOT block this URL!" << endl;
-    }
-  });
-}
-```
-Looking through issues, a couple were identifed with the Shield which indicate that some third party cookies are accepted due to a race condition [7] and another indicates that there are also reports that users have explictily disabled sites like FaceBook from running scripts on the browser, to find out there is a "secret whitelist" enabling Facebook to run scripts, ignoring the user setting [8]. 
+todo: peruse FAQs for any manual setup needed / what defaults are chosen, etc. https://community.brave.com/c/faq
+
+Brave allows users to configure "Shields" that are the differentiators for this browser.  These shields currently control ad blocking, script permissions, connection type (http or https), cookie policies, and tracking protections [3][5]. Looking through issues, a couple were identified with the Shield which indicate that some third party cookies are accepted due to a race condition [6] and another indicates that there are also reports that users have explicitly disabled sites like FaceBook from running scripts on the browser, to find out there is a "secret whitelist" enabling Facebook to run scripts, ignoring the user setting [7]. 
 
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
@@ -149,7 +138,6 @@ Looking through issues, a couple were identifed with the Shield which indicate t
 [3]: https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
 [4]: https://community.brave.com/search?q=shield
 [5]: https://github.com/brave/brave-browser/issues/1288
-[6]: https://github.com/brave/ad-block/blob/master/README.md
-[7]: https://github.com/brave/brave-browser/issues/2223
-[8]: https://community.brave.com/t/how-to-disable-facebook-twitter-secret-whitelist/44961
+[6]: https://github.com/brave/brave-browser/issues/2223
+[7]: https://community.brave.com/t/how-to-disable-facebook-twitter-secret-whitelist/44961
 
