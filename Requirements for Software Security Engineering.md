@@ -29,7 +29,7 @@ With that being said, the five essential data flows that we have analyzed for th
 
 #### Use Case
 
-Peter, the privacy-minded user, expects that when utilizing the default search engine defined inside the Brave browser that his privacy is respected. Peter expects that the searches and sites visited from the engines results are not tracked by third-parties and contained only in the local cache of his personal device through first-party cookies. Brave browser does not block first-party cookies by default to allow for better user experience while navigating through individual sites to maintain persistence of user activities such as logins and shopping carts. Peter understands that disabling all cookies could result in the loss of these user experiences but the enabling of cookies could led to the possibility of being tracked by third-party cookies or servers.
+Peter, the privacy-minded user, expects that when utilizing the default search engine defined inside the Brave browser that his privacy is respected. Peter expects the Brave browser’s search engine to not include results that are tracked by third-parties when searched or visited. The Brave browser does not block first-party cookies by default to allow for better user experience while navigating through individual sites to maintain persistence of user activities such as logins and shopping carts. Peter understands that disabling all cookies could result in the loss of these user experiences but the enabling of cookies could led to the possibility of being tracked by third-party cookies or servers.
 
 #### Misuse Case
 
