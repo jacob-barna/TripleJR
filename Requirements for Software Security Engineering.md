@@ -89,14 +89,13 @@ Billy, the hacker, wants to exploit any vulnerabilities that the built-in passwo
 ### Wallet Use Case
 
 #### Use Case
-Peter, the privacy-minded user, needs to use a web browser that allows users to take full control of where advertisement revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
+Peter, the privacy-minded user, needs to use a web browser that allows users to take full control of where advertising revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
 
 #### Misuse Case
-Billy, the hacker, wants to exploit any vulnerabilities in the browser, explicitly targeting the ability for a Peter to take full control of his advertisement support. Billy, the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution.
-•	more info will go here about preventions and threats that follow
+Billy, the hacker, wants to exploit any vulnerabilities in the browser, explicitly targeting the ability for Peter to take full control of his advertisement support. Billy, the hacker, also notes that there is a wallet in place, which is where the BAT’s are collected and held for distribution. 
 
 #### Security Requirements
-- *still need to finish*
+Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-minded user expects the Brave browser to keep the integrity the advertisement rewards implementation secure. Brave allows for users like Peter, to earn Basic Attention Tokens (BAT) to collect while surfing the web. Because of this, Billy the hacker can exploit vulnerabilities in the browser that include malicious code execution inorder to attempt to steal the BAT’s. Peter the hacker will expect the Brave browser to have a mechanism of blocking any scripts inserted by the Billy the hacker. Peter also expects the browser to be able to prevent any malicious advertisements Billy the hacker could use to threaten the availability of the Brave wallet feature.   
 
 #### Diagram 
 <img width="752" alt="Screen Shot 2019-09-22 at 1 48 01 AM" src="https://user-images.githubusercontent.com/45551925/65383424-17fe4880-dcdb-11e9-9f97-ec09de978798.png">
