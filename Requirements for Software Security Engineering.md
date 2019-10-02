@@ -76,7 +76,8 @@ Billy, the hacker, wants to exploit any vulnerabilities that the built-in passwo
 - *still need to finish*
 
 #### Diagram
-<img width="938" alt="Screen Shot 2019-10-02 at 1 21 10 PM" src="https://user-images.githubusercontent.com/54923995/66071436-c181dd00-e518-11e9-9af8-2b820419c0ac.png">
+
+![Use Case Diagram - Password Manager](https://user-images.githubusercontent.com/54923995/66071611-102f7700-e519-11e9-86b1-254e62f0896c.png)
 
 ### Wallet Use Case
 
