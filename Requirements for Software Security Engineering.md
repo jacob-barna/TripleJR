@@ -19,11 +19,11 @@ Brave is an open-source web browser that secures users privacy while still provi
 These users are also considered our stakeholders. Users using the Brave browser want to browse the web without being tracked or have advertisements popup, all while having privacy in mind. The Brave browser also provides a built-in password manager and autofill capabilities to allow our stakeholders to securely manage their passwords for their desired applications. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy minded stakeholders’ value deeply and are looking for in a web browser in the digital age today. 
 
 With that being said, the five essential data flows that we have analyzed for the Brave browser is the following:
-- Brave Browser Search Use Case
-- SSL Use Case
-- Password Manager Use Case
-- Wallet Use Case
-- Third-Party Extensions Use Case
+- [Brave Browser Search Use Case](#brave-browser-search-use-case)
+- [SSL Use Case](#ssl-use-case)
+- [Password Manager Use Case](#password-manager-use-case)
+- [Wallet Use Case](#wallet-use-case)
+- [Third-Party Extensions Use Case](#third-party-extensions-use-case)
 
 ### Brave Browser Search Use Case
 
@@ -132,9 +132,11 @@ Brave allows users to configure "Shields" that are the differentiators for this 
 (sources: 
 https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-, https://github.com/brave/brave-browser/issues/1288)
 
+## Team GitHub 
+[Team Repo](https://github.com/jacob-barna/TripleJR)  
+[Team Project Board](https://github.com/jacob-barna/TripleJR/projects/2)  
 
-
-
-
-
-- > Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.
+## Brave Resources
+[Brave Browser Repo](https://github.com/brave/brave-browser)  
+[Brave Website](https://brave.com/)  
+[Brave Community Page](https://community.brave.com/)  
