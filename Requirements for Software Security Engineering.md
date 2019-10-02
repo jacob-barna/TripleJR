@@ -66,19 +66,19 @@ To prevent the attacks described in the Misuse Case section, there are several f
 
 #### Use Case
 
-editing now
+Peter, the privacy-minded user, understands the importance of utilizing strong, complex, and long passwords, but he needs access to several different places and in a quick fashion. Peter doesn’t want to have to remember several different complex passwords for all the sites he accesses with username and password required. He has decided to store all his passwords in the Brave browser built-in password manager. With the built-in browser in place, Peter can have auto-filled enabled so that when he visits a site, his username and password will automatically appear in the appropriate login fields. He has created different passwords for most of the sites, and those passwords are strong, long, and complex. 
 
 #### Misuse Case
 
-editing now
+Billy, the hacker, wants to exploit any vulnerabilities that the built-in password manager may have so he can gain access to all Billy’s passwords. One misuse case could arise when Billy creates a fake login form using a third-party JavaScript (cross-site scripting attack) on the most visited website in attempts to steal Peter’s credentials. Another misuse cases that could arise is Billy, the hacker, running a brute force or dictionary attack. The brute force attack would be used to decode the encrypted data of the passwords. The dictionary attack would use a dictionary headword list to generate possible passwords. Another misuse case could be if Billy uses a rainbow table attack in attempts to discover a password from the hash. 
 
 #### Security Requirements
 
-editing now
+Peter, the privacy-minded user, expects the built-in password manager within the Brave browser to provide him with an easy and secure way to access all his passwords in one place. After all, Brave browser claims to be secure in all their features. To prevent a third-party script attack, Brave browser does block scripts, but Peter would need to make sure that the feature is at the default and not adjusted to allow scripts manually. To prevent brute force, dictionary or rainbow attacks, Peter would still have to make sure he is utilizing different, strong, complex, and long passwords for each site he saves his credentials at. 
 
 #### Diagram
 
-![Use Case Diagram - Password Manager](https://user-images.githubusercontent.com/54923995/66071611-102f7700-e519-11e9-86b1-254e62f0896c.png)
+![Use Case Diagram - Password Manager](https://user-images.githubusercontent.com/54923995/66077650-fe080580-e525-11e9-8594-267effbc36e3.png)
 
 ### Wallet Use Case
 
