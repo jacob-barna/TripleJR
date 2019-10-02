@@ -124,10 +124,6 @@ todo: peruse FAQs for any manual setup needed / what defaults are chosen, etc. h
 
 Brave allows users to configure "Shields" that are the differentiators for this browser.  These shields currently control ad blocking, script permissions, connection type (http or https), cookie policies, and tracking protections [3][5]. Looking through issues, a couple were identifed with the Shield which indicate that some third party cookies are accepted due to a race condition [6] and another indicates that there are also reports that users have explictily disabled sites like FaceBook from running scripts on the browser, to find out there is a "secret whitelist" enabling Facebook to run scripts, ignoring the user setting [7]. 
 
-
-(sources: 
- https://github.com/brave/brave-browser/issues/1288)
-
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
 [Team Project Board](https://github.com/jacob-barna/TripleJR/projects/2)  
