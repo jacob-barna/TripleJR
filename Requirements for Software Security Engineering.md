@@ -98,7 +98,7 @@ Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-m
  
 
 #### Diagram 
-![Use Case Diagram - Wallet 2 0 (1)](https://user-images.githubusercontent.com/45551925/66014202-89848680-e493-11e9-86c2-77c3df3124e8.png)
+![Use Case Diagram - Wallet 2 0 (4)](https://user-images.githubusercontent.com/45551925/66014889-2516f680-e496-11e9-8a8a-3bcd52d28cad.png)
 
 
 ### Third-Party Extensions Use Case
