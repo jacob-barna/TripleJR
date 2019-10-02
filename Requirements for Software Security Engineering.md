@@ -116,8 +116,7 @@ Peter, the privacy-minded user, expects the Brave browser to have the ability to
 
 - Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations.
 
-By default, first party cookies are not blocked as they are typically needed to log into a given site.  This means that sites like Google can use to track users while on their domain.  
-(https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-).  Some users do not like this, but they can use site specific settings or third party extensions to block first party cookies by default.
+One of the advertised security features listed on the Brave Browser Feature List is the implementation of Shields [1]. This feature includes items such as cookie control, ad blocking, and script blocking. By default, first-party cookies are not blocked as they are typically needed to provide a better user experience and assist with different site functions and activities. This means that sites like Google can use to track users while on their domain [2]. Some users do not like this, but they can use site specific settings or third party extensions to block first party cookies by default. Brave documentation explains this further and identifies the individual controls and settings to custom tailor the security per-site [3]. This aligns with the security requirement that user’s privacy is priority and can be explicitly configured for each site that the user visits. Searching the Brave community, it can be seen that the Shield feature(s) have contribution from multiple users along with feature requests to work into future builds [4].
 
 There are also open issues that seem to indicate that some third party cookies are accepted due to a race condition: 
 https://github.com/brave/brave-browser/issues/2223
@@ -141,4 +140,10 @@ https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-wh
 ## Brave Resources
 [Brave Browser Repo](https://github.com/brave/brave-browser)  
 [Brave Website](https://brave.com/)  
-[Brave Community Page](https://community.brave.com/)  
+[Brave Community Page](https://community.brave.com/)
+
+[1]: https://brave.com/features/
+[2]: https://brave.com/faq/#search-engines
+[3]: https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
+[4]: https://community.brave.com/search?q=shield
+
