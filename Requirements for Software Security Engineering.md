@@ -132,7 +132,7 @@ Brave allows users to configure "Shields" that are the differentiators for this 
   });
 }
 ```
-Looking through issues, a couple were identified with the Shield which indicate that some third party cookies are accepted due to a race condition [6] and another indicates that there are also reports that users have explicitly disabled sites like FaceBook from running scripts on the browser, to find out there is a "secret whitelist" enabling Facebook to run scripts, ignoring the user setting [7]. 
+Looking through issues, a couple were identified with the Shield which indicate that some third party cookies are accepted due to a race condition [7] and another indicates that there are also reports that users have explicitly disabled sites like FaceBook from running scripts on the browser, to find out there is a "secret whitelist" enabling Facebook to run scripts, ignoring the user setting [8]. 
 
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
