@@ -78,7 +78,7 @@ Peter, the privacy-minded user, expects the built-in password manager within the
 
 #### Diagram
 
-![Use Case Diagram - Password Manager](https://user-images.githubusercontent.com/54923995/66077650-fe080580-e525-11e9-8594-267effbc36e3.png)
+![Use Case Diagram - Password Manager (1)](https://user-images.githubusercontent.com/54923995/66077923-a1591a80-e526-11e9-80a6-784d1068e99f.png)
 
 ### Wallet Use Case
 
