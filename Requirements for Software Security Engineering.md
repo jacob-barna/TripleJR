@@ -138,7 +138,3 @@ https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-wh
 
 
 - > Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task.
-
-## Rubric 
-
-![image](https://user-images.githubusercontent.com/45551925/65192235-ffbcce00-da3b-11e9-83e3-6ff43a87f146.png)
