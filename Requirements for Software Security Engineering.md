@@ -104,17 +104,19 @@ Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-m
 ### Third-Party Extensions Use Case
 
 #### Use Case 
+Peter, the privacy-minded user, wants the ability to customize the Brave browser to their desire. As a result, the Brave browser gives users the option to install third-party extension, which gives the user a customizable experience.   
 
-Peter, the privacy-minded user, wants the ability to customize the Brave browser to their desire. As a result, the Brave browser gives users the option to install third-party extension, which gives the user a customizable experience. 
 #### Misuse Case 
-
-Billy, the hacker, wants to disrupt browser customizability, which includes installing malicious extensions without the users knowledge. This includes the creation of a malicious extension, allowing a malicious author to publish and wait for a user to download the malicious extension. Billy, the hacker, will do so by appearing like a legitimate non-threatening author; when in the end, they are truly acting malicious once their extension has been downloaded and installed. 
+Billy, the hacker, wants to disrupt the browser customization, which includes installing malicious extensions without the users knowledge. This entails the creation of a malicious extension, allowing a malicious author to publish and simply wait for a user to download the creation. Billy, the hacker, will conduct this attack by appearing like a legitimate non-threatening author; when in the end, they are truly acting malicious once their extension has been downloaded and installed.   
 
 #### Security Requirements
-Peter, the privacy-minded user, expects the Brave browser to have the ability to prevent those malicious extension that are integrated into the browser. The ability of blocking these malicious scripts is something Peter wants from the browser in order to continue to have trust in the browser. Also, because the Brave browser allows for third-party extensions, Peter expects the browser to have a form of validation against the authors who publish extensions for users to use. 
+Peter, the privacy-minded user, expects the Brave browser to have the ability to prevent malicious actors from being able to upload malicious extensions to the platform. Peter expects their to be a process of validating the extensions that are uploaded. Also, Peter expects the Brave browser to block any malicious extensions that installed as another form of protection. The Brave browser would need to review authors who are creating extensions and further mitigate any malicious extensions when installed to prevent Billy the hacker from disrupting the ability to customize the browser to Peter’s choosing.  
+
 
 #### Diagram
-<img width="1028" alt="Screen Shot 2019-09-27 at 1 56 52 PM" src="https://user-images.githubusercontent.com/54923995/65794897-b4d34280-e12e-11e9-86b8-b3aebb1e5af8.png">
+![Use Case Diagram - 3rd party ext 2 0 (1)](https://user-images.githubusercontent.com/45551925/66016149-12eb8700-e49b-11e9-8de5-987a2deb7d5f.png)
+
+
 
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
