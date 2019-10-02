@@ -120,8 +120,6 @@ One of the advertised security features listed on the Brave Browser Feature List
 
 - Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
 
-todo: peruse FAQs for any manual setup needed / what defaults are chosen, etc. https://community.brave.com/c/faq
-
 Brave allows users to configure "Shields" that are the differentiators for this browser.  These shields currently control ad blocking, script permissions, connection type (http or https), cookie policies, and tracking protections [3][5]. Looking through issues, a couple were identified with the Shield which indicate that some third party cookies are accepted due to a race condition [6] and another indicates that there are also reports that users have explicitly disabled sites like FaceBook from running scripts on the browser, to find out there is a "secret whitelist" enabling Facebook to run scripts, ignoring the user setting [7]. 
 
 ## Team GitHub 
