@@ -41,7 +41,7 @@ In order to prevent the attacks listed above in the misuse cases, there are feat
 
 #### Diagram
 
-![broswer_use_case](https://user-images.githubusercontent.com/25576618/66060330-1581c700-e503-11e9-9dc1-eaab11b6b30a.png)
+<img width="1262" alt="Screen Shot 2019-10-02 at 8 06 52 PM" src="https://user-images.githubusercontent.com/25576618/66092146-6835a000-e550-11e9-9025-aafca83fb06a.png">
 
 ### SSL Use Case
 
