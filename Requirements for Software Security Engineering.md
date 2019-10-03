@@ -8,8 +8,8 @@
  
  **Table of Contents:**
 - [Backstory](#backstory)
-- [Brave Browser Search Use Case](#brave-browser-search-use-case)
-- [SSL Use Case](#ssl-use-case)
+- [Use Case 1: Brave Browser Search Use Case](#use-case-1:-brave-browser-search-use-case)
+- [Use Case 2 - SSL Use Case](#use-case-2--SSL)
 - [Password Manager Use Case](#password-manager-use-case)
 - [Wallet Use Case](#wallet-use-case)
 - [Third-Party Extensions Use Case](#third-party-extensions-use-case)
@@ -28,9 +28,9 @@ With that being said, the five essential data flows that we have analyzed for th
 - [Wallet Use Case](#wallet-use-case)
 - [Third-Party Extensions Use Case](#third-party-extensions-use-case)
 
-### Brave Browser Search Use Case
+### Use Case 1: Brave Browser Search Use
 
-#### Use Case
+#### Use Case 
 
 Peter, the privacy-minded user, expects that when utilizing the default search engine defined inside the Brave browser that his privacy is respected. Peter expects the Brave browser’s search engine to not include results that are tracked by third-parties when searched or visited. The Brave browser does not block first-party cookies by default to allow for better user experience while navigating through individual sites to maintain the persistence of user activities such as logins and shopping carts. Peter understands that disabling all cookies could result in the loss of these user experiences, but the enabling of cookies could lead to the possibility of being tracked by third-party cookies or servers.
 
@@ -46,7 +46,7 @@ In order to prevent the attacks listed above in the misuse cases, there are feat
 
 ![Use Case Diagram - Page 9](https://user-images.githubusercontent.com/25576618/66092224-d8dcbc80-e550-11e9-8563-3f5f7dc36321.png)
 
-### SSL Use Case
+### Use Case 2 - SSL 
 
 #### Use Case
 
