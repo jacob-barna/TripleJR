@@ -108,7 +108,7 @@ Billy, the hacker, wants to disrupt the browser customization, which includes in
 Peter, the privacy-minded user, expects the Brave browser to have the ability to prevent malicious actors from being able to upload malicious extensions to the platform. Peter expects there to be a process of validating the extensions that are uploaded. Also, Peter expects the Brave browser to block any malicious extensions that install as another form of protection. The Brave browser would need to review authors who are creating extensions and further mitigate any malicious extensions when installed to prevent Billy, the hacker from disrupting the ability to customize the browser to Peter’s choosing.  
 
 #### Diagram
-![Use Case Diagram - 3rd party ext 2 0 (1)](https://user-images.githubusercontent.com/45551925/66016149-12eb8700-e49b-11e9-8de5-987a2deb7d5f.png)
+![Use Case Diagram - 3rd party ext 2 0](https://user-images.githubusercontent.com/54923995/66092243-e42fe800-e550-11e9-9d2f-dd51e856da25.png)
 
 
 
