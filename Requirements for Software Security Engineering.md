@@ -96,8 +96,7 @@ Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-m
  
 
 #### Diagram 
-![Use Case Diagram - Wallet 2 0 (7)](https://user-images.githubusercontent.com/45551925/66092360-70420f80-e551-11e9-85b5-d5475efe4cac.png)
-
+![Use Case Diagram - Wallet 2 0 (8)](https://user-images.githubusercontent.com/45551925/66096642-442e8a80-e561-11e9-89c8-fe4d685b4628.png)
 
 
 ### Use Case 5 - Third-Party Extensions
@@ -112,9 +111,7 @@ Billy, the hacker, wants to disrupt the browser customization, which includes in
 Peter, the privacy-minded user, expects the Brave browser to have the ability to prevent malicious actors from being able to upload malicious extensions to the platform. Peter expects there to be a process of validating the extensions that are uploaded. Also, Peter expects the Brave browser to block any malicious extensions that install as another form of protection. The Brave browser would need to review authors who are creating extensions and further mitigate any malicious extensions when installed to prevent Billy, the hacker from disrupting the ability to customize the browser to Peter’s choosing.  
 
 #### Diagram
-![Use Case Diagram - 3rd party ext 2 0](https://user-images.githubusercontent.com/54923995/66092243-e42fe800-e550-11e9-9d2f-dd51e856da25.png)
-
-
+![Use Case Diagram - 3rd party ext 2 0 (2)](https://user-images.githubusercontent.com/45551925/66096661-632d1c80-e561-11e9-8fdc-576a3d05cd9f.png)
 
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
