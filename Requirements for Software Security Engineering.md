@@ -8,7 +8,7 @@
  
  **Table of Contents:**
 - [Backstory](#backstory)
-- [Use Case 1 - Brave Browser Search](#use-case-1-brave-browser-search)
+- [Use Case 1 - Brave Browser Search](#Use-Case-1---Brave-Browser-Search)
 - [Use Case 2 - SSL Use Case](#use-case-2-SSL)
 - [Password Manager Use Case](#password-manager-use-case)
 - [Wallet Use Case](#wallet-use-case)
