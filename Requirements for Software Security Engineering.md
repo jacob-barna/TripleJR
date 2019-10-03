@@ -8,8 +8,8 @@
  
  **Table of Contents:**
 - [Backstory](#backstory)
-- [Use Case 1: Brave Browser Search Use Case](#use-case-1:-brave-browser-search-use-case)
-- [Use Case 2 - SSL Use Case](#use-case-2--SSL)
+- [Use Case 1 - Brave Browser Search](#use-case-1-brave-browser-search)
+- [Use Case 2 - SSL Use Case](#use-case-2-SSL)
 - [Password Manager Use Case](#password-manager-use-case)
 - [Wallet Use Case](#wallet-use-case)
 - [Third-Party Extensions Use Case](#third-party-extensions-use-case)
@@ -28,7 +28,7 @@ With that being said, the five essential data flows that we have analyzed for th
 - [Wallet Use Case](#wallet-use-case)
 - [Third-Party Extensions Use Case](#third-party-extensions-use-case)
 
-### Use Case 1: Brave Browser Search Use
+### Use Case 1 - Brave Browser Search
 
 #### Use Case 
 
@@ -65,7 +65,7 @@ To prevent the attacks described in the Misuse Case section, there are several f
 
 ![SSL_Misuse_Cases](https://user-images.githubusercontent.com/31263469/65651646-aa9d3100-dfd4-11e9-82ed-23ff0a1396a9.PNG)
 
-### Password Manager Use Case
+### Use Case 3 - Password Manager
 
 #### Use Case
 
@@ -83,7 +83,7 @@ Peter, the privacy-minded user, expects the built-in password manager within the
 
 ![Use Case Diagram - Password Manager](https://user-images.githubusercontent.com/54923995/66092259-fb6ed580-e550-11e9-9531-bedc04ddef3e.png)
 
-### Wallet Use Case
+### Use Case 4 - Wallet
 
 #### Use Case
 Peter, the privacy-minded user, needs to use a web browser that allows users to take full control of where advertising revenue is going, while still having their privacy respected. Peter uses the Brave browser to accomplish this, taking full advantage of Brave's reward program that uses Basic Attention Token (BAT). The Brave browser will tally the attention a user would spend on a site they visited and divides up a monthly BAT contribution. Peter can now have full control of who he wishes to contribute to using the BAT's collected or personally funded through the Brave wallet.
@@ -100,7 +100,7 @@ Due to the exploitations Billy the hacker wants to attempt, Peter, the privacy-m
 
 
 
-### Third-Party Extensions Use Case
+### Use Case 5 - Third-Party Extensions
 
 #### Use Case 
 Peter, the privacy-minded user, wants the ability to customize the Brave browser to their desire. As a result, the Brave browser gives users the option to install third-party extensions, which provides the user with a customizable experience.   
