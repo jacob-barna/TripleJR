@@ -8,11 +8,11 @@
  
  **Table of Contents:**
 - [Backstory](#backstory)
-- [Use Case 1 - Brave Browser Search](#Use-Case-1---Brave-Browser-Search)
-- [Use Case 2 - SSL Use Case](#use-case-2-SSL)
-- [Password Manager Use Case](#password-manager-use-case)
-- [Wallet Use Case](#wallet-use-case)
-- [Third-Party Extensions Use Case](#third-party-extensions-use-case)
+- [Use Case 1 - Brave Browser Search](#use-case-1---brave-browser-search)
+- [Use Case 2 - SSL ](#use-case-2---ssl)
+- [Use Case 3 - Password Manager](#use-case-3---password-manager)
+- [Use Case 4 - Wallet](#use-case-4---wallet)
+- [Use Case 5 - Third-Party Extensions](#use-case-5---third-party-extensions)
 - [Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
 
 ## Backstory
@@ -22,11 +22,11 @@ Brave is an open-source web browser that secures users' privacy while still prov
 These users are also considered our stakeholders. Users using the Brave browser want to browse the web without being tracked or have advertisements popup, all while having privacy in mind. The Brave browser also provides a built-in password manager and autofill capabilities to allow our stakeholders to manage their passwords for their desired applications securely. Stakeholders are also looking for automatic upgrades to HTTPS, whenever possible to encrypt the communication. The Brave browser will do its best to upgrade standard unencrypted HTTP communication line, to a secure HTTPS medium. These are all features that our privacy-minded stakeholders' value deeply and are looking for in a web browser in the digital age today. 
 
 With that being said, the five essential data flows that we have analyzed for the Brave browser is the following:
-- [Brave Browser Search Use Case](#brave-browser-search-use-case)
-- [SSL Use Case](#ssl-use-case)
-- [Password Manager Use Case](#password-manager-use-case)
-- [Wallet Use Case](#wallet-use-case)
-- [Third-Party Extensions Use Case](#third-party-extensions-use-case)
+- [Use Case 1 - Brave Browser Search](#use-case-1---brave-browser-search)
+- [Use Case 2 - SSL ](#use-case-2---ssl)
+- [Use Case 3 - Password Manager](#use-case-3---password-manager)
+- [Use Case 4 - Wallet](#use-case-4---wallet)
+- [Use Case 5 - Third-Party Extensions](#use-case-5---third-party-extensions)
 
 ### Use Case 1 - Brave Browser Search
 
