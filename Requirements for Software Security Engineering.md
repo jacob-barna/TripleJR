@@ -6,11 +6,14 @@
 
 **Team Name:** TripleJR
  
- ----------------------
- - need to clean this up
+ **Table of Contents:**
+- [Backstory](#backstory)
+- [Brave Browser Search Use Case](#brave-browser-search-use-case)
+- [SSL Use Case](#ssl-use-case)
+- [Password Manager Use Case](#password-manager-use-case)
+- [Wallet Use Case](#wallet-use-case)
+- [Third-Party Extensions Use Case](#third-party-extensions-use-case)
 - [Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues](#observation-review-of-oss-project-documentation-for-security-related-configuration-and-installation-issues)
- ----------------------
-
 
 ## Backstory
 
@@ -115,11 +118,7 @@ Peter, the privacy-minded user, expects the Brave browser to have the ability to
 
 ## Observation Review of OSS Project Documentation for Security-Related Configuration and Installation Issues
 
-*Assess alignment of security requirements with advertised features of the software. Review OSS project documentation and codebase to support your observations*
-
 One of the advertised security features listed on the Brave Browser Feature List is the implementation of Shields [1]. This feature includes items such as cookie control, ad blocking, and script blocking. By default, first-party cookies are not blocked as they are typically needed to provide a better user experience and assist with different site functions and activities. This means that sites like Google can use to track users while on their domain [2]. Some users do not like this, but they can use site specific settings or third party extensions to block first-party cookies by default. Brave documentation explains this further and identifies the individual controls and settings to custom tailor the security per-site [3]. This aligns with the security requirement that user’s privacy is a priority and can be explicitly configured for each site that the user visits. Searching the Brave community, it can be seen that the Shield feature has contributions from multiple users along with feature requests to work into future builds [4].
-
-*Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.*
 
 Brave allows users to configure "Shields" that are the differentiators for this browser.  These shields currently control ad blocking, script permissions, connection type (http or https), cookie policies, and tracking protections [3][5].The following code snippet is referenced from the Brave ad-block repository, demonstrating how they block advertisement URL’s [6]. 
 ```c++
