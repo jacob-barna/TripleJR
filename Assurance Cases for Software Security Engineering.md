@@ -1,5 +1,13 @@
-# Instructions
-## A markdown report that includes the following:
+## CYBR 8420 - Assurance Cases for Software Security Engineering
+
+**Github Repository: https://github.com/jacob-barna/TripleJR**
+
+**Authors:** Jeffrey Smith, Ronald Ramirez, Jacob Barna, Jill Lenz
+
+**Team Name:** TripleJR
+
+## Instructions
+### A markdown report that includes the following:
 
 Using security requirements, identify five assurance claims
 Prepare a convincing argument in support of the claims. Document this argument using an assurance case for each of the claims.
@@ -10,3 +18,8 @@ Only one submission per team.
 More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case-exercise.html
 
 ![image](https://user-images.githubusercontent.com/45551925/66178974-cf288700-e62c-11e9-9955-7fa63e48c7a7.png)
+
+
+## Team GitHub 
+[Team Repo](https://github.com/jacob-barna/TripleJR)  
+[Team Project Board](https://github.com/jacob-barna/TripleJR/projects/3)  
