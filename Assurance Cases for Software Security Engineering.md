@@ -17,13 +17,13 @@ Only one submission per team.
 
 More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case-exercise.html
 
-### Assurance Claim 1 - The Brave browser Shields component prevents unauthorized cookies from tracking activities.
+### Assurance Claim 1 - Shields component prevents unauthorized cookies from tracking activities.
 #### Assurance Context 1 - Shields protects your privacy as your browse by making you harder to track from site to site. Many sites include all kinds of trackers which can follow you across the Web. Shields blocks this type of content, keeping you safe and even increasing your browsing speed.
 *https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-*
 
 ### Assurance Claim 2 - ?????
-### Assurance Claim 3 - The Brave built-in password manager prevents unauthorized access to passwords/data 
-### Assurance Claim 4 - The Brave wallet rewards program gives the user full control over their ability to contribute to authors. (rough draft .. still working on it)
+### Assurance Claim 3 - The built-in password manager prevents unauthorized access to passwords/data 
+### Assurance Claim 4 - The wallet rewards program gives the user full control over their ability to contribute to authors. (rough draft .. still working on it)
 
 ![Copy of Assurance Case Developmental Review - Example](https://user-images.githubusercontent.com/45551925/66283716-2aa38080-e88a-11e9-85f0-cf60db70fbe0.png)
 
