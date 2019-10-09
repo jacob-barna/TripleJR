@@ -22,7 +22,7 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 *https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-*
 
 ### Assurance Claim 2 - ?????
-### Assurance Claim 3 - ?????  
+### Assurance Claim 3 - The Brave built-in password manager prevents unauthorized access to passwords/data 
 ### Assurance Claim 4 - The systems wallet rewards program gives the user full control over their ability to contribute to authors. (rough draft .. still working on it)
 
 ![Copy of Assurance Case Developmental Review - Example](https://user-images.githubusercontent.com/45551925/66283716-2aa38080-e88a-11e9-85f0-cf60db70fbe0.png)
