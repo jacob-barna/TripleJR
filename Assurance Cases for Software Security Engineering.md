@@ -32,6 +32,7 @@ more info to come ....
 
 ### Assurance Claim 5 - The Brave Desktop extensions support mitigates installation of malicious third-party extensions.
 #### Assurance Context 5 - Brave offers support for nearly all extensions that are compatible with chromium from the Chrome Web Store.
+*https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-*
 
 
 
