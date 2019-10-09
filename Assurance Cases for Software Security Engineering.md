@@ -31,7 +31,7 @@ As you can see, this claim states that the systems wallet rewards program will g
 more info to come ....
 
 ### Assurance Claim 5 - The Brave Desktop extensions support mitigates installation of malicious third-party extensions.
-### Assurance Context 5 - Brave offers support for nearly all extensions that are compatible with chromium from the Chrome Web Store.
+## Assurance Context 5 - Brave offers support for nearly all extensions that are compatible with chromium from the Chrome Web Store.
 
 
 
