@@ -23,7 +23,7 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 
 ### Assurance Claim 2 - ?????
 ### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data. 
-### Assurance Claim 4 - The wallet rewards program gives the user full control over their ability to contribute to authors. (rough draft .. still working on it)
+### Assurance Claim 4 - The wallet is sufficiently defends against unauthorized login.    
 
 ![Copy of Assurance Case Developmental Review - Example](https://user-images.githubusercontent.com/45551925/66283716-2aa38080-e88a-11e9-85f0-cf60db70fbe0.png)
 
