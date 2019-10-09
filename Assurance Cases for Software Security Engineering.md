@@ -22,6 +22,8 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 *https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-*
 
 ### Assurance Claim 2 - ?????
+![Copy of Assurance Case Developmental Review - Page 4](https://user-images.githubusercontent.com/31263469/66528666-6d519c80-eac6-11e9-977f-258afc9b14c4.png)
+
 ### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data. 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
