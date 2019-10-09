@@ -17,7 +17,7 @@ Only one submission per team.
 
 More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case-exercise.html
 
-### Assurance Claim 1 - ?????  
+### Assurance Claim 1 - The Brave browser Shields component prevents unauthorized cookies from tracking activities. 
 ### Assurance Claim 2 - ?????
 ### Assurance Claim 3 - ?????  
 ### Assurance Claim 4 - The systems wallet rewards program gives the user full control over their ability to contribute to authors. (rough draft .. still working on it)
@@ -30,7 +30,7 @@ As you can see, this claim states that the systems wallet rewards program will g
 
 more info to come ....
 
-### Assurance Claim 5 - ????? 
+### Assurance Claim 5 - The Brave Desktop extensions support mitigates installation of malicious third-party extensions.
 
 
 
