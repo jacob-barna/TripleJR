@@ -20,6 +20,9 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 ### Assurance Claim 1 - Shields component prevents unauthorized tracking.
 ![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66617138-70698d00-eb99-11e9-887a-4339726b8dbf.png)
 
+#### Evidence For Claim 1
+
+*Inside my Word Doc and will post into Git*
 
 ### Assurance Claim 2 - The browser provides adequate confidentiality of communications.
 ![Assurance Claims - HTTPS](https://user-images.githubusercontent.com/31263469/66530292-c02e5280-eacc-11e9-9ade-b7812f1d1f4b.png)
