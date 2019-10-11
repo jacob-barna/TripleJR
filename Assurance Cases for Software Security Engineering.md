@@ -30,6 +30,7 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 ### Evidence: 
 
 ####Bug Bounty Reports
+
 Brave participates in a bug bounty program through HackerOne.  According to HackerOne, there have been 123 reports resolved and $30,515 paid in bounties, and Brave responds to reports within 22 hours on average [1].
 
 ####Unit Tests
