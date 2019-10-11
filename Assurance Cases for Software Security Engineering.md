@@ -113,9 +113,6 @@ https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html
 #### E3: Extension installation
 https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-
 
-![image](https://user-images.githubusercontent.com/45551925/66178974-cf288700-e62c-11e9-9955-7fa63e48c7a7.png)
-
-
 ### Summary of team reflection
 As a team, we have collectively agreed that even though we have successfully completed all the project requirements as of now, we have had some ups and downs. We use Lucid chart for our diagrams, Discord and GitHub, and class time for our communication and collaboration. During the development of our proposal and use/misuse case development, GitHub collaboration was not used to the full potential or was slow to start. However, for the assurance assignment, there was better collaboration on GitHub and better use of the features. The slow start was due to all the communication via Discord. Collaboration from other sources could be moved from applications such as Discord and integrated into GitHub to track communication and collaboration better. During the assurance assignment, the creation of claims and rebuttals were underestimated and led to problems coming up with broad claims. However, after getting started with a strong initial claim, the team was able to develop the remaining claims with less trouble. The initial thought that claims had to be proved "true" turned out to be false, and with evidence, the claims could be proved "false" or not secure. We also will be using the professor's suggestions he mentioned, by utilizing the Github issue board to make comments on issues we are working on. This helps our team stay organized. Regarding the individual contributions, we are in an agreeance that everyone has been open to receiving responsibilities and successful at meeting the deadlines.
 
