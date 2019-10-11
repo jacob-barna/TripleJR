@@ -20,55 +20,74 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 ### Assurance Claim 1 - Shields component prevents unauthorized tracking.
 ![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66690060-51c7cc80-ec53-11e9-92a3-4ef1747b7460.png)
 
-#### Evidence For Claim 1
+### Evidence:
 
-*Inside my Word Doc and will post into Git*
+#### E1: Shields site specific setting
+
+#### E2: Ads and cross-site trackers setting
+
+#### E3: Cross-site cookies setting
+
+#### E4: Cross-site device recognition setting
+
+#### E5: HTTPS connection upgrading setting
+
+#### E6: Malicious code and sites setting
+
+#### E7: Cookie disablement setting
+
+#### E8: JavaScript prevention setting
 
 ### Assurance Claim 2 - The browser provides adequate confidentiality of communications.
 ![Assurance Claims - HTTPS](https://user-images.githubusercontent.com/25576618/66690083-6dcb6e00-ec53-11e9-9bcf-468d8ba389ac.png)
 
 ### Evidence: 
 
-#### Bug Bounty Reports
+#### E1: Bug Bounty Reports
 Brave participates in a bug bounty program through HackerOne.  According to HackerOne, there have been 123 reports resolved and $30,515 paid in bounties, and Brave responds to reports within 22 hours on average [1].
 
-#### Unit Tests
+#### E2: Unit Tests
 Brave has a suite of unit tests and browser tests that must be run for each pull request [2].  The test results are not publicly available without running the project locally, although the Brave team hopes to make the results public in the future [2].
 
-#### Open Source Code Review by Third Parties
+#### E3: Open Source Code Review by Third Parties
 There are known experts not employed by Brave who are sometimes listed as contributors to issues.  For instance, Tavis Ormandy, a computer security expert employed by Google Project Zero has been named in issue reports [3].  There appears to be no evidence that Brave hires any known third party code auditors, which may constitute a gap in evidence needed.  Brave falls back on the claim that "if anyone wanted to audit us, they're more than welcome to." [4]
 
-#### Issue Tracker
+#### E4: Issue Tracker
 There is an issue tracker for each of the Brave projects.  As of writing, there are 1,688 issues in the brave-browser github repo [5].  The word "security" appears in the body or tags of 81 of these open issues.  In addition, there are 176 such closed issues.  Drilling further into this vein of inquiry, there are 5 open and closed issues related to TLS.  So while there is an issue tracker present, there may be a gap in the claim that the browser can support secure communications.
 
-#### Common Vulnerability and Exposure List 
+#### E5: Common Vulnerability and Exposure List 
 As of this writing, there are only 4 issues in the Common Vulnerabilities and Exposures (CVE) database [6].  All of the entries relate to prior versions of the browser.  This evidence seems to support the claim that the encryption used by Brave is not exploitable. 
 
-#### Malware Test Reports 
+#### E6: Malware Test Reports 
 There don't appear to be any malware test results available at the time of this writing.  The closest thing found are articles mentioning that "Brave comes with Google Safe Browsing, which scans the URLs you visit for potential malware." [7]  Since Brave is also based on Chromium, it comes with built-in protection from malware performing Man-in-the-Middle attacks, provided the malware causes SSL errors.  Despite having claims against malware, the test results remain to be seen, signalling a potential gap in the evidence.
 
-#### Test Results 
+#### E7: Test Results 
 Test results are not publicly available without running the code locally.  As of writing, the unit tests have not been run locally to determine the amount of code coverage.  However, this will be done in future research to identify if code coverage is unacceptable.  Since the Brave browser is based on Chromium, it seems unlikely that any gaps will be uncovered here.
 
-#### Expert Profiles
+#### E8: Expert Profiles
 Brave employees Yan Zhu, a widely known expert on cryptography, as Chief Security Officer [8].  Using a recently closed pull request related to security, it is noted that a Brave software employee "ryanml" approved the changes [9].  The only indication that this user is an expert is the fact that they are employed by Brave, and perhaps that there are 63 people following this individual.  
 
-#### Pull Request Reviews 
+#### E9: Pull Request Reviews 
 There is a policy that each pull request be approved by reviewers who are employees [10].  As mentioned, the expertise of the employees is somewhat murky, but that probably does not constitute an evidence gap as they are employed as software engineers for a company led by known experts.
 
-#### Cybersecurity Expert Test Reports
+#### E10: Cybersecurity Expert Test Reports
 There may be a gap in the evidence on whether TLS is safe or not.  Brave, because it uses BoringSSL is relatively safe when TLS 1.3 is enabled; TLS 1.3 has been recently shown to be vulnerable to a downgrade attack allowing observation of encrypted messages and more [11].  However, it is not using the downgrade protections present in TLS 1.3 for all connections to allow vendors to fix proxy software [12].  In addition, Brave, being based on Chromium, displays warning messages for TLS 1.0 and 1.1 [13], but TLS 1.2 has no such warning despite being the target of several recent and successful attacks [14].  More research needs to be done in this area to identify if Brave is indeed properly implementing TLS 1.2 and whether or not Brave is subject to attacks when communicating with the proxy software that is not protected by TLS 1.3 downgrade protection. 
 
-### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data. 
+### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data.
+
+### Evidence:
+
+#### E1: 
+
+#### E2:
+
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
 - second draft on image (need to reference other claims)
 
 ![Assurance Claims - Wallet -  (3)](https://user-images.githubusercontent.com/45551925/66665790-df37fc00-ec14-11e9-9b96-1be3c94a2d99.png)
 
-
-
-#### Evidence 
+### Evidence:
 
 As you can see, this claim states that the systems wallet rewards program will give the user full control over their ability to contribute to authors. It is important to note that the Brave wallet rewards program allows the user to help fund the content they love even when the browser is blocking advertisements. The Brave browser has a built in wallet that allows user to individually fund their account so they can support their favorite creators or simply get rewarded with Basic Attention Token (BATs). BAT’s are divided up based on the users attention, based on the sites they have visited. All of this is done anonymously, giving the user privacy and the ability to have full control over which creators they would like to support. 
 
@@ -79,10 +98,16 @@ more info to come ....
 
 *https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-*
 
+### Evidence:
 
-*E1 - Google SafeBrowsing: https://safebrowsing.google.com/*
-*E2 - Chromium Blog: https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html*
-*E3 - Extension installation: https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-*
+#### E3: Google SafeBrowsing
+https://safebrowsing.google.com/
+
+#### E2: Chromium Blog
+https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html
+
+#### E3: Extension installation
+https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-
 
 ![image](https://user-images.githubusercontent.com/45551925/66178974-cf288700-e62c-11e9-9955-7fa63e48c7a7.png)
 
