@@ -18,7 +18,7 @@ Only one submission per team.
 More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case-exercise.html
 
 ### Assurance Claim 1 - Shields component prevents unauthorized tracking.
-![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66603129-1785fe80-eb71-11e9-9f19-21ae9b697e83.png)
+![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66617138-70698d00-eb99-11e9-887a-4339726b8dbf.png)
 
 
 ### Assurance Claim 2 - The browser provides adequate confidentiality of communications.
