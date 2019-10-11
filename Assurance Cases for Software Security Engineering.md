@@ -89,6 +89,10 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 
 ### Evidence:
 
+#### E1: 
+
+#### E2: 
+
 As you can see, this claim states that the systems wallet rewards program will give the user full control over their ability to contribute to authors. It is important to note that the Brave wallet rewards program allows the user to help fund the content they love even when the browser is blocking advertisements. The Brave browser has a built in wallet that allows user to individually fund their account so they can support their favorite creators or simply get rewarded with Basic Attention Token (BATs). BAT’s are divided up based on the users attention, based on the sites they have visited. All of this is done anonymously, giving the user privacy and the ability to have full control over which creators they would like to support. 
 
 more info to come ....
