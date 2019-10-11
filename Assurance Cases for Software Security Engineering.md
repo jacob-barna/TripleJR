@@ -31,9 +31,10 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 ### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data. 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
-- second draft on image (need to relook at pink circle 
+- second draft on image (need to reference other claims)
 
-![Assurance Claims - Wallet - ](https://user-images.githubusercontent.com/45551925/66623973-c77c5b80-ebb3-11e9-8326-8539ae213554.png)
+![Assurance Claims - Wallet -  (3)](https://user-images.githubusercontent.com/45551925/66665790-df37fc00-ec14-11e9-9b96-1be3c94a2d99.png)
+
 
 
 #### Evidence 
