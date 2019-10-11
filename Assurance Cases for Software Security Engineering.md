@@ -57,7 +57,7 @@ Brave employees Yan Zhu, a widely known expert on cryptography, as Chief Securit
 There is a policy that each pull request be approved by reviewers who are employees [10].  As mentioned, the expertise of the employees is somewhat murky, but that probably does not constitute an evidence gap as they are employed as software engineers for a company led by known experts.
 
 #### Cybersecurity Expert Test Reports
-There may be a gap in the evidence on whether TLS is safe or not.  Brave, because it uses BoringSSL is relatively safe when TLS 1.3 is enabled; TLS 1.3 has been recently shown to be vulnerable to a downgrade attack allowing observation of encrypted messages and more [11].  However, it is not using the downgrade protections present in TLS 1.3 for all connections to allow vendors to fix proxy software [12].  In addition, Brave, being based on Chromium, displays warning messages for TLS 1.0 and 1.1 [12], but TLS 1.2 has no such warning despite being the target of several recent and successful attacks [13].  More research needs to be done in this area to identify if Brave is indeed properly implementing TLS 1.2 and whether or not Brave is subject to attacks when communicating with the proxy software that is not protected by TLS 1.3 downgrade protection. 
+There may be a gap in the evidence on whether TLS is safe or not.  Brave, because it uses BoringSSL is relatively safe when TLS 1.3 is enabled; TLS 1.3 has been recently shown to be vulnerable to a downgrade attack allowing observation of encrypted messages and more [11].  However, it is not using the downgrade protections present in TLS 1.3 for all connections to allow vendors to fix proxy software [12].  In addition, Brave, being based on Chromium, displays warning messages for TLS 1.0 and 1.1 [13], but TLS 1.2 has no such warning despite being the target of several recent and successful attacks [14].  More research needs to be done in this area to identify if Brave is indeed properly implementing TLS 1.2 and whether or not Brave is subject to attacks when communicating with the proxy software that is not protected by TLS 1.3 downgrade protection. 
 
 ### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data. 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
@@ -101,5 +101,6 @@ As a team, we have collectively agreed that even though we have successfully com
 [9]: https://github.com/brave/ethereum-remote-client/pull/62
 [10]: https://github.com/brave/browser-laptop/blob/master/CONTRIBUTING.md#employees-should
 [11]: https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/
-[12]: https://www.ghacks.net/2019/10/02/tls-1-0-and-1-1-deprecation-chrome-to-display-your-connection-is-not-fully-secure-warnings/
-[13]: https://acunetix.com/blog/articles/tls-vulnerabilities-attacks-final-part/
+[12]: https://www.chromium.org/Home/tls13
+[13]: https://www.ghacks.net/2019/10/02/tls-1-0-and-1-1-deprecation-chrome-to-display-your-connection-is-not-fully-secure-warnings/
+[14]: https://acunetix.com/blog/articles/tls-vulnerabilities-attacks-final-part/
