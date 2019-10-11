@@ -18,14 +18,14 @@ Only one submission per team.
 More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case-exercise.html
 
 ### Assurance Claim 1 - Shields component prevents unauthorized tracking.
-![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66617138-70698d00-eb99-11e9-887a-4339726b8dbf.png)
+![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66690060-51c7cc80-ec53-11e9-92a3-4ef1747b7460.png)
 
 #### Evidence For Claim 1
 
 *Inside my Word Doc and will post into Git*
 
 ### Assurance Claim 2 - The browser provides adequate confidentiality of communications.
-![Assurance Claims - HTTPS](https://user-images.githubusercontent.com/31263469/66679878-dfe08a80-ec34-11e9-8fd2-c954f9849a68.png)
+![Assurance Claims - HTTPS](https://user-images.githubusercontent.com/25576618/66690083-6dcb6e00-ec53-11e9-9bcf-468d8ba389ac.png)
 
 ### Evidence: 
 
@@ -75,6 +75,7 @@ As you can see, this claim states that the systems wallet rewards program will g
 more info to come ....
 
 ### Assurance Claim 5 - The browser minimizes malicious third-party extension.  
+![Assurance Claims - 3rd Party Extension](https://user-images.githubusercontent.com/25576618/66690105-889de280-ec53-11e9-9c6d-63c1f9b4406b.png)
 
 *https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-*
 
