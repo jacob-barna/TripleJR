@@ -79,6 +79,9 @@ more info to come ....
 *https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-*
 
 
+*E1 - Google SafeBrowsing: https://safebrowsing.google.com/*
+*E2 - Chromium Blog: https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html*
+*E3 - Extension installation: https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-*
 
 ![image](https://user-images.githubusercontent.com/45551925/66178974-cf288700-e62c-11e9-9955-7fa63e48c7a7.png)
 
