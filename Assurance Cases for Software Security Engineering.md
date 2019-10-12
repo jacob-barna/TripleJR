@@ -91,8 +91,10 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
-![Assurance Claims - Wallet -  (4)](https://user-images.githubusercontent.com/45551925/66692261-44660e80-ec62-11e9-9ccd-5099c30cd1d5.png)
+### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
+
+![Assurance Claims - Wallet -  (5)](https://user-images.githubusercontent.com/45551925/66692964-45e70500-ec69-11e9-8a5c-1a5942637f3e.png)
 ### Evidence:
 
 
@@ -102,7 +104,7 @@ For the evidence supporting C5, mentioning how the browser implements HTTPS corr
 
 #### E2: Brave Shields 
 
-In support for E1, the Brave browser implements Shields which protects users user privacy as they browse the web. This means that out of the box, Shields protects ad blocking, discarding cookies other than the ones from sites actually visited, secure connection upgrading, and the blocking of malicious code and sites, like ones that will use the users computer to mine cryptocurrencies. However though, as the documentation states in E6, “Configuring your protections to the highest level by blocking JavaScript and all cookies will keep your browser safer, but it may also break some sites.” This is something that is not enabled out of the box which would improve security tremendously but is not enabled by default. [Link](https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
+In support for E1, the Brave browser implements Shields which protects user’s user privacy as they browse the web. This means that out of the box, Shields protects ad blocking, discarding cookies other than the ones from sites actually visited, secure connection upgrading, and the blocking of malicious code and sites, like ones that will use the user’s computer to mine cryptocurrencies. However though, as the documentation states in E6, “Configuring your protections to the highest level by blocking JavaScript and all cookies will keep your browser safer, but it may also break some sites.” This is something that is not enabled out of the box which would improve security tremendously but is not enabled by default. [Link](https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
 ) Nevertheless, the default configuration still prevents cross-site trackers as shown in the [sample code](https://github.com/brave/tracking-protection/blob/master/README.md) below. 
 
 ```c++
@@ -119,11 +121,11 @@ In support for E1, the Brave browser implements Shields which protects users use
 
 
 #### E3: Malware Tests Reports
-Not much information was found in regards to malware test reports. The one our group found as referenced in Assurance Claim #2: E6, is a review from [Cloudwars](https://www.cloudwards.net/brave-review/). This seems to be a gap that we noticed when finding evidence to support Claim C6. 
+Not much information was found in regard to malware test reports. The one our group found as referenced in Assurance Claim #2: E6, is a review from [Cloudwars](https://www.cloudwards.net/brave-review/). This seems to be a gap that we noticed when finding evidence to support Claim C6. 
 
 #### E4: Brave Build Channels
 
-The [Brave Build Channels](https://brave.com/download-beta/) refers to the fast iterative development cycle that Brave goes through when releasing an update. They have 4 different version that follows:
+The [Brave Build Channels](https://brave.com/download-beta/) evidence that supports C8, refers to the fast iterative development cycle that Brave goes through when releasing an update. They have 4 different version that follows:
 Brave Nightly
 Is the testing and developed version; releases are updated nightly and may contain bugs 
 Brave Dev
@@ -133,17 +135,19 @@ Early preview for new version of Brave, showcases new advancements coming soon
 Brave Release
 Official release version of the app
 
-#### E5:  Manual Testing 
+#### E5:  Assurance Claim #2 E6 
 To verify, I conducted a manual test as shown in E5, to see if this was truly the case. I reset my settings due to the adjustments I made when testing out this browse and once my settings were reset, the “Block scripts” button was not checked. 
 
 ![braveShields_settings](https://user-images.githubusercontent.com/45551925/66692365-572d1300-ec63-11e9-9df1-179d6b9977d8.png)
 
-Enabling this by default is something that could be looked at in order to provide maximum protection and security for users. Nevertheless, this was a gap in evidence needed to support C9.
+Enabling this by default is something that could be looked at in order to provide maximum protection and security for users. Nevertheless, this was a gap in evidence needed to support C9. Finding the perfect solution to this is quite difficult since you have to determine what to value first, user experience or gear toward the ultimate security. Recently, [Google announced]( https://www.zdnet.com/article/google-to-remove-chromes-built-in-xss-protection-xss-auditor/
+) that they will remove Chrome’s built-in XSS protection due to the inefficiencies and false positives. As you can see, it is a difficult situation when finding evidence to refute script blocking such as XSS. 
 
 #### E6: Shield Documentation
 
 As discussed during E2, the [Brave Shields Documentation](https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
-) states that script blocking is not on by default since sites may break, preventing a user to view their desired web page they are surfing to. This is a slight gap we noticed the evidence needed to support C9. The user would have to adjust this manually in order to successfully obtain the blocking of scripts despite further web experience issues. This could be something to review in order to obtain a more secure interaction when surfing the web. 
+) states that script blocking is not on by default since sites may break, preventing a user to view their desired web page they are surfing to. This is a slight gap we noticed the evidence needed to support C9. The user would have to adjust this manually in order to successfully obtain the blocking of scripts despite further web experience issues. This could be something to review in order to obtain a more secure interaction when surfing the web.
+
 
 
 ### Assurance Claim 5 - The browser minimizes malicious third-party extension.  
