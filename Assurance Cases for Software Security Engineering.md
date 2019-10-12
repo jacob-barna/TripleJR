@@ -83,11 +83,21 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 
 ### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data.
 
+![Assurance Claims - passmanager-New](https://user-images.githubusercontent.com/54923995/66694115-daeffb00-ec75-11e9-9638-6f5ef88da8d0.png)
+
 ### Evidence:
 
-#### E1: 
+#### E1: Manual Testing
+The password manager requires the user to verify their identify with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification 
 
-#### E2:
+
+
+#### E2: See Assurance Claim #4: C6
+
+#### E3: See Assurance Claim #2: E6
+
+#### E4: See Assurance Claim #2: E1-4, E7-E9
+
 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
