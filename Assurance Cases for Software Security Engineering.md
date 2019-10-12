@@ -77,7 +77,7 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 ### Evidence:
 
 #### E1: Manual Testing
-The password manager requires the user to verify their identity with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification [24].
+The password manager requires the user to verify their identity with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification. 
 
 ![Picture1](https://user-images.githubusercontent.com/54923995/66694148-2a362b80-ec76-11e9-8cf2-8b67821d524d.png)
 
@@ -94,7 +94,7 @@ Reference E1 Manual Testing
 Claim 7 states that password analyzation minimalizes weak passwords. At this time, the Brave password manager does not require complex passwords. The manager is only capable of saving the credentials for each website requested by the user. We would hope that as soon as a user enters their username and password on a website, the password manager would prompt with suggestions on how to create more strong and complex passwords for better security. The proposal could also include information on how long it would take for an attacker to use a dictionary attack to crack the current password being utilized.
 
 #### Evidence for C8:
-Claim 8 states that passwords stored are acceptable secure.  Passwords are acceptably secure because the Brave browser encrypts the passwords on the machine locally.  Google uses AFS encryption, and though there is no information from Brave mentioning AFS encryption, it's our assumption that it's utilized because Brave is built on Chromium. It's our hope that there will be an additional requirement to implement stronger encryption and storage of passwords [25] and [26]. One suggestion would be to require 2FA to view the vault in the password manager. Please refer to E2: Chromium Blog for more information. 
+Claim 8 states that passwords stored are acceptable secure.  Passwords are acceptably secure because the Brave browser encrypts the passwords on the machine locally.  Google uses AFS encryption, and though there is no information from Brave mentioning AFS encryption, it's our assumption that it's utilized because Brave is built on Chromium. It's our hope that there will be an additional requirement to implement stronger encryption and storage of passwords [24] and [25]. One suggestion would be to require 2FA to view the vault in the password manager. Please refer to E2: Chromium Blog for more information. 
 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.     
 
@@ -198,6 +198,5 @@ As a team, we have collectively agreed that even though we have successfully com
 [21]: https://safebrowsing.google.com/
 [22]: https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html
 [23]: https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-
-[24]: https://support.brave.com/hc/en-us/articles/360018185951-How-do-I-use-the-built-in-password-manager-
-[25]: https://security.stackexchange.com/questions/170481/how-secure-is-chrome-storing-a-password
-[26]: https://cloud.google.com/security/encryption-at-rest/default-encryption/
+[24]: https://security.stackexchange.com/questions/170481/how-secure-is-chrome-storing-a-password
+[25]: https://cloud.google.com/security/encryption-at-rest/default-encryption/
