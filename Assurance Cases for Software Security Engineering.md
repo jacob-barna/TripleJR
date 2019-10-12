@@ -90,7 +90,7 @@ The password manager requires the user to verify their identity with computer cr
 #### Evidence for C7: 
 Claim 7 states that password analyzation minimalizes weak paswords.  At this time, Brave password manager does not require complex passwords.  The manager is only capable of saving the credentials for each website requested by user. We would hope that as soon as a user enters in their username and password in a website, that the password manager would prompt with suggestions on how to create more strong and complex passwords for better security.  The suggestion could also include information on how long it would take for an attacker to use a dictionary attack to crack the current password being utilized. 
 
-### Evidence for C8:
+#### Evidence for C8:
 Claim 7 states that passwords stored are acceptable secure.  Passwords are acceptable secure because the Brave browser encrypts the passwords on the machine locally.  Google uses AFS encryption and though there is no information from Brave mentioning AFS encrpytion, it's our assumption that it's being utilzied because Brave is built on Chromium. It's our hope that there will be an additional requirement to implement stronger enctpyion and storage of passwords [25] and [26]. One suggestion would be to require 2FA to view the vault in the password manager. Please refer to E2: Chromium Blog for more information. 
 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.     
