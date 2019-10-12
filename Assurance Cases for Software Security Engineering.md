@@ -151,7 +151,7 @@ As discussed during E2, the [Brave Shields Documentation](https://support.brave.
 
 
 ### Assurance Claim 5 - The browser minimizes malicious third-party extension.  
-![Assurance Claims - 3rd Party Extension](https://user-images.githubusercontent.com/25576618/66690105-889de280-ec53-11e9-9c6d-63c1f9b4406b.png)
+![Assurance Claims - 3rd Party Extension](https://user-images.githubusercontent.com/25576618/66693686-2653da80-ec71-11e9-9477-e3f3838dfabc.png)
 
 ### Evidence:
 
