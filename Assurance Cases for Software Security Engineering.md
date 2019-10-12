@@ -77,7 +77,7 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 ### Evidence:
 
 #### E1: Manual Testing
-The password manager requires the user to verify their identity with computer credentials to view their username and passwords in the vault.  Suggestion for Brave browser would be to create another verification prompt after a certain amount of idle time or usability. If there is another prompt after inactivity, that reduces the risk of unauthorized access if the user were to walk away from their computer and forget to close the browser or sign off the computer. 
+The password manager requires the user to verify their identity with computer credentials to view their username and passwords in the vault.  Suggestion for Brave browser would be to create another verification prompt after a certain amount of idle time or inactivity. If there is another prompt after inactivity, that reduces the risk of unauthorized access if the user were to walk away from their computer and forget to close the browser or sign off the computer. 
 
 ![Picture1](https://user-images.githubusercontent.com/54923995/66694148-2a362b80-ec76-11e9-8cf2-8b67821d524d.png)
 
