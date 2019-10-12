@@ -6,17 +6,6 @@
 
 **Team Name:** TripleJR
 
-## Instructions
-### A markdown report that includes the following:
-
-Using security requirements, identify five assurance claims
-Prepare a convincing argument in support of the claims. Document this argument using an assurance case for each of the claims.
-Assess the alignment of the planned evidence with that available (or can be made available) from the OSS project. Highlight the gaps.
-Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task. Also, include a summary of your team reflection meeting. What issues occurred? What did you plan to change moving forward? 
-Only one submission per team.
-
-More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case-exercise.html
-
 ### Assurance Claim 1 - Shields component prevents unauthorized tracking.
 ![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66693042-20a6c680-ec6a-11e9-8da0-1321cfde1375.png)
 
@@ -88,9 +77,9 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 ### Evidence:
 
 #### E1: Manual Testing
-The password manager requires the user to verify their identify with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification 
+The password manager requires the user to verify their identify with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification.
 
-
+![Picture1](https://user-images.githubusercontent.com/54923995/66694148-2a362b80-ec76-11e9-8cf2-8b67821d524d.png)
 
 #### E2: See Assurance Claim #4: C6
 
@@ -98,11 +87,33 @@ The password manager requires the user to verify their identify with computer cr
 
 #### E4: See Assurance Claim #2: E1-4, E7-E9
 
+#### E5: Password Manager Verification
+EDITING
+Password analyzing minimalizes weak passwords
+Analyzing password that is entered and mention a suggestion to fix that problem.
+As it doesn’t require secure passwords
+Once you enter your password, determine how long it would take to crack 
+Make this password manager including useful tips for users or requirements
+Password manager is just storing the password, provide suggestions on tips for complex password after someone enters a weak password. 
 
-### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
-### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
+#### Evidence for Claim 7 
+EDITING
+Would require additional features that implement stronger encryption and storage of their passwords. 
+Brave browser stores password locally on machine. Passwords are stored acceptable secure because the Brave browser encrypts the passwords on the machine.google uses AFS encryption. Couldn’t find specific information from Brave mentioning but we are assuming that because Brave is built on chromium, we are assuming it’s using AFS encryption (first link)
 
+Last link – How secure is chrome securing password
+Mac and Linux, uses native keychain technology to protect chrome master password
+Refer back to 2FA for more secure 
+MFS requires strong passwords make dictionary attacks less successfully.  
+Give link…
+
+Claim 8
+EDITING
+Evidence  for C6 would requirement an implement of a time-out of inactivity session 
+
+
+### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.     
 
 ![Assurance Claims - Wallet -  (5)](https://user-images.githubusercontent.com/45551925/66692964-45e70500-ec69-11e9-8a5c-1a5942637f3e.png)
 ### Evidence:
