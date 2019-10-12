@@ -18,7 +18,7 @@ Only one submission per team.
 More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case-exercise.html
 
 ### Assurance Claim 1 - Shields component prevents unauthorized tracking.
-![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66690060-51c7cc80-ec53-11e9-92a3-4ef1747b7460.png)
+![Assurance Claims - Browsing](https://user-images.githubusercontent.com/25576618/66693042-20a6c680-ec6a-11e9-8da0-1321cfde1375.png)
 
 ### Evidence:
 
@@ -155,7 +155,7 @@ As discussed during E2, the [Brave Shields Documentation](https://support.brave.
 
 ### Evidence:
 
-#### E3: Google SafeBrowsing
+#### E1: Google SafeBrowsing
 Brave allows the use of extensions that are published to the Chrome Web Store. This poses a security risk to the users of Brave as extensions in the Web Store could be malicious. After researching, no information was able to be located about the scanning of uploaded extensions. However, it was determined that Google conducts infrastructure scanning with SafeBrowsing actions which includes items in the Web Store [21]. This allows for a gap in security as malicious items can be uploaded to the store and may be present for an unknown amount of time until a user reports a threat or Google happens to come across the item in one of the scans.
 
 #### E2: Chromium Blog
