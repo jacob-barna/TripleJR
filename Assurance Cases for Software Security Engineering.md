@@ -83,9 +83,7 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.   
 
-- second draft on image (need to reference other claims)
-
-![Assurance Claims - Wallet -  (3)](https://user-images.githubusercontent.com/45551925/66665790-df37fc00-ec14-11e9-9b96-1be3c94a2d99.png)
+![Assurance Claims - Wallet -  (4)](https://user-images.githubusercontent.com/45551925/66692261-44660e80-ec62-11e9-9ccd-5099c30cd1d5.png)
 
 ### Evidence:
 
