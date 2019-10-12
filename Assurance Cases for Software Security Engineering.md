@@ -23,20 +23,28 @@ More details: https://robinagandhi.github.io/swa/slides/lecture-2/assurance-case
 ### Evidence:
 
 #### E1: Shields site specific setting
+Out of the box Brave Shields security features are enabled by default. This ensures privacy basics are enabled to protect privacy, however for certain sites additional restrictions are needed for protection. To provide this additional security, Shields allows the user to secure configure site-specific settings. This setting is persistent and will not change even if global settings are modified [15].
 
 #### E2: Ads and cross-site trackers setting
+When browsing websites there is always the possibility that ads, for revenue or malicious purposes, are inserted into the site. In addition to be a nuisance and causing a bad user experience there is a security risk behind the scenes. These ads can come with trackers that allow the entity that embedded them to retrieve data about the sites and actions taken while browsing. By default, Shields blocks the majority of these ads and the trackers that come with them [16]. Additionally, additions have been made to the code to provide better protection and identification of the ads through stronger rules and algorithms [17].
 
 #### E3: Cross-site cookies setting
+In addition to ads websites also can also implement cross-site cookies to track user activates and settings as well. In some cases, the user wants cross-site, aka third-party, cookies to be enabled to maintain site functionality of sites. However, these cross-site cookies have the ability to maintain persistence from site to site and report the activities is logs. Shields combats this by using strictly blocking these cookies by default and allowing further restrictions based on user preferences [16] [18].
 
 #### E4: Cross-site device recognition setting
+While browsing the internet there is the possibility that sites or third-parties will try to identify, or fingerprint, the device being used. This information poses a security risk as it reveals specifics about the user’s device that can be mis-used for malicious purposes. These fingerprinting technologies can be stopped when using Brave [19]. By default, Shields blocks these actions and can be modified as well by the user [16].
 
 #### E5: HTTPS connection upgrading setting
+By default, Shields automatically will securely upgrade the user’s connections to sites [16]. In doing so the connection will be changed from HTTP to HTTPS. This ensures the traffic is being encrypted and security resulting in the user’s privacy being maintained.
 
 #### E6: Malicious code and sites setting
+By default, Shields will block malicious code and malicious sites. Some examples of this would be code that will try to use your computer to mine cryptocurrencies [16].
 
 #### E7: Cookie disablement setting
+As discussed in E3, cross-site cookies are disabled by default, but first-party cookies remain active. This allows for the use of functions such as shopping carts or login persistence which could assist the user. However, some malicious sites can implement cross-site cookies as first-party cookies. To prevent this globally across Brave, or site-specifically, Shields allows for the configuration and fine tuning of cookies including the disablement of all cookies [20].
 
 #### E8: JavaScript prevention setting
+As discussed in E6, malicious code and sites are blocked by default, but scripts are allowed to run inside Brave. This poses a threat of not only allowing malicious actions to occur but could allow for the use of cross-site tracking inside the code. If needed, the user can block JavaScript and others scripts by enabling the feature through Shields [20].
 
 ### Assurance Claim 2 - The browser provides adequate confidentiality of communications.
 ![Assurance Claims - HTTPS](https://user-images.githubusercontent.com/25576618/66690083-6dcb6e00-ec53-11e9-9bcf-468d8ba389ac.png)
@@ -146,13 +154,13 @@ As discussed during E2, the [Brave Shields Documentation](https://support.brave.
 ### Evidence:
 
 #### E3: Google SafeBrowsing
-https://safebrowsing.google.com/
+Brave allows the use of extensions that are published to the Chrome Web Store. This poses a security risk to the users of Brave as extensions in the Web Store could be malicious. After researching, no information was able to be located about the scanning of uploaded extensions. However, it was determined that Google conducts infrastructure scanning with SafeBrowsing actions which includes items in the Web Store [21]. This allows for a gap in security as malicious items can be uploaded to the store and may be present for an unknown amount of time until a user reports a threat or Google happens to come across the item in one of the scans.
 
 #### E2: Chromium Blog
-https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html
+With Google Chrome or Chromium, being open source, any user can be a developer and upload their projects for others to download and install. This poses a threat to Brave users as a malicious user could upload content that would create security issues. To combat this threat and mitigate the possibility of malicious content being uploaded through rouge accounts Google has implement Two Factor Authentication (2FA) for all developer accounts [22]. While this would prevent compromised accounts from uploading malicious items, it does not prevent a legitimate rouge user from uploading whatever they want. This gap allows security risks to enter into the Brave environment and exploit the user’s privacy and security.
 
 #### E3: Extension installation
-https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-
+Before any extension can be installed, Brave requires the user to except or deny the permissions required by the extension [23]. This security practice is good as it requires an approval prior to an extension being installed and ran. However, a user with little knowledge about permissions, and their capabilities, or permissions that may be exploited after installed could be potentially installed result in security risks.
 
 ### Summary of team reflection
 As a team, we have collectively agreed that even though we have successfully completed all the project requirements as of now, we have had some ups and downs. We use Lucid chart for our diagrams, Discord and GitHub, and class time for our communication and collaboration. During the development of our proposal and use/misuse case development, GitHub collaboration was not used to the full potential or was slow to start. However, for the assurance assignment, there was better collaboration on GitHub and better use of the features. The slow start was due to all the communication via Discord. Collaboration from other sources could be moved from applications such as Discord and integrated into GitHub to track communication and collaboration better. During the assurance assignment, the creation of claims and rebuttals were underestimated and led to problems coming up with broad claims. However, after getting started with a strong initial claim, the team was able to develop the remaining claims with less trouble. The initial thought that claims had to be proved "true" turned out to be false, and with evidence, the claims could be proved "false" or not secure. We also will be using the professor's suggestions he mentioned, by utilizing the Github issue board to make comments on issues we are working on. This helps our team stay organized. Regarding the individual contributions, we are in an agreeance that everyone has been open to receiving responsibilities and successful at meeting the deadlines.
@@ -175,3 +183,12 @@ As a team, we have collectively agreed that even though we have successfully com
 [12]: https://www.chromium.org/Home/tls13
 [13]: https://www.ghacks.net/2019/10/02/tls-1-0-and-1-1-deprecation-chrome-to-display-your-connection-is-not-fully-secure-warnings/
 [14]: https://acunetix.com/blog/articles/tls-vulnerabilities-attacks-final-part/
+[15]: https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-
+[16]: https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-
+[17]: https://brave.com/improved-ad-blocker-performance/
+[18]: https://www.cnet.com/how-to/this-is-the-browser-youll-want-if-you-care-about-online-privacy/
+[19]: https://www.wired.com/story/privacy-browsers-duckduckgo-ghostery-brave/
+[20]: https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
+[21]: https://safebrowsing.google.com/
+[22]: https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html
+[23]: https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-
