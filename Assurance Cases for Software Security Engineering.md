@@ -77,7 +77,7 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 ### Evidence:
 
 #### E1: Manual Testing
-The password manager requires the user to verify their identity with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification. 
+The password manager requires the user to verify their identity with computer credentials to view their username and passwords in the vault.  Suggestion for Brave browser would be to create another verification prompt after a certain amount of idle time or usability. If there is another prompt after inactivity, that reduces the risk of unauthorized access if the user were to walk away from their computer and forget to close the browser or sign off the computer. 
 
 ![Picture1](https://user-images.githubusercontent.com/54923995/66694148-2a362b80-ec76-11e9-8cf2-8b67821d524d.png)
 
@@ -91,7 +91,7 @@ The password manager requires the user to verify their identity with computer cr
 Reference E1 Manual Testing
 
 #### Evidence for C7: 
-Claim 7 states that password analyzation minimalizes weak passwords. At this time, the Brave password manager does not require complex passwords. The manager is only capable of saving the credentials for each website requested by the user. We would hope that as soon as a user enters their username and password on a website, the password manager would prompt with suggestions on how to create more strong and complex passwords for better security. The proposal could also include information on how long it would take for an attacker to use a dictionary attack to crack the current password being utilized.
+Claim 7 states that password analyzation minimalizes weak passwords. Strong passwords would significantly reduce the risk of malicious attacks on passwords.  At this time, the Brave password manager does not require complex passwords. A suggestion to Brave Browser would be that as soon as a user enters their username and password on a website, the password manager would prompt with suggestions on how to create more strong and complex passwords for better security. The proposal could also include information on how long it would take for an attacker to use a dictionary attack to crack the current password being utilized.
 
 #### Evidence for C8:
 Claim 8 states that passwords stored are acceptable secure.  Passwords are acceptably secure because the Brave browser encrypts the passwords on the machine locally.  Google uses AFS encryption, and though there is no information from Brave mentioning AFS encryption, it's our assumption that it's utilized because Brave is built on Chromium. It's our hope that there will be an additional requirement to implement stronger encryption and storage of passwords [24] and [25]. One suggestion would be to require 2FA to view the vault in the password manager. Please refer to E2: Chromium Blog for more information. 
