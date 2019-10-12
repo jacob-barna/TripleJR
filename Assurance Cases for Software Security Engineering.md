@@ -12,28 +12,28 @@
 ### Evidence:
 
 #### E1: Shields site specific setting
-Out of the box Brave Shields security features are enabled by default. This ensures privacy basics are enabled to protect privacy, however for certain sites additional restrictions are needed for protection. To provide this additional security, Shields allows the user to secure configure site-specific settings. This setting is persistent and will not change even if global settings are modified [15].
+Out of the box, Brave Shields security features are enabled by default. This ensures privacy basics are enabled to protect privacy; however, for certain sites, additional restrictions are needed for protection. To provide this additional security, Shields allows the user to secure and configure site-specific settings. This setting is persistent and will not change, even if global settings are modified [15].
 
 #### E2: Ads and cross-site trackers setting
-When browsing websites there is always the possibility that ads, for revenue or malicious purposes, are inserted into the site. In addition to be a nuisance and causing a bad user experience there is a security risk behind the scenes. These ads can come with trackers that allow the entity that embedded them to retrieve data about the sites and actions taken while browsing. By default, Shields blocks the majority of these ads and the trackers that come with them [16]. Additionally, additions have been made to the code to provide better protection and identification of the ads through stronger rules and algorithms [17].
+When browsing websites, there is always the possibility that ads, for revenue or malicious purposes, are inserted into the site. In addition, to be a nuisance and causing a bad user experience, there is a security risk behind the scenes. These ads can come with trackers that allow the entity that embedded them to retrieve data about the sites and actions taken while browsing. By default, Shields blocks the majority of these ads and the trackers that come with them [16]. Additionally, additions have been made to the code to provide better protection and identification of the ads through stronger rules and algorithms [17].
 
 #### E3: Cross-site cookies setting
-In addition to ads websites also can also implement cross-site cookies to track user activates and settings as well. In some cases, the user wants cross-site, aka third-party, cookies to be enabled to maintain site functionality of sites. However, these cross-site cookies have the ability to maintain persistence from site to site and report the activities is logs. Shields combats this by using strictly blocking these cookies by default and allowing further restrictions based on user preferences [16] [18].
+In addition to ads, websites also can also implement cross-site cookies to track user activates and settings as well. In some cases, the user wants cross-site, aka third-party, cookies to be enabled to maintain site functionality of sites. However, these cross-site cookies have the ability to maintain persistence from site to site and report the activities in logs. Shields combats this by using strictly blocking these cookies by default and allowing further restrictions based on user preferences [16] [18].
 
 #### E4: Cross-site device recognition setting
-While browsing the internet there is the possibility that sites or third-parties will try to identify, or fingerprint, the device being used. This information poses a security risk as it reveals specifics about the user’s device that can be mis-used for malicious purposes. These fingerprinting technologies can be stopped when using Brave [19]. By default, Shields blocks these actions and can be modified as well by the user [16].
+While browsing the internet, there is the possibility that sites or third-parties will try to identify, or fingerprint, the device being used. This information poses a security risk as it reveals specifics about the user’s device that can be misused for malicious purposes. These fingerprinting technologies can be stopped when using Brave [19]. By default, Shields blocks these actions and can be modified as well by the user [16].
 
 #### E5: HTTPS connection upgrading setting
-By default, Shields automatically will securely upgrade the user’s connections to sites [16]. In doing so the connection will be changed from HTTP to HTTPS. This ensures the traffic is being encrypted and security resulting in the user’s privacy being maintained.
+By default, Shields automatically will securely upgrade the user’s connections to sites [16]. In doing so, the connection will be changed from HTTP to HTTPS. This ensures the traffic is being encrypted and security, resulting in the user’s privacy being maintained.
 
 #### E6: Malicious code and sites setting
 By default, Shields will block malicious code and malicious sites. Some examples of this would be code that will try to use your computer to mine cryptocurrencies [16].
 
 #### E7: Cookie disablement setting
-As discussed in E3, cross-site cookies are disabled by default, but first-party cookies remain active. This allows for the use of functions such as shopping carts or login persistence which could assist the user. However, some malicious sites can implement cross-site cookies as first-party cookies. To prevent this globally across Brave, or site-specifically, Shields allows for the configuration and fine tuning of cookies including the disablement of all cookies [20].
+As discussed in E3, cross-site cookies are disabled by default, but first-party cookies remain active. This allows for the use of functions such as shopping carts or login persistence, which could assist the user. However, some malicious sites can implement cross-site cookies as first-party cookies. To prevent this globally across Brave or site-specifically, Shields allows for the configuration and fine-tuning of cookies, including the disablement of all cookies [20].
 
 #### E8: JavaScript prevention setting
-As discussed in E6, malicious code and sites are blocked by default, but scripts are allowed to run inside Brave. This poses a threat of not only allowing malicious actions to occur but could allow for the use of cross-site tracking inside the code. If needed, the user can block JavaScript and others scripts by enabling the feature through Shields [20].
+As discussed in E6, malicious code and sites are blocked by default, but scripts are allowed to run inside Brave. This poses a threat of not only allowing malicious actions to occur but could allow for the use of cross-site tracking inside the code. If needed, the user can block JavaScript and other scripts by enabling the feature through Shields [20].
 
 ### Assurance Claim 2 - The browser provides adequate confidentiality of communications.
 ![Assurance Claims - HTTPS](https://user-images.githubusercontent.com/25576618/66690083-6dcb6e00-ec53-11e9-9bcf-468d8ba389ac.png)
@@ -47,16 +47,16 @@ Brave participates in a bug bounty program through HackerOne.  According to Hack
 Brave has a suite of unit tests and browser tests that must be run for each pull request [2].  The test results are not publicly available without running the project locally, although the Brave team hopes to make the results public in the future [2].
 
 #### E3: Open Source Code Review by Third Parties
-There are known experts not employed by Brave who are sometimes listed as contributors to issues.  For instance, Tavis Ormandy, a computer security expert employed by Google Project Zero has been named in issue reports [3].  There appears to be no evidence that Brave hires any known third party code auditors, which may constitute a gap in evidence needed.  Brave falls back on the claim that "if anyone wanted to audit us, they're more than welcome to." [4]
+There are known experts not employed by Brave, who are sometimes listed as contributors to issues.  For instance, Tavis Ormandy, a computer security expert employed by Google Project Zero has been named in issue reports [3].  There appears to be no evidence that Brave hires any known third party code auditors, which may constitute a gap in evidence needed.  Brave falls back on the claim that "if anyone wanted to audit us, they're more than welcome to." [4]
 
 #### E4: Issue Tracker
-There is an issue tracker for each of the Brave projects.  As of writing, there are 1,688 issues in the brave-browser github repo [5].  The word "security" appears in the body or tags of 81 of these open issues.  In addition, there are 176 such closed issues.  Drilling further into this vein of inquiry, there are 5 open and closed issues related to TLS.  So while there is an issue tracker present, there may be a gap in the claim that the browser can support secure communications.
+There is an issue tracker for each of the Brave projects.  As of writing, there are 1,688 issues in the brave-browser GitHub repo [5].  The word "security" appears in the body or tags of 81 of these open issues.  In addition, there are 176 such closed issues.  Drilling further into this vein of inquiry, there are 5 open and closed issues related to TLS.  So while there is an issue tracker present, there may be a gap in the claim that the browser can support secure communications.
 
 #### E5: Common Vulnerability and Exposure List 
 As of this writing, there are only 4 issues in the Common Vulnerabilities and Exposures (CVE) database [6].  All of the entries relate to prior versions of the browser.  This evidence seems to support the claim that the encryption used by Brave is not exploitable. 
 
 #### E6: Malware Test Reports 
-There don't appear to be any malware test results available at the time of this writing.  The closest thing found are articles mentioning that "Brave comes with Google Safe Browsing, which scans the URLs you visit for potential malware." [7]  Since Brave is also based on Chromium, it comes with built-in protection from malware performing Man-in-the-Middle attacks, provided the malware causes SSL errors.  Despite having claims against malware, the test results remain to be seen, signalling a potential gap in the evidence.
+There don't appear to be any malware test results available at the time of this writing.  The closest thing found are articles mentioning that "Brave comes with Google Safe Browsing, which scans the URLs you visit for potential malware." [7]  Since Brave is also based on Chromium, it comes with built-in protection from malware performing Man-in-the-Middle attacks, provided the malware causes SSL errors.  Despite having claims against malware, the test results remain to be seen, signaling a potential gap in the evidence.
 
 #### E7: Test Results 
 Test results are not publicly available without running the code locally.  As of writing, the unit tests have not been run locally to determine the amount of code coverage.  However, this will be done in future research to identify if code coverage is unacceptable.  Since the Brave browser is based on Chromium, it seems unlikely that any gaps will be uncovered here.
@@ -72,12 +72,12 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 
 ### Assurance Claim 3 - The built-in password manager prevents unauthorized access to data.
 
-![Assurance Claims - passmanager-New](https://user-images.githubusercontent.com/54923995/66694115-daeffb00-ec75-11e9-9638-6f5ef88da8d0.png)
+![Assurance Claims - passmanager-New (2)](https://user-images.githubusercontent.com/54923995/66694350-0aa00280-ec78-11e9-99ab-f750f294db4f.png)
 
 ### Evidence:
 
 #### E1: Manual Testing
-The password manager requires the user to verify their identify with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification.
+The password manager requires the user to verify their identity with computer credentials to view their username and passwords in the vault.  We would hope that there is another verification prompt after a certain amount of idle time or usability of the password manager classified under time-out notification [24].
 
 ![Picture1](https://user-images.githubusercontent.com/54923995/66694148-2a362b80-ec76-11e9-8cf2-8b67821d524d.png)
 
@@ -87,31 +87,11 @@ The password manager requires the user to verify their identify with computer cr
 
 #### E4: See Assurance Claim #2: E1-4, E7-E9
 
-#### E5: Password Manager Verification
-EDITING
-Password analyzing minimalizes weak passwords
-Analyzing password that is entered and mention a suggestion to fix that problem.
-As it doesn’t require secure passwords
-Once you enter your password, determine how long it would take to crack 
-Make this password manager including useful tips for users or requirements
-Password manager is just storing the password, provide suggestions on tips for complex password after someone enters a weak password. 
+#### Evidence for C7: 
+Claim 7 states that password analyzation minimalizes weak paswords.  At this time, Brave password manager does not require complex passwords.  The manager is only capable of saving the credentials for each website requested by user. We would hope that as soon as a user enters in their username and password in a website, that the password manager would prompt with suggestions on how to create more strong and complex passwords for better security.  The suggestion could also include information on how long it would take for an attacker to use a dictionary attack to crack the current password being utilized. 
 
-
-#### Evidence for Claim 7 
-EDITING
-Would require additional features that implement stronger encryption and storage of their passwords. 
-Brave browser stores password locally on machine. Passwords are stored acceptable secure because the Brave browser encrypts the passwords on the machine.google uses AFS encryption. Couldn’t find specific information from Brave mentioning but we are assuming that because Brave is built on chromium, we are assuming it’s using AFS encryption (first link)
-
-Last link – How secure is chrome securing password
-Mac and Linux, uses native keychain technology to protect chrome master password
-Refer back to 2FA for more secure 
-MFS requires strong passwords make dictionary attacks less successfully.  
-Give link…
-
-Claim 8
-EDITING
-Evidence  for C6 would requirement an implement of a time-out of inactivity session 
-
+### Evidence for C8:
+Claim 7 states that passwords stored are acceptable secure.  Passwords are acceptable secure because the Brave browser encrypts the passwords on the machine locally.  Google uses AFS encryption and though there is no information from Brave mentioning AFS encrpytion, it's our assumption that it's being utilzied because Brave is built on Chromium. It's our hope that there will be an additional requirement to implement stronger enctpyion and storage of passwords [25] and [26]. One suggestion would be to require 2FA to view the vault in the password manager. Please refer to E2: Chromium Blog for more information. 
 
 ### Assurance Claim 4 - The browser wallet sufficiently secures reward contributions.     
 
@@ -215,3 +195,6 @@ As a team, we have collectively agreed that even though we have successfully com
 [21]: https://safebrowsing.google.com/
 [22]: https://blog.chromium.org/2018/10/trustworthy-chrome-extensions-by-default.html
 [23]: https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave-
+[24]: https://support.brave.com/hc/en-us/articles/360018185951-How-do-I-use-the-built-in-password-manager-
+[25]: https://security.stackexchange.com/questions/170481/how-secure-is-chrome-storing-a-password
+[26]: https://cloud.google.com/security/encryption-at-rest/default-encryption/
