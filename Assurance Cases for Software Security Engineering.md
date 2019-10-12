@@ -89,13 +89,52 @@ There may be a gap in the evidence on whether TLS is safe or not.  Brave, becaus
 
 ### Evidence:
 
-#### E1: 
 
-#### E2: 
+#### E1: Assurance Case #2 E1 - 4, E7 - E9   
+For the evidence supporting C5, mentioning how the browser implements HTTPS correctly, refuting the possibility of a man-in-the-middle attack in an attempt to steal login credentials and rewards is detailed in the Assurance Case #2 Evidence 1 - 4 and Evidence 7 - 9. 
 
-As you can see, this claim states that the systems wallet rewards program will give the user full control over their ability to contribute to authors. It is important to note that the Brave wallet rewards program allows the user to help fund the content they love even when the browser is blocking advertisements. The Brave browser has a built in wallet that allows user to individually fund their account so they can support their favorite creators or simply get rewarded with Basic Attention Token (BATs). BAT’s are divided up based on the users attention, based on the sites they have visited. All of this is done anonymously, giving the user privacy and the ability to have full control over which creators they would like to support. 
 
-more info to come ....
+#### E2: Brave Shields 
+
+In support for E1, the Brave browser implements Shields which protects users user privacy as they browse the web. This means that out of the box, Shields protects ad blocking, discarding cookies other than the ones from sites actually visited, secure connection upgrading, and the blocking of malicious code and sites, like ones that will use the users computer to mine cryptocurrencies. However though, as the documentation states in E6, “Configuring your protections to the highest level by blocking JavaScript and all cookies will keep your browser safer, but it may also break some sites.” This is something that is not enabled out of the box which would improve security tremendously but is not enabled by default. [Link](https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
+) Nevertheless, the default configuration still prevents cross-site trackers as shown in the [sample code](https://github.com/brave/tracking-protection/blob/master/README.md) below. 
+
+```c++
+
+    // Returns combined result of third party hosts for "google.com" and for "subdomain.google.com"
+    // "facebook.fr,facebook.de,2mdn.net,admeld.com"
+    char* thirdPartyHosts = parser.findFirstPartyHosts("subdomain.google.com");
+    if (nullptr != thirdPartyHosts) {
+        cout << thirdPartyHosts << endl;
+        delete []thirdPartyHosts;
+    }
+
+```
+
+
+#### E3: Malware Tests Reports
+Not much information was found in regards to malware test reports. The one our group found as referenced in Assurance Claim #2: E6, is a review from [Cloudwars](https://www.cloudwards.net/brave-review/). This seems to be a gap that we noticed when finding evidence to support Claim C6. 
+
+#### E4: Brave Build Channels
+
+The [Brave Build Channels](https://brave.com/download-beta/) refers to the fast iterative development cycle that Brave goes through when releasing an update. They have 4 different version that follows:
+Brave Nightly
+Is the testing and developed version; releases are updated nightly and may contain bugs 
+Brave Dev
+Is an unpolished and unfinished version, showing the work in progress
+Brave Beta
+Early preview for new version of Brave, showcases new advancements coming soon
+Brave Release
+Official release version of the app
+
+#### E5:  Manual Testing 
+To verify, I conducted a manual test as shown in E5, to see if this was truly the case. I reset my settings due to the adjustments I made when testing out this browse and once my settings were reset, the “Block scripts” button was not checked. Enabling this by default is something that could be looked at in order to provide maximum protection and security for users. Nevertheless, this was a gap in evidence needed to support C9.
+
+#### E6: Shield Documentation
+
+As discussed during E2, the [Brave Shields Documentation](https://support.brave.com/hc/en-us/articles/360022806212-How-do-I-use-Shields-while-browsing-
+) states that script blocking is not on by default since sites may break, preventing a user to view their desired web page they are surfing to. This is a slight gap we noticed the evidence needed to support C9. The user would have to adjust this manually in order to successfully obtain the blocking of scripts despite further web experience issues. This could be something to review in order to obtain a more secure interaction when surfing the web. 
+
 
 ### Assurance Claim 5 - The browser minimizes malicious third-party extension.  
 ![Assurance Claims - 3rd Party Extension](https://user-images.githubusercontent.com/25576618/66690105-889de280-ec53-11e9-9c6d-63c1f9b4406b.png)
