@@ -81,11 +81,11 @@ The password manager requires the user to verify their identity with computer cr
 
 ![Picture1](https://user-images.githubusercontent.com/54923995/66694148-2a362b80-ec76-11e9-8cf2-8b67821d524d.png)
 
-#### E2: See Assurance Claim #4: C6
+#### E2: See Assurance Claim 4: C6
 
-#### E3: See Assurance Claim #2: E6
+#### E3: See Assurance Claim 2: E6
 
-#### E4: See Assurance Claim #2: E1-4, E7-E9
+#### E4: See Assurance Claim 2: E1-4, E7-E9
 
 #### Evidence for C7: 
 Claim 7 states that password analyzation minimalizes weak paswords.  At this time, Brave password manager does not require complex passwords.  The manager is only capable of saving the credentials for each website requested by user. We would hope that as soon as a user enters in their username and password in a website, that the password manager would prompt with suggestions on how to create more strong and complex passwords for better security.  The suggestion could also include information on how long it would take for an attacker to use a dictionary attack to crack the current password being utilized. 
