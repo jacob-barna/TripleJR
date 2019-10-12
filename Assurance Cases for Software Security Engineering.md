@@ -126,7 +126,11 @@ Brave Release
 Official release version of the app
 
 #### E5:  Manual Testing 
-To verify, I conducted a manual test as shown in E5, to see if this was truly the case. I reset my settings due to the adjustments I made when testing out this browse and once my settings were reset, the “Block scripts” button was not checked. Enabling this by default is something that could be looked at in order to provide maximum protection and security for users. Nevertheless, this was a gap in evidence needed to support C9.
+To verify, I conducted a manual test as shown in E5, to see if this was truly the case. I reset my settings due to the adjustments I made when testing out this browse and once my settings were reset, the “Block scripts” button was not checked. 
+
+![braveShields_settings](https://user-images.githubusercontent.com/45551925/66692365-572d1300-ec63-11e9-9df1-179d6b9977d8.png)
+
+Enabling this by default is something that could be looked at in order to provide maximum protection and security for users. Nevertheless, this was a gap in evidence needed to support C9.
 
 #### E6: Shield Documentation
 
