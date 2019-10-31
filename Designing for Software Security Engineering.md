@@ -1,3 +1,11 @@
+## CYBR 8420 - Designing for Software Security Engineering  
+
+**Github Repository: https://github.com/jacob-barna/TripleJR**
+
+**Authors:** Jeffrey Smith, Ronald Ramirez, Jacob Barna, Jill Lenz
+
+**Team Name:** TripleJR
+
 Submit a markdown report that includes the following:
 
 * Threat models for critical data-flows through the software. Misuse and assurance cases will provide starting points for examination. Include threat model diagrams. For details see: https://robinagandhi.github.io/swa/slides/lecture-4/design-for-software-se.html#66 (Links to an external site.) 
