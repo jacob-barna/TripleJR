@@ -12,6 +12,7 @@ Submit a markdown report that includes the following:
 * Using threat model analysis, review OSS project for design-related issues. Summarize your observations.
 * Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task. Also, include a summary of your team reflection meeting. What issues occurred? What did you plan to change moving forward?
 
+### Rubric  
 ![image](https://user-images.githubusercontent.com/45551925/67908013-d6698480-fb47-11e9-821b-0c25ada8041d.png)
 
 
