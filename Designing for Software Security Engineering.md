@@ -26,13 +26,17 @@ Submit a markdown report that includes the following:
 * Level 1 DFD
 * Analysis
 
-### Threat Modeling Data Flow 3: ?
+### Threat Modeling Data Flow 3: Wallet (Rough Draft)
 * Level 0 DFD
+![wallet_level0](https://user-images.githubusercontent.com/45551925/68093384-a75e5600-fe5a-11e9-9e04-a75ed84b7691.png)
+
 * Level 1 DFD
+![wallet_level1](https://user-images.githubusercontent.com/45551925/68093393-bba25300-fe5a-11e9-9dc1-7e26f5962763.png)
+
 * Analysis
 
 ### Observation Summary
-* ...
+* Reference STRIDE ... 
 
 ### Team Reflection Summary
 * ...
