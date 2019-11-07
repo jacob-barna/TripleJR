@@ -48,7 +48,22 @@ https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report
 * Analysis
 
 ### Observation Summary
-* Reference STRIDE ... 
+## Spoofing
+
+In the context of browsing the web using SSL, the Brave browser mitigates the threat of information disclosure through the use of secure encryption algorithms.  Brave uses well-known certificate verification routines to trace a certificate to a root Certificate Authority (CA).  If a path to a root CA cannot be verified, the browser warns the user of unsafe communications.  In the context of information disclosure, the browser has a secure encryption scheme using Diffie-Hellman routines [1] for key exchange and secure symmetric algorithms, such as ChaCha20 once a connection is established.  This makes decrypting any intercepted traffic improbable.  
+
+There are some recent attacks that leverage the WPAD protocol and could potentially lead to a Man-in-the-middle (MitM) attack.  These should be investigated further.  From searching the Brave repository it does not appear that they override the default setting to enable WPAD on chrome.
+
+
+## Tampering
+
+## Repudiation
+
+## Information Disclosure
+
+## Denial of Service
+
+## Elevation of Privilege
 
 ### Team Reflection Summary
 * ...
@@ -56,3 +71,6 @@ https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
 [Team Project Board](https://github.com/jacob-barna/TripleJR/projects/4)  
+
+[1]: https://cs.chromium.org/chromium/src/net/cert/cert_verifier.cc?q=certificate+verifier&sq=package:chromium&dr=CSs
+[2]: https://cs.chromium.org/search/?q=chacha&sq=package:chromium&type=cs
