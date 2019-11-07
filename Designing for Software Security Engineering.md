@@ -16,15 +16,21 @@ Submit a markdown report that includes the following:
 ![image](https://user-images.githubusercontent.com/45551925/67908013-d6698480-fb47-11e9-821b-0c25ada8041d.png)
 
 
-### Threat Modeling Data Flow 1: ?
+### Threat Modeling Data Flow 1: SSL Browsing
 * Level 0 DFD
-* Level 1 DFD
-* Analysis
 
-### Threat Modeling Data Flow 2: ?
-* Level 0 DFD
 * Level 1 DFD
+
 * Analysis
+The full report is available here: https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report.htm
+
+### Threat Modeling Data Flow 2: Certificate Revocation List Update
+* Level 0 DFD
+
+* Level 1 DFD
+
+* Analysis
+The full report is available here: https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report.htm
 
 ### Threat Modeling Data Flow 3: Wallet (Rough Draft)
 * Level 0 DFD
