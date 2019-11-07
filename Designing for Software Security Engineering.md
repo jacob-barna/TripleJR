@@ -18,19 +18,25 @@ Submit a markdown report that includes the following:
 
 ### Threat Modeling Data Flow 1: SSL Browsing
 * Level 0 DFD
+![SSL_Level_0](https://user-images.githubusercontent.com/31263469/68427554-f7e1f600-016f-11ea-9373-56fccd2d0b4e.png)
 
 * Level 1 DFD
+![SSL_Level_1](https://user-images.githubusercontent.com/31263469/68427555-f9abb980-016f-11ea-9f29-8426b67398f0.png)
 
 * Analysis
-The full report is available here: https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report.htm
+The full report is available here: 
+https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report.htm
 
 ### Threat Modeling Data Flow 2: Certificate Revocation List Update
 * Level 0 DFD
+![CRL_Update_Level_0](https://user-images.githubusercontent.com/31263469/68427541-f31d4200-016f-11ea-9264-45de4ca55490.png)
 
 * Level 1 DFD
+![CRL_Update_Level_1](https://user-images.githubusercontent.com/31263469/68427550-f6183280-016f-11ea-93ba-3f156a7266d7.png)
 
 * Analysis
-The full report is available here: https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report.htm
+The full report is available here: 
+https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report.htm
 
 ### Threat Modeling Data Flow 3: Wallet (Rough Draft)
 * Level 0 DFD
