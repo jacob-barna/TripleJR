@@ -24,7 +24,7 @@ Submit a markdown report that includes the following:
 ![SSL_Level_1](https://user-images.githubusercontent.com/31263469/68427555-f9abb980-016f-11ea-9f29-8426b67398f0.png)
 
 * Analysis  
-The full report is available here: 
+The full report is available here:  
 https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report.htm
 
 ### Threat Modeling Data Flow 2: Certificate Revocation List Update
