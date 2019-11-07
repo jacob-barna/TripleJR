@@ -50,7 +50,7 @@ https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report
 ### Observation Summary
 ## Spoofing
 
-In the context of browsing the web using SSL, the Brave browser mitigates the threat of information disclosure through the use of secure encryption algorithms.  Brave uses well-known certificate verification routines to trace a certificate to a root Certificate Authority (CA).  If a path to a root CA cannot be verified, the browser warns the user of unsafe communications.  In the context of information disclosure, the browser has a secure encryption scheme using Diffie-Hellman routines [1] for key exchange and secure symmetric algorithms, such as ChaCha20 once a connection is established.  This makes decrypting any intercepted traffic improbable.  
+In the context of browsing the web using SSL, the Brave browser mitigates the threat of information disclosure through the use of secure encryption algorithms.  Brave uses well-known certificate verification routines to trace a certificate to a root Certificate Authority (CA).  If a path to a root CA cannot be verified, the browser warns the user of unsafe communications.  In the context of information disclosure, the browser has a secure encryption scheme using Diffie-Hellman routines [1] for key exchange and secure symmetric algorithms, such as ChaCha20 once a connection is established [2].  This makes decrypting any intercepted traffic improbable.  
 
 There are some recent attacks that leverage the WPAD protocol and could potentially lead to a Man-in-the-middle (MitM) attack.  These should be investigated further.  From searching the Brave repository it does not appear that they override the default setting to enable WPAD on chrome.
 
