@@ -50,14 +50,18 @@ https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report
 ### Observation Summary
 ## Spoofing
 
-In the context of browsing the web using SSL, the Brave browser mitigates the threat of information disclosure through the use of secure encryption algorithms.  Brave uses well-known certificate verification routines to trace a certificate to a root Certificate Authority (CA).  If a path to a root CA cannot be verified, the browser warns the user of unsafe communications.  In the context of information disclosure, the browser has a secure encryption scheme using Diffie-Hellman routines [1] for key exchange and secure symmetric algorithms, such as ChaCha20 once a connection is established [2].  This makes decrypting any intercepted traffic improbable.  
+In the context of browsing the web using SSL, the Brave browser mitigates the threat of spoofing through the use of secure encryption algorithms.  Brave uses well-known certificate verification routines to trace a certificate to a root Certificate Authority (CA).  If a path to a root CA cannot be verified, the browser warns the user of unsafe communications.  To address unintended information disclosure through spoofing, the browser uses Diffie-Hellman key exchange and secure symmetric algorithms, such as ChaCha20, once a connection is established [1] [2].  This makes decrypting any intercepted traffic improbable.  
 
 There are some recent attacks that leverage the WPAD protocol and could potentially lead to a Man-in-the-middle (MitM) attack.  These should be investigated further.  From searching the Brave repository it does not appear that they override the default setting to enable WPAD on chrome.
 
 
 ## Tampering
 
+As mentioned in the observations on mitigating spoofing, the Brave browser prefers Elliptic-curve Diffie-Hellman Ephemeral key exchange over other options.  The ephemeral key provides forward secrecy so that if the private key of the communicating party is leaked, the past messages are still secret.  If this cipher suite is implemented correctly, the key exchange is encrypted using the public key of the receiver and can only be decrypted using the private key [3].  During the key exchange, the message containing the public key is signed by the communicating party so the key can be authenticated by the receiver.  If the public key is tampered with, the receiver will know.  After the secret key is exchanged and symmetric encryption has begun, any tampering will result in a garbled message closer to random bits than the original content (avalanche effect).
+
 ## Repudiation
+
+
 
 ## Information Disclosure
 
@@ -74,3 +78,4 @@ There are some recent attacks that leverage the WPAD protocol and could potentia
 
 [1]: https://cs.chromium.org/chromium/src/net/cert/cert_verifier.cc?q=certificate+verifier&sq=package:chromium&dr=CSs
 [2]: https://cs.chromium.org/search/?q=chacha&sq=package:chromium&type=cs
+[3]: https://www.ei.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2015/09/14/main-full.pdf
