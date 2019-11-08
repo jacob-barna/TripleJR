@@ -61,11 +61,14 @@ As mentioned in the observations on mitigating spoofing, the Brave browser prefe
 
 ## Repudiation
 
-
+Brave does not log unless a switch is used.  This could lead to repudiation, but it may also be desirable to privacy minded users.
 
 ## Information Disclosure
 
+
 ## Denial of Service
+
+
 
 ## Elevation of Privilege
 
