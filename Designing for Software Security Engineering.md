@@ -42,11 +42,10 @@ https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/SSL_Full_Report
 * Level 0 DFD  
 <img width="599" alt="wallet_L0" src="https://user-images.githubusercontent.com/45551925/68523911-1c7bc200-0285-11ea-9ee3-e59f3e2181c0.png">
 * Level 1 DFD  
-<img width="1104" alt="wallet_L1" src="https://user-images.githubusercontent.com/45551925/68523922-2f8e9200-0285-11ea-9455-74c7b68afad4.png">
-
+<img width="1079" alt="Wallet_L1_Updated" src="https://user-images.githubusercontent.com/45551925/68551377-0596b600-03d2-11ea-98fc-b360bf48b865.png">
 * Analysis
 
-### Observation Summary
+## Observation Summary
 ## Spoofing
 
 In the context of browsing the web using SSL, the Brave browser mitigates the threat of spoofing through the use of secure encryption algorithms.  Brave uses well-known certificate verification routines to trace a certificate to a root Certificate Authority (CA).  If a path to a root CA cannot be verified, the browser warns the user of unsafe communications.  To address unintended information disclosure through spoofing, the browser uses Diffie-Hellman key exchange and secure symmetric algorithms, such as ChaCha20, once a connection is established [1] [2].  This makes decrypting any intercepted traffic improbable.  
