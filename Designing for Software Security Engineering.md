@@ -86,10 +86,13 @@ Brave browser runs by default in a non-privileged mode.  If a user (who is an ad
 * --Jacob - Extra time for assignment . 
 * --Jacob - Lots of research, lots of learning . 
 * --Ronald - extra time helped me really think about developing a strong DFD; this assignment helped me look at certain threat actors i wasn't thinking about . 
+* --Jill - Extra time was nice to have. 
 
 #### * What didn't go well: 
 * --Jacob - problems with Threat modeling tool 2016 deleting data and freezing .  
 * --Ronald - noticed that when generating my report to HTML, weird stuff seems to happen to where ever their was an apostrophe. 
+* --Jill - I didn't like that we were taught a new part of the project before we turned in this assignment. I felt like my focus had to stay on the current assignment and I may be behind for the next one now. 
+* --Jill - the treat model tool froze on me too
 
 #### * Things we should try: 
 * -- Jacob - no ideas . 
