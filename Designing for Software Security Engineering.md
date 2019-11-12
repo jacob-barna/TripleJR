@@ -82,15 +82,18 @@ Denial of service attacks are usually aimed at the network services that the bro
 Brave browser runs by default in a non-privileged mode.  If a user (who is an administrator) opens the chrome process in a higher privilege level, there are serious (recent) vulnerabilities that could allow remote code execution [4].  Most mitigation strategies rely on the user running in least privilege mode and user awareness of the security consequences of clicking untrusted links or visiting untrusted websites as new attacks are constantly found and patched.  Brave browser also mitigates these through a bug bounty program, a security team in place, and constant updates as attacks are found and blocked.  
 
 ### Team Reflection Summary
-* What went well: 
---Jacob - Extra time for assignment
---Jacob - Lots of research, lots of learning
+#### * What went well: 
+* --Jacob - Extra time for assignment . 
+* --Jacob - Lots of research, lots of learning . 
+* --Ronald - extra time helped me really think about developing a strong DFD; this assignment helped me look at certain threat actors i wasn't thinking about . 
 
-* What didn't go well: 
---Jacob - problems with Threat modeling tool 2016 deleting data and freezing
+#### * What didn't go well: 
+* --Jacob - problems with Threat modeling tool 2016 deleting data and freezing .  
+* --Ronald - noticed that when generating my report to HTML, weird stuff seems to happen to where ever their was an apostrophe. 
 
-* Things we should try: 
--- Jacob - no ideas
+#### * Things we should try: 
+* -- Jacob - no ideas . 
+* -- Ronald - nothing comes to mind, thing our group is working well . 
 
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
