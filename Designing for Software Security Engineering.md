@@ -57,6 +57,7 @@ https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/Wallet_Report2.
 
 * Analysis
 The full report is avaiable here:
+
 *link to come*
 
 ## Observation Summary
