@@ -65,25 +65,27 @@ The full report is avaiable here:
 
 In the context of browsing the web using SSL, the Brave browser mitigates the threat of spoofing through the use of secure encryption algorithms.  Brave uses well-known certificate verification routines to trace a certificate to a root Certificate Authority (CA).  If a path to a root CA cannot be verified, the browser warns the user of unsafe communications.  To address unintended information disclosure through spoofing, the browser uses Diffie-Hellman key exchange and secure symmetric algorithms, such as ChaCha20, once a connection is established [1] [2].  This makes decrypting any intercepted traffic improbable.  
 
-There are some recent attacks that leverage the WPAD protocol and could potentially lead to a Man-in-the-middle (MitM) attack.  These should be investigated further.  From searching the Brave repository it does not appear that they override the default setting to enable WPAD on chrome.
+There are some recent attacks that leverage the WPAD protocol and could potentially lead to a Man-in-the-middle (MitM) attack.  These should be investigated further.  From searching the Brave repository, it does not appear that they override the default setting to enable WPAD on Chrome.
 
-In the context of certificate verification, there may be some investigation needed into whether the local certification revocation list can be spoofed.  Initial experiments in this area show that some of the file is in plain text and can be modified (for example, to remove an entry in the revoked CRLs).  It is yet to be proven that such a removal would lead to Brave trusting the certificate.  In addition, even if it were proven that this were the case, the private key of the revoked certificate would need to be in the hands of an attacker, and potentially, the attacker would need to perform a denial of service on the CRL update mechanism on chrome to prevent the CRL list from updating.  
+In the context of the Extensions DFD, spoofing attacks is something that seems to have the proper mitigation techniques that can be put in place. Users will need to set up and use Chrome Identity API to authenticate. https://developer.chrome.com/apps/app_identity provides users the instructions to enable Google and non-Google accounts.
 
-In context of the Wallet DFD, there may need to be some more investigation done in regard to spoofing the authorized creators file, which can lead to data being written to the attacker’s target instead of that file/list. Even though Brave does have a signup process for users that want to be considered a Creator, after reviewing the signup process, there isn’t much validation that I noticed that goes into this. This could allow for bad actors to create legitimate Creator accounts for users to donate if they choose too. Even though this could be hard to truly prevent, I think a stronger verification process could deter bad actors from signing up to be considered a Creator. 
+In the context of certificate verification, there may be some investigation needed into whether the local certification revocation list can be spoofed.  Initial experiments in this area show that some of the files is in plain text and can be modified (for example, to remove an entry in the revoked CRLs).  It is yet to be proven that such a removal would lead to Brave trusting the certificate.  In addition, even if it were proven that this were the case, the private key of the revoked certificate would need to be in the hands of an attacker, and potentially, the attacker would need to perform a denial of service on the CRL update mechanism on chrome to prevent the CRL list from updating.  
+
+In the context of the Wallet DFD, there may need to be some more investigation done in regard to spoofing the authorized creators file, which can lead to data being written to the attacker’s target instead of that file/list. Even though Brave does have a signup process for users that want to be considered a Creator, after reviewing the signup process, there isn’t much validation that I noticed that goes into this. This could allow for bad actors to create legitimate Creator accounts for users to donate if they choose too. Even though this could be hard to truly prevent, I think a stronger verification process could deter bad actors from signing up to be considered a Creator. 
 
 ## Tampering
 
-As mentioned in the observations on mitigating spoofing, the Brave browser prefers Elliptic-curve Diffie-Hellman Ephemeral key exchange over other options.  The ephemeral key provides forward secrecy so that if the private key of the communicating party is leaked, the past messages are still secret.  If this cipher suite is implemented correctly, the key exchange is encrypted using the public key of the receiver and can only be decrypted using the private key [3].  During the key exchange, the message containing the public key is signed by the communicating party so the key can be authenticated by the receiver.  If the public key is tampered with, the receiver will know.  After the secret key is exchanged and symmetric encryption has begun, any tampering will result in a garbled message closer to random bits than the original content (avalanche effect).
+As mentioned in the observations on mitigating spoofing, the Brave browser prefers Elliptic-curve Diffie-Hellman Ephemeral key exchange over other options.  The ephemeral key provides forward secrecy so that if the private key of the communicating party is leaked, the past messages are still secret.  If this cipher suite is implemented correctly, the key exchange is encrypted using the public key of the receiver and can only be decrypted using the private key [3].  During the key exchange, the message containing the public key is signed by the communicating part, so the key can be authenticated by the receiver.  If the public key is tampered with, the receiver will know.  After the secret key is exchanged and symmetric encryption has begun, any tampering will result in a garbled message closer to random bits than the original content (avalanche effect).
 
 ## Repudiation
 
-Brave does not log unless a switch is used.  This could lead to repudiation, but it may also be desirable to privacy minded users.
+Brave does not log unless a switch is used.  This could lead to repudiation, but it may also be desirable to privacy-minded users.
 
-In context of the Wallet DFD, repudiation attacks are something that seems to have the proper mitigation techniques in place to due to the sensitivity of user funds being handled. Brave’s partner, Uphold, has a [security operations center](https://support.uphold.com/hc/en-us/articles/203399367-Security-at-Uphold) that monitors systems 24/7 and responses to suspicious activity as soon as the arise. 
+In the context of the Wallet DFD, repudiation attacks are something that seems to have the proper mitigation techniques in place due to the sensitivity of user funds being handled. Brave’s partner, Uphold, has a [security operations center](https://support.uphold.com/hc/en-us/articles/203399367-Security-at-Uphold) that monitors systems 24/7 and responses to suspicious activity as soon as they arise. 
 
 ## Information Disclosure
 
-Brave browser applies the encyrption schemes described above to prevent information disclosure when crossing trust boundaries.  Any intercepted information is unreadable to an attacker.
+Brave browser applies the encryption schemes described above to prevent information disclosure when crossing trust boundaries.  Any intercepted information is unreadable to an attacker.
 
 ## Denial of Service
 
@@ -91,24 +93,26 @@ Denial of service attacks are usually aimed at the network services that the bro
 
 ## Elevation of Privilege
 
-Brave browser runs by default in a non-privileged mode.  If a user (who is an administrator) opens the chrome process in a higher privilege level, there are serious (recent) vulnerabilities that could allow remote code execution [4].  Most mitigation strategies rely on the user running in least privilege mode and user awareness of the security consequences of clicking untrusted links or visiting untrusted websites as new attacks are constantly found and patched.  Brave browser also mitigates these through a bug bounty program, a security team in place, and constant updates as attacks are found and blocked.  
+Brave browser runs by default in a non-privileged mode.  If a user (who is an administrator) opens the chrome process at a higher privilege level, there are serious (recent) vulnerabilities that could allow remote code execution [4].  Most mitigation strategies rely on the user running in the least privileged mode and user awareness of the security consequences of clicking untrusted links or visiting untrusted websites as new attacks are found continuously and patched.  Brave browser also mitigates these through a bug bounty program, a security team in place, and constant updates as attacks are found and blocked. 
+
+In the context of the Extensions DFD, the elevation of privilege, there may need to be some more investigation done in regard to elevation of privilege from the API used for extensions. The APIs allow for navigation to javascript. This can be used to elevate privilege for a cross-site scripting attack by a malicious browser extension and can be used to inject content into other extensions.
 
 ### Team Reflection Summary
 #### * What went well: 
-* --Jacob - Extra time for assignment . 
-* --Jacob - Lots of research, lots of learning . 
-* --Ronald - extra time helped me really think about developing a strong DFD; this assignment helped me look at certain threat actors i wasn't thinking about . 
+* --Jacob - Extra time for assignment. 
+* --Jacob - Lots of research, lots of learning. 
+* --Ronald - extra time helped me really think about developing a strong DFD; this assignment helped me look at certain threat actors I wasn't thinking about. 
 * --Jill - Extra time was nice to have. 
 
 #### * What didn't go well: 
-* --Jacob - problems with Threat modeling tool 2016 deleting data and freezing .  
+* --Jacob - problems with Threat modeling tool 2016 deleting data and freezing.  
 * --Ronald - noticed that when generating my report to HTML, weird stuff seems to happen to where ever their was an apostrophe. 
 * --Jill - I didn't like that we were taught a new part of the project before we turned in this assignment. I felt like my focus had to stay on the current assignment and I may be behind for the next one now. 
-* --Jill - the treat model tool froze on me too
+* --Jill - the treat model tool froze on me on several occasions
 
 #### * Things we should try: 
-* -- Jacob - no ideas . 
-* -- Ronald - nothing comes to mind, thing our group is working well . 
+* -- Jacob - no ideas. 
+* -- Ronald - nothing comes to mind, thing our group is working well. 
 
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
