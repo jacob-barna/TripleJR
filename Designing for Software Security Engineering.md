@@ -51,8 +51,10 @@ https://github.com/jacob-barna/TripleJR/blob/master/ThreatModels/Wallet_Report2.
 ### Threat Modeling Data Flow 4: Extensions
 * Level 0 DFD
 ![level0](https://user-images.githubusercontent.com/25576618/68724571-8ea01f80-0581-11ea-9977-04180d77b8b7.jpg)
+
 * Level 1 DFD
 ![level1](https://user-images.githubusercontent.com/25576618/68724676-c7d88f80-0581-11ea-8205-a77c59674a0d.jpg)
+
 * Analysis
 The full report is avaiable here:
 *link to come*
