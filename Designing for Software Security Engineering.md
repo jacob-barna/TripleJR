@@ -88,13 +88,13 @@ In the context of the Extensions DFD, the elevation of privilege, there may need
 
 ### Team Reflection Summary
 #### * What went well: 
-Collectively, we agree that we benefited from the extra time given to submit this assignment. Ron mentioned that this project assignment really challenged him to think about developing a strong DFD and to look at certain threat actors that he wasn't thinking about.  
+Collectively, we agree that we benefited from the extra time given to submit this assignment. Ron mentioned that this project assignment challenged him to think about developing a strong DFD and to look at certain threat actors that he wasn't thinking about.
 
 #### * What didn't go well: 
-Collectively, we all had issues with using the Threat modeling tool 2016 with several occassions of the software freezing up and deleting data without user prompts. One of us mentioned that when generating the report to HTML, there were weird stuff that seemed to happen to whenever there was an apostrophe. 
+Collectively, we all had issues with using the Threat modeling tool 2016 with several occasions of the software freezing up and deleting data without user prompts. One of us mentioned that when generating the report to HTML, there was weird stuff that seemed to happen whenever there was an apostrophe. 
 
 #### * Things we should try: 
-The group continues to work well together.  We have communicated through discord very well for questions, concerns or project update statuses. 
+The group continues to work well together. We have communicated through discord very well for questions, concerns, or project update statuses. 
 
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
