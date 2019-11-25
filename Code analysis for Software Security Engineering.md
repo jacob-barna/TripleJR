@@ -16,11 +16,32 @@ Code analysis for Software Security Engineering: A markdown report that describe
 - Links to any pull requests, issues, discussion, etc. from the team to the original project and any follow-up interactions.
 - Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task. Also, include a summary of your team reflection meeting. What issues occurred? What did you plan to change moving forward?  
 
+Can be deleted before submission/from textbook and things to consider: A code security review helps you find possible security flaws, share knowledge of how to design secure code, and improve the overall design.  the overall design of the code, while paying extra attention to things like the implementation or absence of secure code constructs. Another aspect to think about is which people should take part in the code security review. Should you only involve people within the team, or should you also include people from outside the team?
+
 ## Rubric 
 ![image](https://user-images.githubusercontent.com/45551925/69557223-d8b6d700-0f6b-11ea-997b-96c15819f889.png)
 
 ## Code Review Strategy 
-- stuff will go here
+
+Security features that should be involved in the code review: 
+•	CNAME verification
+•	Use of first party cookies and blocking of third-party cookies
+•	Block scripts
+•	Use SSL
+•	Use strong default settings
+•	Authorization methods
+•	Use encryption
+•	Require strong passwords
+Below is an overview of our strategy:
+•	Identify source code security problems with automated analysis
+•	Analyze the findings from automated analysis
+o	Map findings to any patterns from the analysis. 
+•	Run static analysis tools against the codebase
+•	Analyze the findings from static analysis 
+o	Identify any patterns from the analysis. Identify repeated CWEs. 
+•	Perform manual code review of notable security features from our assurance cases, use and misuse cases
+o	Map findings to threats related to CWEs identified in automated and static analysis.
+
 
 ## Code Review Results
 
@@ -31,7 +52,7 @@ Code analysis for Software Security Engineering: A markdown report that describe
 - stuff will go here  
 
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
-- stuff will go here  
+- Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
 
 
 ## Team GitHub 
