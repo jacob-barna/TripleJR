@@ -19,6 +19,19 @@ Code analysis for Software Security Engineering: A markdown report that describe
 ## Rubric 
 ![image](https://user-images.githubusercontent.com/45551925/69557223-d8b6d700-0f6b-11ea-997b-96c15819f889.png)
 
+## Code Review Strategy 
+- stuff will go here
+
+## Code Review Results
+
+### Manual Code Review   
+- stuff will go here  
+  
+### Automated Code Scanning  
+- stuff will go here  
+
+### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
+- stuff will go here  
 
 
 ## Team GitHub 
