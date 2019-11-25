@@ -23,24 +23,25 @@ Can be deleted before submission/from textbook and things to consider: A code se
 
 ## Code Review Strategy 
 
-Security features that should be involved in the code review: 
-•	CNAME verification
-•	Use of first party cookies and blocking of third-party cookies
-•	Block scripts
-•	Use SSL
-•	Use strong default settings
-•	Authorization methods
-•	Use encryption
-•	Require strong passwords
-Below is an overview of our strategy:
-•	Identify source code security problems with automated analysis
-•	Analyze the findings from automated analysis
-o	Map findings to any patterns from the analysis. 
-•	Run static analysis tools against the codebase
-•	Analyze the findings from static analysis 
-o	Identify any patterns from the analysis. Identify repeated CWEs. 
-•	Perform manual code review of notable security features from our assurance cases, use and misuse cases
-o	Map findings to threats related to CWEs identified in automated and static analysis.
+### Security features that should be involved in the code review:
+* CNAME verification 
+* Use of first party cookies and blocking of third-party cookies 
+* Block scripts 
+* Use SSL
+* Use strong default settings
+* Authorization methods
+* Use encryption
+* Require strong passwords
+
+### Below is an overview of our strategy:
+* Identify source code security problems with automated analysis
+* Analyze the findings from automated analysis
+  * Map findings to any patterns from the analysis. 
+* Run static analysis tools against the codebase
+* Analyze the findings from static analysis 
+  * Identify any patterns from the analysis. Identify repeated CWEs. 
+* Perform manual code review of notable security features from our assurance cases, use and misuse cases
+* Map findings to threats related to CWEs identified in automated and static analysis.
 
 
 ## Code Review Results
