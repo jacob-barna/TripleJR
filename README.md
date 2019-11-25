@@ -9,6 +9,6 @@ Repository for CYBR 8420 Software Assurance. Below will include quick links to o
 
 ### [Designing for Software Security Engineering](https://github.com/jacob-barna/TripleJR/blob/master/Designing%20for%20Software%20Security%20Engineering.md)
 
-### Code analysis for Software Security Engineering
+### [Code analysis for Software Security Engineering](https://github.com/jacob-barna/TripleJR/blob/master/Code%20analysis%20for%20Software%20Security%20Engineering.md) 
 
 ### Class Presentation
