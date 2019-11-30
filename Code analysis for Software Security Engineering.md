@@ -50,7 +50,16 @@ Can be deleted before submission/from textbook and things to consider: A code se
 - stuff will go here  
   
 ### Automated Code Scanning  
-- stuff will go here  
+The first tool we used to analyze the Brave tool was [Codacy](https://www.codacy.com/). The tool was able to find 1086 total issues. The brakedown of these issues includes the following:
+
+- Security = 27
+- Error Prone = 16
+- Code Style = 1043
+
+Our team first began to look more into the large number we received back for the Code Style. When seeing this, our initial thoughts were that the “issues” flagged for this section would probably include a lot of “code grammer.” And after reviewing, it was in fact the case. For example, in the following path: “scripts/lint.py” the code picked up a few silly “issues.” 
+
+<img width="668" alt="codacy-1" src="https://user-images.githubusercontent.com/45551925/69897430-9f86ba00-1311-11ea-89f5-f9661265a600.png">
+
 
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
 - Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
