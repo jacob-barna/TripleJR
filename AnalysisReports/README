@@ -1,1 +1,4 @@
-ReadMe
+Results from FlawFinder:
+chrome_static_analysis.html
+
+Because Brave browser relies on the Chromium project, the Chromium project was scanned.  Only "hits" with level 3+ are included in this report.
