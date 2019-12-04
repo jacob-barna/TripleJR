@@ -56,7 +56,9 @@ For manual review, code search was heavily used to target the code to review man
 #### SSL use/misuse cases
   
 ### Automated Code Scanning  
-The first tool we used to analyze the Brave tool was [Codacy](https://www.codacy.com/). The tool was able to find 1086 total issues. The brakedown of these issues includes the following:
+#### [Codacy](https://www.codacy.com/)
+
+The first tool we used to analyze the Brave tool was Codacy. The tool was able to find 1086 total issues. The brakedown of these issues includes the following:
 
 - Security = 27
 - Error Prone = 16
@@ -76,6 +78,49 @@ Next, we began looking at our results at the issues noted for “Error Prone.”
 
 ![issue3-SA](https://user-images.githubusercontent.com/45551925/70160782-aa7a7b00-1680-11ea-88c7-41e52e1df5cf.png)
 
+
+#### [Flawfinder](https://github.com/david-a-wheeler/flawfinder) 
+Our group decided to also analyze some of the other repositories that make up the Brave application. Using Flawfinder mentioned from class, wanted to analyze a different repository to see what kind of results we would be able to find, so we looked at the [Brave Core Engine](https://github.com/brave/brave-core) which is 56.1% C++. Here are out results:
+
+##### Total Hits/Issue = 87
+##### Lines of code analyzed = 205648
+##### Hits by Risk Level  
+
+| Hits Level | Total Risk(s) |   
+|---|---|
+| 5 | 1  |  
+| 4 | 11  |  
+| 3 | 29 |   
+| 2 | 41  |   
+| 1 | 5  |  
+| 0 | 0  |  
+
+
+##### Findings based on Hits Level:
+
+* Hits Risk Level  5
+  * [CWE-362](https://cwe.mitre.org/data/definitions/362.html) 'Race Condition' & [CWE-20](https://cwe.mitre.org/data/definitions/20.html) 'Improper Input Validation'
+  
+* Hits Risk Level 4
+    * [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
+
+* Hits Risk Level 3
+    * [CWE-807](https://cwe.mitre.org/data/definitions/807.html) 'Reliance on Untrusted Inputs in a Security Decision'
+    * [CWE-20](https://cwe.mitre.org/data/definitions/20.html) 'Improper Input Validation'
+    * [CWE-327](https://cwe.mitre.org/data/definitions/327.html) 'Use of a Broken or Risky Cryptographic Algorithm'
+    
+* Hits Risk Level 2
+    
+    *  [CWE-119](https://cwe.mitre.org/data/definitions/119.html) 'Improper Restriction of Operations within the Bounds of a Memory Buffer'
+    * [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
+    *  [CWE-362](https://cwe.mitre.org/data/definitions/362.html) 'Race Condition'
+
+* Hits Risk Level 1
+    * [CWE-126](https://cwe.mitre.org/data/definitions/126.html) 'Buffer Over-read'
+    * [CWE-20](https://cwe.mitre.org/data/definitions/20.html) 'Improper Input Validation'
+    *  [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
+
+[Full Flawfinder Report](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/SA-Flawfinder-Report.txt) 
 
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
 - Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
