@@ -1,0 +1,2089 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining brave-core-master/renderer/brave_content_settings_observer_browsertest.cc
+Examining brave-core-master/renderer/brave_content_renderer_client.h
+Examining brave-core-master/renderer/brave_content_settings_observer_helper.h
+Examining brave-core-master/renderer/brave_content_settings_observer.h
+Examining brave-core-master/renderer/brave_content_settings_observer.cc
+Examining brave-core-master/renderer/brave_content_settings_observer_autoplay_browsertest.cc
+Examining brave-core-master/renderer/brave_content_renderer_client.cc
+Examining brave-core-master/renderer/brave_content_settings_observer_flash_browsertest.cc
+Examining brave-core-master/net/proxy_resolution/proxy_config_service_tor.cc
+Examining brave-core-master/net/proxy_resolution/proxy_config_service_tor.h
+Examining brave-core-master/net/proxy_resolution/proxy_resolution_service_unittest.cc
+Examining brave-core-master/net/proxy_resolution/proxy_config_service_tor_unittest.cc
+Examining brave-core-master/app/brave_command_ids.h
+Examining brave-core-master/app/brave_main_delegate_browsertest.cc
+Examining brave-core-master/app/brave_command_line_helper.h
+Examining brave-core-master/app/brave_main_delegate.h
+Examining brave-core-master/app/brave_command_line_helper.cc
+Examining brave-core-master/app/brave_main_delegate.cc
+Examining brave-core-master/app/brave_command_line_helper_unittest.cc
+Examining brave-core-master/test/base/brave_test_launcher_delegate.h
+Examining brave-core-master/test/base/brave_testing_profile.h
+Examining brave-core-master/test/base/brave_test_launcher_delegate.cc
+Examining brave-core-master/test/base/brave_unit_test_suite.h
+Examining brave-core-master/test/base/brave_unit_test_suite.cc
+Examining brave-core-master/test/base/run_all_unittests.cc
+Examining brave-core-master/test/base/brave_testing_profile.cc
+Examining brave-core-master/test/base/browser_tests_main.cc
+Examining brave-core-master/content/browser/webui/brave_shared_resources_data_source.cc
+Examining brave-core-master/content/browser/webui/brave_shared_resources_data_source.h
+Examining brave-core-master/content/common/frame_messages.h
+Examining brave-core-master/content/common/content_message_generator.cc
+Examining brave-core-master/content/common/content_message_generator.h
+Examining brave-core-master/extensions/browser/brave_extensions_browser_client.cc
+Examining brave-core-master/extensions/browser/brave_extensions_browser_client.h
+Examining brave-core-master/browser/brave_resources_util_unittest.cc
+Examining brave-core-master/browser/update_util.h
+Examining brave-core-master/browser/metrics/metrics_reporting_util.cc
+Examining brave-core-master/browser/metrics/metrics_reporting_util_unittest_linux.cc
+Examining brave-core-master/browser/metrics/metrics_reporting_util.h
+Examining brave-core-master/browser/ui/tabs/brave_tab_menu_model.cc
+Examining brave-core-master/browser/ui/tabs/brave_tab_menu_model.h
+Examining brave-core-master/browser/ui/content_settings/brave_autoplay_blocked_image_model.cc
+Examining brave-core-master/browser/ui/content_settings/brave_autoplay_blocked_image_model_browsertest.cc
+Examining brave-core-master/browser/ui/content_settings/brave_content_setting_image_models.h
+Examining brave-core-master/browser/ui/content_settings/brave_autoplay_content_setting_bubble_model.h
+Examining brave-core-master/browser/ui/content_settings/brave_autoplay_content_setting_bubble_model.cc
+Examining brave-core-master/browser/ui/content_settings/brave_autoplay_blocked_image_model.h
+Examining brave-core-master/browser/ui/content_settings/brave_content_setting_bubble_model.h
+Examining brave-core-master/browser/ui/content_settings/brave_content_setting_image_models.cc
+Examining brave-core-master/browser/ui/content_settings/brave_content_setting_bubble_model.cc
+Examining brave-core-master/browser/ui/brave_layout_constants.cc
+Examining brave-core-master/browser/ui/bookmark/recently_used_folders_combo_model.h
+Examining brave-core-master/browser/ui/bookmark/brave_bookmark_tab_helper.h
+Examining brave-core-master/browser/ui/bookmark/bookmark_prefs_service_factory.h
+Examining brave-core-master/browser/ui/bookmark/bookmark_prefs_service.cc
+Examining brave-core-master/browser/ui/bookmark/bookmark_prefs_service.h
+Examining brave-core-master/browser/ui/bookmark/recently_used_folders_combo_model.cc
+Examining brave-core-master/browser/ui/bookmark/bookmark_tab_helper_browsertest.cc
+Examining brave-core-master/browser/ui/bookmark/bookmark_prefs_service_factory.cc
+Examining brave-core-master/browser/ui/bookmark/brave_bookmark_tab_helper.cc
+Examining brave-core-master/browser/ui/brave_browser_content_setting_bubble_model_delegate.cc
+Examining brave-core-master/browser/ui/brave_pages.cc
+Examining brave-core-master/browser/ui/brave_browser_command_controller.cc
+Examining brave-core-master/browser/ui/omnibox/brave_omnibox_client_impl.h
+Examining brave-core-master/browser/ui/omnibox/brave_omnibox_client_impl.cc
+Examining brave-core-master/browser/ui/brave_pages.h
+Examining brave-core-master/browser/ui/browser_commands.cc
+Examining brave-core-master/browser/ui/toolbar/brave_app_menu_model.cc
+Examining brave-core-master/browser/ui/toolbar/brave_app_menu_model.h
+Examining brave-core-master/browser/ui/toolbar/brave_location_bar_model_delegate.cc
+Examining brave-core-master/browser/ui/toolbar/brave_toolbar_actions_model.cc
+Examining brave-core-master/browser/ui/toolbar/brave_app_menu_model_browsertest.cc
+Examining brave-core-master/browser/ui/toolbar/brave_toolbar_actions_model.h
+Examining brave-core-master/browser/ui/toolbar/brave_location_bar_model_delegate.h
+Examining brave-core-master/browser/ui/toolbar/brave_location_bar_model_delegate_unittest.cc
+Examining brave-core-master/browser/ui/browser_commands.h
+Examining brave-core-master/browser/ui/brave_browser_command_controller.h
+Examining brave-core-master/browser/ui/brave_browser_content_setting_bubble_model_delegate.h
+Examining brave-core-master/browser/ui/webui/brave_welcome_ui.h
+Examining brave-core-master/browser/ui/webui/brave_rewards_source.cc
+Examining brave-core-master/browser/ui/webui/brave_settings_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_tip_ui.h
+Examining brave-core-master/browser/ui/webui/settings/default_brave_shields_handler.h
+Examining brave-core-master/browser/ui/webui/settings/brave_default_extensions_handler.h
+Examining brave-core-master/browser/ui/webui/settings/brave_privacy_handler.cc
+Examining brave-core-master/browser/ui/webui/settings/brave_relaunch_handler_mac.h
+Examining brave-core-master/browser/ui/webui/settings/brave_about_handler.cc
+Examining brave-core-master/browser/ui/webui/settings/brave_privacy_handler.h
+Examining brave-core-master/browser/ui/webui/settings/brave_about_handler.h
+Examining brave-core-master/browser/ui/webui/settings/brave_default_extensions_handler.cc
+Examining brave-core-master/browser/ui/webui/settings/default_brave_shields_handler.cc
+Examining brave-core-master/browser/ui/webui/brave_webui_source.cc
+Examining brave-core-master/browser/ui/webui/brave_rewards_page_ui.h
+Examining brave-core-master/browser/ui/webui/brave_new_tab_ui_browsertest.cc
+Examining brave-core-master/browser/ui/webui/brave_new_tab_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_rewards_page_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_adblock_ui.h
+Examining brave-core-master/browser/ui/webui/basic_ui.cc
+Examining brave-core-master/browser/ui/webui/basic_ui.h
+Examining brave-core-master/browser/ui/webui/brave_tip_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_new_tab_ui.h
+Examining brave-core-master/browser/ui/webui/brave_wallet_ui.h
+Examining brave-core-master/browser/ui/webui/webcompat_reporter_ui.h
+Examining brave-core-master/browser/ui/webui/brave_rewards_source.h
+Examining brave-core-master/browser/ui/webui/brave_new_tab_message_handler.cc
+Examining brave-core-master/browser/ui/webui/brave_new_tab_message_handler.h
+Examining brave-core-master/browser/ui/webui/brave_webui_source.h
+Examining brave-core-master/browser/ui/webui/navigation_bar_data_provider.h
+Examining brave-core-master/browser/ui/webui/brave_web_ui_controller_factory.cc
+Examining brave-core-master/browser/ui/webui/brave_rewards_internals_ui.h
+Examining brave-core-master/browser/ui/webui/brave_welcome_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_web_ui_controller_factory.h
+Examining brave-core-master/browser/ui/webui/navigation_bar_data_provider.cc
+Examining brave-core-master/browser/ui/webui/brave_adblock_ui.cc
+Examining brave-core-master/browser/ui/webui/sync/sync_ui.h
+Examining brave-core-master/browser/ui/webui/sync/sync_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_rewards_internals_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_welcome_ui_browsertest.cc
+Examining brave-core-master/browser/ui/webui/webcompat_reporter_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_wallet_ui.cc
+Examining brave-core-master/browser/ui/webui/brave_settings_ui.h
+Examining brave-core-master/browser/ui/brave_actions/brave_action_view_controller.h
+Examining brave-core-master/browser/ui/brave_actions/constants.h
+Examining brave-core-master/browser/ui/brave_actions/brave_action_view_controller.cc
+Examining brave-core-master/browser/ui/brave_actions/brave_action_icon_with_badge_image_source.cc
+Examining brave-core-master/browser/ui/brave_actions/brave_action_icon_with_badge_image_source.h
+Examining brave-core-master/browser/ui/views/tabs/brave_browser_tab_strip_controller.h
+Examining brave-core-master/browser/ui/views/tabs/brave_browser_tab_strip_controller.cc
+Examining brave-core-master/browser/ui/views/tabs/brave_tab_context_menu_contents_browsertest.cc
+Examining brave-core-master/browser/ui/views/tabs/brave_new_tab_button.cc
+Examining brave-core-master/browser/ui/views/tabs/brave_tab_context_menu_contents.cc
+Examining brave-core-master/browser/ui/views/tabs/brave_alert_indicator.cc
+Examining brave-core-master/browser/ui/views/tabs/brave_new_tab_button.h
+Examining brave-core-master/browser/ui/views/tabs/brave_tab_context_menu_contents.h
+Examining brave-core-master/browser/ui/views/tabs/brave_alert_indicator.h
+Examining brave-core-master/browser/ui/views/importer/brave_import_lock_dialog_view.cc
+Examining brave-core-master/browser/ui/views/importer/brave_import_lock_dialog_view.h
+Examining brave-core-master/browser/ui/views/brave_views_delegate_linux.cc
+Examining brave-core-master/browser/ui/views/translate/brave_translate_bubble_view.cc
+Examining brave-core-master/browser/ui/views/translate/brave_translate_icon_view.h
+Examining brave-core-master/browser/ui/views/translate/brave_translate_icon_view.cc
+Examining brave-core-master/browser/ui/views/translate/brave_translate_bubble_view_unittest.cc
+Examining brave-core-master/browser/ui/views/translate/brave_translate_bubble_view.h
+Examining brave-core-master/browser/ui/views/omnibox/omnibox_autocomplete_browsertest.cc
+Examining brave-core-master/browser/ui/views/reader_mode/brave_reader_mode_icon_view.h
+Examining brave-core-master/browser/ui/views/reader_mode/brave_reader_mode_icon_view.cc
+Examining brave-core-master/browser/ui/views/toolbar/brave_toolbar_view.h
+Examining brave-core-master/browser/ui/views/toolbar/brave_toolbar_view.cc
+Examining brave-core-master/browser/ui/views/toolbar/brave_toolbar_view_browsertest.cc
+Examining brave-core-master/browser/ui/views/toolbar/bookmark_button.cc
+Examining brave-core-master/browser/ui/views/toolbar/bookmark_button.h
+Examining brave-core-master/browser/ui/views/frame/brave_browser_view.h
+Examining brave-core-master/browser/ui/views/frame/brave_browser_frame.h
+Examining brave-core-master/browser/ui/views/frame/brave_browser_view.cc
+Examining brave-core-master/browser/ui/views/frame/brave_browser_frame.cc
+Examining brave-core-master/browser/ui/views/brave_layout_provider.cc
+Examining brave-core-master/browser/ui/views/download/brave_download_item_view.cc
+Examining brave-core-master/browser/ui/views/download/brave_download_item_view.h
+Examining brave-core-master/browser/ui/views/update_recommended_message_box_mac.h
+Examining brave-core-master/browser/ui/views/rounded_separator.h
+Examining brave-core-master/browser/ui/views/brave_layout_provider.h
+Examining brave-core-master/browser/ui/views/rounded_separator.cc
+Examining brave-core-master/browser/ui/views/profiles/brave_avatar_toolbar_button.h
+Examining brave-core-master/browser/ui/views/profiles/brave_profile_menu_view_helper.cc
+Examining brave-core-master/browser/ui/views/profiles/brave_incognito_menu_view.cc
+Examining brave-core-master/browser/ui/views/profiles/brave_avatar_toolbar_button.cc
+Examining brave-core-master/browser/ui/views/profiles/brave_profile_menu_view.h
+Examining brave-core-master/browser/ui/views/profiles/brave_profile_menu_view_helper.h
+Examining brave-core-master/browser/ui/views/profiles/brave_incognito_menu_view.h
+Examining brave-core-master/browser/ui/views/profiles/brave_profile_menu_view.cc
+Examining brave-core-master/browser/ui/views/profiles/brave_profile_menu_view_browsertest.cc
+Examining brave-core-master/browser/ui/views/brave_actions/brave_action_view.h
+Examining brave-core-master/browser/ui/views/brave_actions/brave_rewards_action_stub_view.cc
+Examining brave-core-master/browser/ui/views/brave_actions/brave_action_view.cc
+Examining brave-core-master/browser/ui/views/brave_actions/brave_actions_container.h
+Examining brave-core-master/browser/ui/views/brave_actions/brave_rewards_action_stub_view.h
+Examining brave-core-master/browser/ui/views/brave_actions/brave_actions_container.cc
+Examining brave-core-master/browser/ui/views/brave_actions/brave_actions_container_browsertest.cc
+Examining brave-core-master/browser/ui/views/location_bar/brave_location_bar_view.h
+Examining brave-core-master/browser/ui/views/location_bar/brave_star_view.h
+Examining brave-core-master/browser/ui/views/location_bar/brave_star_view.cc
+Examining brave-core-master/browser/ui/views/location_bar/brave_location_bar_view.cc
+Examining brave-core-master/browser/ui/views/brave_views_delegate_linux.h
+Examining brave-core-master/browser/ui/views/brave_browser_main_extra_parts_views_linux.cc
+Examining brave-core-master/browser/ui/views/brave_views_delegate_linux_browsertest.cc
+Examining brave-core-master/browser/ui/views/brave_browser_main_extra_parts_views_linux.h
+Examining brave-core-master/browser/ui/brave_layout_constants.h
+Examining brave-core-master/browser/brave_content_browser_client_unittest.cc
+Examining brave-core-master/browser/brave_browser_main_parts.cc
+Examining brave-core-master/browser/widevine/widevine_permission_request.cc
+Examining brave-core-master/browser/widevine/brave_widevine_bundle_unzipper.cc
+Examining brave-core-master/browser/widevine/brave_widevine_bundle_unzipper.h
+Examining brave-core-master/browser/widevine/widevine_prefs_migration_browsertest.cc
+Examining brave-core-master/browser/widevine/widevine_permission_request_browsertest.cc
+Examining brave-core-master/browser/widevine/widevine_utils.h
+Examining brave-core-master/browser/widevine/brave_widevine_bundle_manager.cc
+Examining brave-core-master/browser/widevine/widevine_utils.cc
+Examining brave-core-master/browser/widevine/brave_widevine_bundle_manager_unittest.cc
+Examining brave-core-master/browser/widevine/brave_widevine_bundle_manager.h
+Examining brave-core-master/browser/widevine/widevine_permission_request.h
+Examining brave-core-master/browser/brave_shields/ad_block_pref_service_factory.h
+Examining brave-core-master/browser/brave_shields/cookie_pref_service_factory.cc
+Examining brave-core-master/browser/brave_shields/cookie_pref_service_factory.h
+Examining brave-core-master/browser/brave_shields/ad_block_pref_service_factory.cc
+Examining brave-core-master/browser/net/brave_httpse_network_delegate_helper_unittest.cc
+Examining brave-core-master/browser/net/brave_referrals_network_delegate_helper_unittest.cc
+Examining brave-core-master/browser/net/brave_system_request_handler_unittest.cc
+Examining brave-core-master/browser/net/resource_context_data.h
+Examining brave-core-master/browser/net/brave_common_static_redirect_network_delegate_helper_unittest.cc
+Examining brave-core-master/browser/net/brave_stp_util.h
+Examining brave-core-master/browser/net/brave_network_delegate_hsts_fingerprinting_browsertest.cc
+Examining brave-core-master/browser/net/brave_request_handler.cc
+Examining brave-core-master/browser/net/brave_request_handler.h
+Examining brave-core-master/browser/net/brave_httpse_network_delegate_helper.cc
+Examining brave-core-master/browser/net/brave_static_redirect_network_delegate_helper.cc
+Examining brave-core-master/browser/net/brave_proxying_url_loader_factory.h
+Examining brave-core-master/browser/net/brave_block_safebrowsing_urls.h
+Examining brave-core-master/browser/net/resource_context_data.cc
+Examining brave-core-master/browser/net/brave_ad_block_tp_network_delegate_helper.h
+Examining brave-core-master/browser/net/brave_block_safebrowsing_urls.cc
+Examining brave-core-master/browser/net/brave_static_redirect_network_delegate_helper_unittest.cc
+Examining brave-core-master/browser/net/brave_translate_redirect_network_delegate_helper.cc
+Examining brave-core-master/browser/net/brave_block_safebrowsing_urls_unittest.cc
+Examining brave-core-master/browser/net/brave_translate_redirect_network_delegate_helper.h
+Examining brave-core-master/browser/net/brave_system_request_handler_browsertest.cc
+Examining brave-core-master/browser/net/brave_common_static_redirect_network_delegate_helper.cc
+Examining brave-core-master/browser/net/brave_network_delegate_browsertest.cc
+Examining brave-core-master/browser/net/brave_network_delegate_base_unittest.cc
+Examining brave-core-master/browser/net/brave_proxying_web_socket.cc
+Examining brave-core-master/browser/net/brave_httpse_network_delegate_helper.h
+Examining brave-core-master/browser/net/brave_common_static_redirect_network_delegate_helper.h
+Examining brave-core-master/browser/net/brave_referrals_network_delegate_helper.cc
+Examining brave-core-master/browser/net/brave_static_redirect_network_delegate_helper.h
+Examining brave-core-master/browser/net/url_context.h
+Examining brave-core-master/browser/net/brave_system_request_handler.h
+Examining brave-core-master/browser/net/brave_system_request_handler.cc
+Examining brave-core-master/browser/net/brave_stp_util.cc
+Examining brave-core-master/browser/net/brave_site_hacks_network_delegate_helper.cc
+Examining brave-core-master/browser/net/brave_ad_block_tp_network_delegate_helper_unittest.cc
+Examining brave-core-master/browser/net/brave_referrals_network_delegate_helper.h
+Examining brave-core-master/browser/net/brave_site_hacks_network_delegate_helper.h
+Examining brave-core-master/browser/net/url_context.cc
+Examining brave-core-master/browser/net/brave_ad_block_tp_network_delegate_helper.cc
+Examining brave-core-master/browser/net/brave_site_hacks_network_delegate_helper_unittest.cc
+Examining brave-core-master/browser/net/brave_translate_redirect_network_delegate_helper_unittest.cc
+Examining brave-core-master/browser/net/brave_proxying_web_socket.h
+Examining brave-core-master/browser/net/brave_proxying_url_loader_factory.cc
+Examining brave-core-master/browser/importer/brave_importer_p3a.h
+Examining brave-core-master/browser/importer/brave_importer_p3a.cc
+Examining brave-core-master/browser/importer/brave_profile_writer.cc
+Examining brave-core-master/browser/importer/brave_external_process_importer_host.h
+Examining brave-core-master/browser/importer/brave_profile_lock.h
+Examining brave-core-master/browser/importer/browser_profile_lock.h
+Examining brave-core-master/browser/importer/brave_external_process_importer_client.h
+Examining brave-core-master/browser/importer/brave_in_process_importer_bridge.h
+Examining brave-core-master/browser/importer/chrome_profile_lock.h
+Examining brave-core-master/browser/importer/brave_external_process_importer_client.cc
+Examining brave-core-master/browser/importer/chrome_profile_lock_unittest.cc
+Examining brave-core-master/browser/importer/brave_in_process_importer_bridge.cc
+Examining brave-core-master/browser/importer/brave_profile_writer.h
+Examining brave-core-master/browser/importer/brave_profile_lock.cc
+Examining brave-core-master/browser/importer/brave_external_process_importer_host.cc
+Examining brave-core-master/browser/importer/brave_importer_lock_dialog.h
+Examining brave-core-master/browser/importer/chrome_profile_lock.cc
+Examining brave-core-master/browser/brave_content_browser_client.cc
+Examining brave-core-master/browser/gcm_driver/brave_gcm_channel_status.h
+Examining brave-core-master/browser/gcm_driver/brave_gcm_channel_status.cc
+Examining brave-core-master/browser/autocomplete/brave_autocomplete_provider_client_unittest.cc
+Examining brave-core-master/browser/autocomplete/brave_autocomplete_scheme_classifier.h
+Examining brave-core-master/browser/autocomplete/brave_autocomplete_provider_client.h
+Examining brave-core-master/browser/autocomplete/brave_autocomplete_provider_client.cc
+Examining brave-core-master/browser/autocomplete/brave_autocomplete_scheme_classifier.cc
+Examining brave-core-master/browser/autocomplete/brave_autocomplete_provider_client_browsertest.cc
+Examining brave-core-master/browser/brave_stats_updater_unittest.cc
+Examining brave-core-master/browser/brave_rewards/tip_dialog.cc
+Examining brave-core-master/browser/brave_rewards/rewards_tab_helper.cc
+Examining brave-core-master/browser/brave_rewards/tip_dialog.h
+Examining brave-core-master/browser/brave_rewards/android/brave_rewards_native_worker.cc
+Examining brave-core-master/browser/brave_rewards/android/brave_rewards_native_worker.h
+Examining brave-core-master/browser/brave_rewards/rewards_tab_helper.h
+Examining brave-core-master/browser/brave_browser_main_parts_mac.h
+Examining brave-core-master/browser/brave_drm_tab_helper.h
+Examining brave-core-master/browser/brave_stats_updater.h
+Examining brave-core-master/browser/update_util.cc
+Examining brave-core-master/browser/brave_tab_helpers.cc
+Examining brave-core-master/browser/resources/settings/brandcode_config_fetcher_unittest.cc
+Examining brave-core-master/browser/resources/settings/reset_report_uploader_unittest.cc
+Examining brave-core-master/browser/brave_ads/android/brave_ads_native_helper.cc
+Examining brave-core-master/browser/brave_content_browser_client.h
+Examining brave-core-master/browser/webcompat_reporter/webcompat_reporter_dialog.cc
+Examining brave-core-master/browser/webcompat_reporter/webcompat_reporter_dialog.h
+Examining brave-core-master/browser/brave_profile_prefs.h
+Examining brave-core-master/browser/brave_stats_updater_util.cc
+Examining brave-core-master/browser/version_info.h
+Examining brave-core-master/browser/greaselion/greaselion_tab_helper.cc
+Examining brave-core-master/browser/greaselion/greaselion_service_factory.cc
+Examining brave-core-master/browser/greaselion/greaselion_browsertest.cc
+Examining brave-core-master/browser/greaselion/greaselion_tab_helper.h
+Examining brave-core-master/browser/greaselion/greaselion_service_factory.h
+Examining brave-core-master/browser/search_engines/search_engine_provider_util.cc
+Examining brave-core-master/browser/search_engines/search_engine_provider_service_factory.h
+Examining brave-core-master/browser/search_engines/search_engine_provider_util.h
+Examining brave-core-master/browser/search_engines/private_window_search_engine_provider_service.cc
+Examining brave-core-master/browser/search_engines/search_engine_provider_service.h
+Examining brave-core-master/browser/search_engines/private_window_search_engine_provider_service.h
+Examining brave-core-master/browser/search_engines/search_engine_provider_service.cc
+Examining brave-core-master/browser/search_engines/search_engine_provider_service_browsertest.cc
+Examining brave-core-master/browser/search_engines/search_engine_provider_service_factory.cc
+Examining brave-core-master/browser/search_engines/tor_window_search_engine_provider_service.cc
+Examining brave-core-master/browser/search_engines/guest_window_search_engine_provider_service.h
+Examining brave-core-master/browser/search_engines/guest_window_search_engine_provider_service.cc
+Examining brave-core-master/browser/search_engines/tor_window_search_engine_provider_service.h
+Examining brave-core-master/browser/brave_profile_prefs.cc
+Examining brave-core-master/browser/browser_context_keyed_service_factories.cc
+Examining brave-core-master/browser/browser_context_keyed_service_factories.h
+Examining brave-core-master/browser/brave_browser_main_extra_parts.h
+Examining brave-core-master/browser/brave_profile_prefs_browsertest.cc
+Examining brave-core-master/browser/brave_browser_main_loop.h
+Examining brave-core-master/browser/brave_stats_updater.cc
+Examining brave-core-master/browser/brave_tab_helpers.h
+Examining brave-core-master/browser/brave_browser_main_loop.cc
+Examining brave-core-master/browser/permissions/brave_permission_manager_factory.cc
+Examining brave-core-master/browser/permissions/brave_permission_manager_factory.h
+Examining brave-core-master/browser/permissions/brave_permission_manager.h
+Examining brave-core-master/browser/permissions/brave_permission_manager.cc
+Examining brave-core-master/browser/brave_content_browser_client_browsertest.cc
+Examining brave-core-master/browser/extensions/brave_wallet_apitest.cc
+Examining brave-core-master/browser/extensions/brave_extension_install_prompt.cc
+Examining brave-core-master/browser/extensions/brave_extension_install_prompt.h
+Examining brave-core-master/browser/extensions/brave_webtorrent_navigation_throttle.h
+Examining brave-core-master/browser/extensions/brave_component_extension_resource_manager.h
+Examining brave-core-master/browser/extensions/brave_extensions_browser_client_impl.h
+Examining brave-core-master/browser/extensions/brave_component_loader.cc
+Examining brave-core-master/browser/extensions/brave_theme_event_router_browsertest.cc
+Examining brave-core-master/browser/extensions/brave_base_local_data_files_browsertest.cc
+Examining brave-core-master/browser/extensions/brave_extensions_browser_api_provider.cc
+Examining brave-core-master/browser/extensions/brave_extension_provider.cc
+Examining brave-core-master/browser/extensions/brave_tor_client_updater.cc
+Examining brave-core-master/browser/extensions/brave_webtorrent_navigation_throttle.cc
+Examining brave-core-master/browser/extensions/brave_tor_client_updater_browsertest.cc
+Examining brave-core-master/browser/extensions/updater/brave_update_client_config.h
+Examining brave-core-master/browser/extensions/updater/brave_update_client_config.cc
+Examining brave-core-master/browser/extensions/brave_wallet_navigation_throttle.h
+Examining brave-core-master/browser/extensions/brave_extension_management.h
+Examining brave-core-master/browser/extensions/brave_theme_event_router.h
+Examining brave-core-master/browser/extensions/brave_webtorrent_navigation_throttle_unittest.cc
+Examining brave-core-master/browser/extensions/brave_extension_service.cc
+Examining brave-core-master/browser/extensions/brave_extension_functional_test.cc
+Examining brave-core-master/browser/extensions/brave_component_loader.h
+Examining brave-core-master/browser/extensions/brave_extension_service.h
+Examining brave-core-master/browser/extensions/brave_wallet_navigation_throttle.cc
+Examining brave-core-master/browser/extensions/brave_theme_event_router.cc
+Examining brave-core-master/browser/extensions/brave_extension_provider_browsertest.cc
+Examining brave-core-master/browser/extensions/api/brave_shields_api.cc
+Examining brave-core-master/browser/extensions/api/brave_theme_api.cc
+Examining brave-core-master/browser/extensions/api/rewards_notifications_api.h
+Examining brave-core-master/browser/extensions/api/brave_wallet_api_browsertest.cc
+Examining brave-core-master/browser/extensions/api/brave_rewards_api.cc
+Examining brave-core-master/browser/extensions/api/brave_action_api.cc
+Examining brave-core-master/browser/extensions/api/brave_theme_api_browsertest.cc
+Examining brave-core-master/browser/extensions/api/brave_sync_event_router.cc
+Examining brave-core-master/browser/extensions/api/rewards_notifications_api.cc
+Examining brave-core-master/browser/extensions/api/brave_extensions_api_client.h
+Examining brave-core-master/browser/extensions/api/brave_shields_api_browsertest.cc
+Examining brave-core-master/browser/extensions/api/brave_rewards_api.h
+Examining brave-core-master/browser/extensions/api/brave_theme_api.h
+Examining brave-core-master/browser/extensions/api/settings_private/brave_prefs_util.cc
+Examining brave-core-master/browser/extensions/api/settings_private/brave_prefs_util.h
+Examining brave-core-master/browser/extensions/api/brave_sync_api.h
+Examining brave-core-master/browser/extensions/api/brave_shields_api.h
+Examining brave-core-master/browser/extensions/api/brave_sync_api.cc
+Examining brave-core-master/browser/extensions/api/brave_wallet_api.cc
+Examining brave-core-master/browser/extensions/api/brave_wallet_api.h
+Examining brave-core-master/browser/extensions/api/brave_action_api.h
+Examining brave-core-master/browser/extensions/api/brave_sync_event_router.h
+Examining brave-core-master/browser/extensions/api/brave_extensions_api_client.cc
+Examining brave-core-master/browser/extensions/brave_extension_provider.h
+Examining brave-core-master/browser/extensions/brave_component_extension_resource_manager.cc
+Examining brave-core-master/browser/extensions/brave_extension_functional_test.h
+Examining brave-core-master/browser/extensions/brave_shields_apitest.cc
+Examining brave-core-master/browser/extensions/brave_tor_client_updater.h
+Examining brave-core-master/browser/extensions/brave_base_local_data_files_browsertest.h
+Examining brave-core-master/browser/extensions/brave_extension_management.cc
+Examining brave-core-master/browser/extensions/brave_extensions_browser_api_provider.h
+Examining brave-core-master/browser/extensions/brave_extensions_browser_client_impl.cc
+Examining brave-core-master/browser/extensions/brave_wallet_navigation_throttle_unittest.cc
+Examining brave-core-master/browser/extensions/brave_wallet_unittest.cc
+Examining brave-core-master/browser/brave_browser_main_parts.h
+Examining brave-core-master/browser/brave_local_state_prefs.h
+Examining brave-core-master/browser/autoplay/autoplay_permission_context_unittest.cc
+Examining brave-core-master/browser/autoplay/autoplay_permission_context_browsertest.cc
+Examining brave-core-master/browser/autoplay/autoplay_permission_context.cc
+Examining brave-core-master/browser/autoplay/autoplay_permission_context.h
+Examining brave-core-master/browser/brave_stats_updater_browsertest.cc
+Examining brave-core-master/browser/mac/su_updater.h
+Examining brave-core-master/browser/mac/sparkle_glue.h
+Examining brave-core-master/browser/brave_local_state_browsertest.cc
+Examining brave-core-master/browser/bookmarks/brave_bookmark_client.cc
+Examining brave-core-master/browser/bookmarks/brave_bookmark_client_browsertest.cc
+Examining brave-core-master/browser/bookmarks/brave_bookmark_client.h
+Examining brave-core-master/browser/renderer_host/brave_render_message_filter.cc
+Examining brave-core-master/browser/renderer_host/brave_render_message_filter.h
+Examining brave-core-master/browser/brave_drm_tab_helper.cc
+Examining brave-core-master/browser/brave_stats_updater_params.cc
+Examining brave-core-master/browser/tor/tor_launcher_factory.h
+Examining brave-core-master/browser/tor/tor_profile_service.cc
+Examining brave-core-master/browser/tor/tor_launcher_factory.cc
+Examining brave-core-master/browser/tor/tor_launcher_service_observer.h
+Examining brave-core-master/browser/tor/tor_navigation_throttle.h
+Examining brave-core-master/browser/tor/tor_profile_service_factory.h
+Examining brave-core-master/browser/tor/tor_profile_service_impl.cc
+Examining brave-core-master/browser/tor/tor_profile_service.h
+Examining brave-core-master/browser/tor/tor_profile_service_factory.cc
+Examining brave-core-master/browser/tor/tor_profile_service_impl.h
+Examining brave-core-master/browser/tor/tor_navigation_throttle_unittest.cc
+Examining brave-core-master/browser/tor/tor_navigation_throttle.cc
+Examining brave-core-master/browser/download/brave_download_item_model_unittest.cc
+Examining brave-core-master/browser/download/brave_download_item_model.cc
+Examining brave-core-master/browser/download/brave_download_item_model.h
+Examining brave-core-master/browser/devtools/brave_devtools_ui_bindings.h
+Examining brave-core-master/browser/devtools/brave_devtools_ui_bindings.cc
+Examining brave-core-master/browser/devtools/brave_devtools_ui_bindings_browsertest.cc
+Examining brave-core-master/browser/android/preferences/background_video_playback_tab_helper.h
+Examining brave-core-master/browser/android/preferences/background_video_playback_tab_helper.cc
+Examining brave-core-master/browser/android/preferences/website/desktop_mode_tab_helper.cc
+Examining brave-core-master/browser/android/preferences/website/desktop_mode_tab_helper.h
+Examining brave-core-master/browser/android/preferences/brave_pref_service_bridge.cc
+Examining brave-core-master/browser/android/brave_shields_content_settings.h
+Examining brave-core-master/browser/android/brave_stats_updater_android.cc
+Examining brave-core-master/browser/android/brave_shields_content_settings.cc
+Examining brave-core-master/browser/android/brave_relaunch_utils.cc
+Examining brave-core-master/browser/geolocation/brave_geolocation_permission_context.h
+Examining brave-core-master/browser/geolocation/brave_geolocation_permission_context.cc
+Examining brave-core-master/browser/brave_scheme_load_browsertest.cc
+Examining brave-core-master/browser/brave_first_run_browsertest.cc
+Examining brave-core-master/browser/brave_stats_updater_util.h
+Examining brave-core-master/browser/brave_features_browsertest.cc
+Examining brave-core-master/browser/brave_local_state_prefs.cc
+Examining brave-core-master/browser/browsing_data/brave_clear_browsing_data.h
+Examining brave-core-master/browser/browsing_data/brave_clear_browsing_data_browsertest.cc
+Examining brave-core-master/browser/browsing_data/brave_clear_browsing_data.cc
+Examining brave-core-master/browser/profiles/tor_unittest_profile_manager.cc
+Examining brave-core-master/browser/profiles/brave_profile_manager_browsertest.cc
+Examining brave-core-master/browser/profiles/brave_profile_manager.h
+Examining brave-core-master/browser/profiles/brave_bookmark_model_loaded_observer.h
+Examining brave-core-master/browser/profiles/brave_profile_manager_unittest.cc
+Examining brave-core-master/browser/profiles/tor_unittest_profile_manager.h
+Examining brave-core-master/browser/profiles/brave_profile_shortcut_manager_win.h
+Examining brave-core-master/browser/profiles/brave_bookmark_model_loaded_observer.cc
+Examining brave-core-master/browser/profiles/brave_profile_impl.h
+Examining brave-core-master/browser/profiles/brave_profile_impl.cc
+Examining brave-core-master/browser/profiles/profile_util.cc
+Examining brave-core-master/browser/profiles/brave_profile_shortcut_manager_win.cc
+Examining brave-core-master/browser/profiles/brave_profile_manager.cc
+Examining brave-core-master/browser/profiles/profile_util.h
+Examining brave-core-master/browser/brave_stats_updater_params.h
+Examining brave-core-master/browser/version_info.cc
+Examining brave-core-master/browser/infobars/brave_infobar_delegate.h
+Examining brave-core-master/browser/infobars/crypto_wallets_infobar_delegate.h
+Examining brave-core-master/browser/infobars/brave_confirm_p3a_infobar_delegate.h
+Examining brave-core-master/browser/infobars/brave_confirm_p3a_infobar_delegate.cc
+Examining brave-core-master/browser/infobars/crypto_wallets_infobar_delegate.cc
+Examining brave-core-master/browser/brave_first_run_browsertest.h
+Examining brave-core-master/browser/themes/brave_theme_service_win.cc
+Examining brave-core-master/browser/themes/brave_theme_utils_internal.h
+Examining brave-core-master/browser/themes/brave_theme_service.h
+Examining brave-core-master/browser/themes/theme_properties.cc
+Examining brave-core-master/browser/themes/brave_theme_utils_internal.cc
+Examining brave-core-master/browser/themes/brave_theme_service_unittest.cc
+Examining brave-core-master/browser/themes/brave_theme_service_browsertest.cc
+Examining brave-core-master/browser/themes/brave_theme_utils.h
+Examining brave-core-master/browser/themes/theme_properties.h
+Examining brave-core-master/browser/themes/brave_theme_utils.cc
+Examining brave-core-master/browser/themes/brave_theme_service_win.h
+Examining brave-core-master/browser/themes/brave_theme_service.cc
+Examining brave-core-master/browser/brave_browser_process_impl.h
+Examining brave-core-master/browser/brave_resources_browsertest.cc
+Examining brave-core-master/browser/renderer_context_menu/brave_spelling_options_submenu_observer_browsertest.cc
+Examining brave-core-master/browser/renderer_context_menu/brave_spelling_options_submenu_observer.cc
+Examining brave-core-master/browser/renderer_context_menu/brave_spelling_options_submenu_observer.h
+Examining brave-core-master/browser/renderer_context_menu/brave_mock_render_view_context_menu.cc
+Examining brave-core-master/browser/renderer_context_menu/brave_spelling_menu_observer_browsertest.cc
+Examining brave-core-master/browser/renderer_context_menu/brave_mock_render_view_context_menu.h
+Examining brave-core-master/browser/brave_browser_main_extra_parts.cc
+Examining brave-core-master/browser/notifications/brave_alert_dispatcher_mac.h
+Examining brave-core-master/browser/notifications/brave_notification_platform_bridge.h
+Examining brave-core-master/browser/policy/brave_policy_browsertest.cc
+Examining brave-core-master/browser/component_updater/brave_component_updater_delegate.h
+Examining brave-core-master/browser/component_updater/brave_component_installer.h
+Examining brave-core-master/browser/component_updater/brave_component_updater_configurator.cc
+Examining brave-core-master/browser/component_updater/brave_component_updater_delegate.cc
+Examining brave-core-master/browser/component_updater/brave_component_installer.cc
+Examining brave-core-master/browser/component_updater/brave_component_updater_configurator.h
+Examining brave-core-master/browser/brave_browser_process_impl.cc
+Examining brave-core-master/components/content_settings/core/browser/brave_content_settings_ephemeral_provider.h
+Examining brave-core-master/components/content_settings/core/browser/brave_content_settings_pref_provider.h
+Examining brave-core-master/components/content_settings/core/browser/brave_content_settings_ephemeral_provider.cc
+Examining brave-core-master/components/content_settings/core/browser/brave_content_settings_pref_provider.cc
+Examining brave-core-master/components/content_settings/core/common/content_settings_util.h
+Examining brave-core-master/components/content_settings/core/common/content_settings_util.cc
+Examining brave-core-master/components/rappor/log_uploader_unittest.cc
+Examining brave-core-master/components/brave_shields/browser/brave_shields_p3a.cc
+Examining brave-core-master/components/brave_shields/browser/brave_shields_web_contents_observer.h
+Examining brave-core-master/components/brave_shields/browser/ad_block_custom_filters_service.cc
+Examining brave-core-master/components/brave_shields/browser/cookie_pref_service_browsertest.cc
+Examining brave-core-master/components/brave_shields/browser/tracking_protection_service.cc
+Examining brave-core-master/components/brave_shields/browser/adblock_stub_response_unittest.cc
+Examining brave-core-master/components/brave_shields/browser/autoplay_whitelist_service.h
+Examining brave-core-master/components/brave_shields/browser/tracking_protection_service_browsertest.cc
+Examining brave-core-master/components/brave_shields/browser/tracking_protection_helper.h
+Examining brave-core-master/components/brave_shields/browser/brave_shields_util.cc
+Examining brave-core-master/components/brave_shields/browser/referrer_whitelist_service_browsertest.cc
+Examining brave-core-master/components/brave_shields/browser/ad_block_regional_service_unittest.cc
+Examining brave-core-master/components/brave_shields/browser/ad_block_custom_filters_service.h
+Examining brave-core-master/components/brave_shields/browser/ad_block_service_helper.cc
+Examining brave-core-master/components/brave_shields/browser/brave_shields_util_unittest.cc
+Examining brave-core-master/components/brave_shields/browser/https_everywhere_service.h
+Examining brave-core-master/components/brave_shields/browser/ad_block_regional_service_manager.h
+Examining brave-core-master/components/brave_shields/browser/adblock_interceptor.h
+Examining brave-core-master/components/brave_shields/browser/brave_shields_web_contents_observer.cc
+Examining brave-core-master/components/brave_shields/browser/https_everywhere_service.cc
+Examining brave-core-master/components/brave_shields/browser/cookie_pref_service.h
+Examining brave-core-master/components/brave_shields/browser/ad_block_base_service.h
+Examining brave-core-master/components/brave_shields/browser/brave_shields_p3a.h
+Examining brave-core-master/components/brave_shields/browser/tracking_protection_service.h
+Examining brave-core-master/components/brave_shields/browser/cookie_pref_service.cc
+Examining brave-core-master/components/brave_shields/browser/adblock_stub_response.h
+Examining brave-core-master/components/brave_shields/browser/adblock_stub_response.cc
+Examining brave-core-master/components/brave_shields/browser/ad_block_service_browsertest.cc
+Examining brave-core-master/components/brave_shields/browser/ad_block_regional_service_manager.cc
+Examining brave-core-master/components/brave_shields/browser/https_everywhere_service_browsertest.cc
+Examining brave-core-master/components/brave_shields/browser/ad_block_regional_service.h
+Examining brave-core-master/components/brave_shields/browser/base_brave_shields_service.h
+Examining brave-core-master/components/brave_shields/browser/ad_block_service_helper.h
+Examining brave-core-master/components/brave_shields/browser/ad_block_regional_service.cc
+Examining brave-core-master/components/brave_shields/browser/autoplay_whitelist_service.cc
+Examining brave-core-master/components/brave_shields/browser/tracking_protection_helper.cc
+Examining brave-core-master/components/brave_shields/browser/referrer_whitelist_service.h
+Examining brave-core-master/components/brave_shields/browser/adblock_interceptor.cc
+Examining brave-core-master/components/brave_shields/browser/referrer_whitelist_service.cc
+Examining brave-core-master/components/brave_shields/browser/brave_shields_web_contents_observer_android.cc
+Examining brave-core-master/components/brave_shields/browser/ad_block_service.cc
+Examining brave-core-master/components/brave_shields/browser/brave_shields_util.h
+Examining brave-core-master/components/brave_shields/browser/ad_block_service.h
+Examining brave-core-master/components/brave_shields/browser/https_everywhere_recently_used_cache_unittest.cpp
+Examining brave-core-master/components/brave_shields/browser/https_everywhere_recently_used_cache.h
+Examining brave-core-master/components/brave_shields/browser/base_brave_shields_service.cc
+Examining brave-core-master/components/brave_shields/browser/ad_block_base_service.cc
+Examining brave-core-master/components/brave_shields/common/brave_shield_constants.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_p3a.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_notification_service.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_impl_unittest.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_info.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_queue_publishers.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_unblinded_token.cc
+Examining brave-core-master/components/brave_rewards/browser/database/publisher_info_database.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_recurring_tip.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_info_publishers.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_queue_publishers.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_banner.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_pending_contribution.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_activity_info.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_util.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_publisher_info.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_promotion_creds.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_media_publisher_info.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_promotion.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_recurring_tip.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_util.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_info.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_activity_info.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_info.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_amounts.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_promotion.h
+Examining brave-core-master/components/brave_rewards/browser/database/publisher_info_database.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_table.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_media_publisher_info.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_banner.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_promotion_creds.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_queue.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_info.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_amounts.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_info_publishers.cc
+Examining brave-core-master/components/brave_rewards/browser/database/publisher_info_database_unittest.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_publisher_info.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_links.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_unblinded_token.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_pending_contribution.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_server_publisher_links.h
+Examining brave-core-master/components/brave_rewards/browser/database/database_table.cc
+Examining brave-core-master/components/brave_rewards/browser/database/database_contribution_queue.h
+Examining brave-core-master/components/brave_rewards/browser/external_wallet.cc
+Examining brave-core-master/components/brave_rewards/browser/content_site.cc
+Examining brave-core-master/components/brave_rewards/browser/wallet_properties.h
+Examining brave-core-master/components/brave_rewards/browser/balance.h
+Examining brave-core-master/components/brave_rewards/browser/net/network_delegate_helper.cc
+Examining brave-core-master/components/brave_rewards/browser/net/network_delegate_helper.h
+Examining brave-core-master/components/brave_rewards/browser/auto_contribution_props.h
+Examining brave-core-master/components/brave_rewards/browser/balance.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_notification_service_impl.cc
+Examining brave-core-master/components/brave_rewards/browser/pending_contribution.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_impl.cc
+Examining brave-core-master/components/brave_rewards/browser/extension_rewards_service_observer.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_internals_info.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_notification_service_observer.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_private_observer.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_impl.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_notification_service_impl.h
+Examining brave-core-master/components/brave_rewards/browser/publisher_info_backend.cc
+Examining brave-core-master/components/brave_rewards/browser/balance_report.h
+Examining brave-core-master/components/brave_rewards/browser/android_util.cc
+Examining brave-core-master/components/brave_rewards/browser/wallet_properties.cc
+Examining brave-core-master/components/brave_rewards/browser/publisher_banner.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_observer.h
+Examining brave-core-master/components/brave_rewards/browser/promotion.h
+Examining brave-core-master/components/brave_rewards/browser/publisher_banner.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_internals_info.h
+Examining brave-core-master/components/brave_rewards/browser/auto_contribution_props.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_service.cc
+Examining brave-core-master/components/brave_rewards/browser/extension_rewards_notification_service_observer.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_fetcher_service_observer.h
+Examining brave-core-master/components/brave_rewards/browser/reconcile_info.cc
+Examining brave-core-master/components/brave_rewards/browser/switches.cc
+Examining brave-core-master/components/brave_rewards/browser/test_util.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_notification_service.cc
+Examining brave-core-master/components/brave_rewards/browser/android/safetynet_check.h
+Examining brave-core-master/components/brave_rewards/browser/android/safetynet_check.cc
+Examining brave-core-master/components/brave_rewards/browser/android_util.h
+Examining brave-core-master/components/brave_rewards/browser/pending_contribution.h
+Examining brave-core-master/components/brave_rewards/browser/reconcile_info.h
+Examining brave-core-master/components/brave_rewards/browser/balance_report.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_browsertest.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_p3a.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_service.h
+Examining brave-core-master/components/brave_rewards/browser/publisher_info_backend.h
+Examining brave-core-master/components/brave_rewards/browser/external_wallet.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_fetcher_service_observer.cc
+Examining brave-core-master/components/brave_rewards/browser/content_site.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_factory.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_protocol_handler.cc
+Examining brave-core-master/components/brave_rewards/browser/rewards_service_factory.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_notification_service_browsertest.cc
+Examining brave-core-master/components/brave_rewards/browser/switches.h
+Examining brave-core-master/components/brave_rewards/browser/rewards_protocol_handler.h
+Examining brave-core-master/components/brave_rewards/browser/promotion.cc
+Examining brave-core-master/components/brave_rewards/browser/static_values.h
+Examining brave-core-master/components/brave_rewards/browser/test_util.h
+Examining brave-core-master/components/brave_rewards/browser/extension_rewards_notification_service_observer.cc
+Examining brave-core-master/components/brave_rewards/browser/extension_rewards_service_observer.cc
+Examining brave-core-master/components/brave_rewards/common/pref_names.cc
+Examining brave-core-master/components/brave_rewards/common/pref_names.h
+Examining brave-core-master/components/translate/core/browser/translate_language_list_unittest.cc
+Examining brave-core-master/components/assist_ranker/ranker_model_loader_impl_unittest.cc
+Examining brave-core-master/components/omnibox/browser/brave_omnibox_client.h
+Examining brave-core-master/components/omnibox/browser/brave_autocomplete_controller.h
+Examining brave-core-master/components/omnibox/browser/brave_omnibox_client.cc
+Examining brave-core-master/components/omnibox/browser/topsites_provider_unittest.cc
+Examining brave-core-master/components/omnibox/browser/topsites_provider.cc
+Examining brave-core-master/components/omnibox/browser/topsites_provider.h
+Examining brave-core-master/components/omnibox/browser/constants.h
+Examining brave-core-master/components/omnibox/browser/constants.cc
+Examining brave-core-master/components/omnibox/browser/topsites_provider_data.cc
+Examining brave-core-master/components/omnibox/browser/brave_autocomplete_controller.cc
+Examining brave-core-master/components/brave_component_updater/browser/brave_component.h
+Examining brave-core-master/components/brave_component_updater/browser/local_data_files_observer.h
+Examining brave-core-master/components/brave_component_updater/browser/local_data_files_observer.cc
+Examining brave-core-master/components/brave_component_updater/browser/dat_file_util.cc
+Examining brave-core-master/components/brave_component_updater/browser/local_data_files_service.h
+Examining brave-core-master/components/brave_component_updater/browser/dat_file_util.h
+Examining brave-core-master/components/brave_component_updater/browser/brave_component.cc
+Examining brave-core-master/components/brave_component_updater/browser/local_data_files_service.cc
+Examining brave-core-master/components/brave_component_updater/browser/extension_whitelist_service.h
+Examining brave-core-master/components/brave_component_updater/browser/extension_whitelist_service.cc
+Examining brave-core-master/components/brave_ads/browser/locale_helper_mac.h
+Examining brave-core-master/components/brave_ads/browser/ad_notification.h
+Examining brave-core-master/components/brave_ads/browser/notification_helper_win.cc
+Examining brave-core-master/components/brave_ads/browser/notification_helper_mac.h
+Examining brave-core-master/components/brave_ads/browser/background_helper.h
+Examining brave-core-master/components/brave_ads/browser/notification_helper.cc
+Examining brave-core-master/components/brave_ads/browser/notification_helper_win.h
+Examining brave-core-master/components/brave_ads/browser/ads_tab_helper.h
+Examining brave-core-master/components/brave_ads/browser/locale_helper_linux.h
+Examining brave-core-master/components/brave_ads/browser/locale_helper_win.h
+Examining brave-core-master/components/brave_ads/browser/ads_service.h
+Examining brave-core-master/components/brave_ads/browser/locale_helper.h
+Examining brave-core-master/components/brave_ads/browser/background_helper_win.cc
+Examining brave-core-master/components/brave_ads/browser/locale_helper_android.cc
+Examining brave-core-master/components/brave_ads/browser/locale_helper_mock.cc
+Examining brave-core-master/components/brave_ads/browser/notification_helper_android.cc
+Examining brave-core-master/components/brave_ads/browser/locale_helper_win.cc
+Examining brave-core-master/components/brave_ads/browser/notification_helper_android.h
+Examining brave-core-master/components/brave_ads/browser/locale_helper_linux.cc
+Examining brave-core-master/components/brave_ads/browser/ad_notification.cc
+Examining brave-core-master/components/brave_ads/browser/notification_helper_linux.cc
+Examining brave-core-master/components/brave_ads/browser/notification_helper.h
+Examining brave-core-master/components/brave_ads/browser/locale_helper_android.h
+Examining brave-core-master/components/brave_ads/browser/ads_service_factory.h
+Examining brave-core-master/components/brave_ads/browser/test_util.cc
+Examining brave-core-master/components/brave_ads/browser/ads_service_impl.cc
+Examining brave-core-master/components/brave_ads/browser/notification_helper_linux.h
+Examining brave-core-master/components/brave_ads/browser/bundle_state_database.cc
+Examining brave-core-master/components/brave_ads/browser/ads_service_impl.h
+Examining brave-core-master/components/brave_ads/browser/locale_helper_mock.h
+Examining brave-core-master/components/brave_ads/browser/notification_helper_mock.h
+Examining brave-core-master/components/brave_ads/browser/background_helper_linux.h
+Examining brave-core-master/components/brave_ads/browser/background_helper_linux.cc
+Examining brave-core-master/components/brave_ads/browser/ads_service_factory.cc
+Examining brave-core-master/components/brave_ads/browser/background_helper_android.h
+Examining brave-core-master/components/brave_ads/browser/notification_helper_mock.cc
+Examining brave-core-master/components/brave_ads/browser/background_helper_mac.h
+Examining brave-core-master/components/brave_ads/browser/ads_tab_helper.cc
+Examining brave-core-master/components/brave_ads/browser/background_helper_android.cc
+Examining brave-core-master/components/brave_ads/browser/background_helper_win.h
+Examining brave-core-master/components/brave_ads/browser/locale_helper.cc
+Examining brave-core-master/components/brave_ads/browser/ads_service_impl_unittest.cc
+Examining brave-core-master/components/brave_ads/browser/background_helper.cc
+Examining brave-core-master/components/brave_ads/browser/test_util.h
+Examining brave-core-master/components/brave_ads/browser/bundle_state_database.h
+Examining brave-core-master/components/brave_ads/common/pref_names.cc
+Examining brave-core-master/components/brave_ads/common/switches.cc
+Examining brave-core-master/components/brave_ads/common/pref_names.h
+Examining brave-core-master/components/brave_ads/common/switches.h
+Examining brave-core-master/components/webcompat_reporter/browser/webcompat_report_uploader.h
+Examining brave-core-master/components/webcompat_reporter/browser/webcompat_report_uploader.cc
+Examining brave-core-master/components/brave_sync/brave_sync_service_observer.h
+Examining brave-core-master/components/brave_sync/jslib_messages.cc
+Examining brave-core-master/components/brave_sync/crypto/crypto_unittest.cc
+Examining brave-core-master/components/brave_sync/crypto/crypto.cc
+Examining brave-core-master/components/brave_sync/crypto/crypto.h
+Examining brave-core-master/components/brave_sync/brave_sync_prefs.cc
+Examining brave-core-master/components/brave_sync/jslib_messages_fwd.h
+Examining brave-core-master/components/brave_sync/brave_sync_prefs.h
+Examining brave-core-master/components/brave_sync/jslib_const.h
+Examining brave-core-master/components/brave_sync/values_conv.cc
+Examining brave-core-master/components/brave_sync/settings.h
+Examining brave-core-master/components/brave_sync/values_conv.h
+Examining brave-core-master/components/brave_sync/settings.cc
+Examining brave-core-master/components/brave_sync/syncer_helper.h
+Examining brave-core-master/components/brave_sync/jslib_const.cc
+Examining brave-core-master/components/brave_sync/bookmark_order_util.cc
+Examining brave-core-master/components/brave_sync/tools.cc
+Examining brave-core-master/components/brave_sync/brave_sync_service_unittest.cc
+Examining brave-core-master/components/brave_sync/brave_sync_service.h
+Examining brave-core-master/components/brave_sync/public/brave_profile_sync_service.h
+Examining brave-core-master/components/brave_sync/switches.cc
+Examining brave-core-master/components/brave_sync/sync_devices.h
+Examining brave-core-master/components/brave_sync/bookmark_order_util_unittest.cc
+Examining brave-core-master/components/brave_sync/test_util.cc
+Examining brave-core-master/components/brave_sync/tools.h
+Examining brave-core-master/components/brave_sync/brave_profile_sync_service_impl.cc
+Examining brave-core-master/components/brave_sync/brave_profile_sync_service_impl.h
+Examining brave-core-master/components/brave_sync/sync_devices.cc
+Examining brave-core-master/components/brave_sync/jslib_messages.h
+Examining brave-core-master/components/brave_sync/syncer_helper.cc
+Examining brave-core-master/components/brave_sync/brave_sync_service.cc
+Examining brave-core-master/components/brave_sync/bookmark_order_util.h
+Examining brave-core-master/components/brave_sync/syncer_helper_unittest.cc
+Examining brave-core-master/components/brave_sync/switches.h
+Examining brave-core-master/components/brave_sync/client/client_ext_impl_data.cc
+Examining brave-core-master/components/brave_sync/client/client_data.h
+Examining brave-core-master/components/brave_sync/client/brave_sync_client_impl.cc
+Examining brave-core-master/components/brave_sync/client/brave_sync_client.h
+Examining brave-core-master/components/brave_sync/client/client_ext_impl_data.h
+Examining brave-core-master/components/brave_sync/client/client_data.cc
+Examining brave-core-master/components/brave_sync/client/brave_sync_client_impl.h
+Examining brave-core-master/components/brave_sync/test_util.h
+Examining brave-core-master/components/greaselion/browser/greaselion_service.h
+Examining brave-core-master/components/greaselion/browser/greaselion_download_service.cc
+Examining brave-core-master/components/greaselion/browser/greaselion_service_impl.h
+Examining brave-core-master/components/greaselion/browser/greaselion_download_service.h
+Examining brave-core-master/components/greaselion/browser/greaselion_service_impl.cc
+Examining brave-core-master/components/search_engines/brave_prepopulated_engines.h
+Examining brave-core-master/components/search_engines/brave_prepopulated_engines.cc
+Examining brave-core-master/components/ntp_tiles/brave_popular_sites_impl.h
+Examining brave-core-master/components/ntp_tiles/brave_popular_sites_impl.cc
+Examining brave-core-master/components/brave_prochlo/brave_prochlo_crypto.cc
+Examining brave-core-master/components/brave_prochlo/brave_prochlo_message.h
+Examining brave-core-master/components/brave_prochlo/prochlo_crypto.cc
+Examining brave-core-master/components/brave_prochlo/prochlo_data.h
+Examining brave-core-master/components/brave_prochlo/prochlo_crypto.h
+Examining brave-core-master/components/brave_prochlo/brave_prochlo_crypto.h
+Examining brave-core-master/components/brave_prochlo/brave_prochlo_message.cc
+Examining brave-core-master/components/brave_referrals/browser/brave_referrals_service.h
+Examining brave-core-master/components/brave_referrals/browser/brave_referrals_service.cc
+Examining brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper.cc
+Examining brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper.h
+Examining brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc
+Examining brave-core-master/components/brave_webtorrent/browser/webtorrent_util.cc
+Examining brave-core-master/components/brave_webtorrent/browser/webtorrent_util.h
+Examining brave-core-master/components/brave_webtorrent/browser/content_browser_client_helper.h
+Examining brave-core-master/components/network_time/network_time_tracker_unittest.cc
+Examining brave-core-master/components/p3a/p3a_core_metrics.h
+Examining brave-core-master/components/p3a/brave_histogram_rewrite.h
+Examining brave-core-master/components/p3a/brave_p3a_log_store.h
+Examining brave-core-master/components/p3a/brave_p3a_uploader.h
+Examining brave-core-master/components/p3a/brave_p3a_uploader.cc
+Examining brave-core-master/components/p3a/brave_p3a_scheduler.cc
+Examining brave-core-master/components/p3a/pref_names.cc
+Examining brave-core-master/components/p3a/brave_p3a_log_store.cc
+Examining brave-core-master/components/p3a/brave_p3a_service.h
+Examining brave-core-master/components/p3a/brave_histogram_rewrite.cc
+Examining brave-core-master/components/p3a/brave_p3a_scheduler.h
+Examining brave-core-master/components/p3a/pref_names.h
+Examining brave-core-master/components/p3a/brave_p3a_switches.h
+Examining brave-core-master/components/p3a/brave_p3a_service.cc
+Examining brave-core-master/components/p3a/p3a_core_metrics.cc
+Examining brave-core-master/components/invalidation/push_client_channel_unittest.cc
+Examining brave-core-master/components/services/bat_ads/bat_ads_service_impl.h
+Examining brave-core-master/components/services/bat_ads/bat_ads_client_mojo_bridge.cc
+Examining brave-core-master/components/services/bat_ads/bat_ads_client_mojo_bridge.h
+Examining brave-core-master/components/services/bat_ads/bat_ads_app.cc
+Examining brave-core-master/components/services/bat_ads/bat_ads_service_impl.cc
+Examining brave-core-master/components/services/bat_ads/public/cpp/ads_client_mojo_bridge.cc
+Examining brave-core-master/components/services/bat_ads/public/cpp/ads_client_mojo_bridge.h
+Examining brave-core-master/components/services/bat_ads/public/cpp/manifest.h
+Examining brave-core-master/components/services/bat_ads/public/cpp/manifest.cc
+Examining brave-core-master/components/services/bat_ads/bat_ads_impl.cc
+Examining brave-core-master/components/services/bat_ads/bat_ads_app.h
+Examining brave-core-master/components/services/bat_ads/bat_ads_impl.h
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_client_mojo_proxy.cc
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_client_mojo_proxy.h
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_impl.h
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_app.h
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_service_impl.h
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_app.cc
+Examining brave-core-master/components/services/bat_ledger/public/cpp/ledger_client_mojo_proxy.cc
+Examining brave-core-master/components/services/bat_ledger/public/cpp/manifest.h
+Examining brave-core-master/components/services/bat_ledger/public/cpp/ledger_client_mojo_proxy.h
+Examining brave-core-master/components/services/bat_ledger/public/cpp/manifest.cc
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_service_impl.cc
+Examining brave-core-master/components/services/bat_ledger/bat_ledger_impl.cc
+Examining brave-core-master/components/services/brave_content_browser_overlay_manifest.cc
+Examining brave-core-master/components/services/brave_content_browser_overlay_manifest.h
+Examining brave-core-master/components/services/tor/tor_launcher_impl.cc
+Examining brave-core-master/components/services/tor/tor_launcher_service.cc
+Examining brave-core-master/components/services/tor/tor_launcher_impl.h
+Examining brave-core-master/components/services/tor/public/cpp/manifest.h
+Examining brave-core-master/components/services/tor/public/cpp/manifest.cc
+Examining brave-core-master/components/services/tor/tor_launcher_service.h
+Examining brave-core-master/common/render_messages.h
+Examining brave-core-master/common/brave_content_client.h
+Examining brave-core-master/common/shield_exceptions.h
+Examining brave-core-master/common/importer/brave_importer_utils_win.cc
+Examining brave-core-master/common/importer/brave_importer_utils.h
+Examining brave-core-master/common/importer/brave_mock_importer_bridge.cc
+Examining brave-core-master/common/importer/imported_browser_window.h
+Examining brave-core-master/common/importer/chrome_importer_utils_win.cc
+Examining brave-core-master/common/importer/brave_mock_importer_bridge.h
+Examining brave-core-master/common/importer/brave_ledger.cc
+Examining brave-core-master/common/importer/chrome_importer_utils_linux.cc
+Examining brave-core-master/common/importer/brave_referral.h
+Examining brave-core-master/common/importer/brave_stats.h
+Examining brave-core-master/common/importer/brave_ledger.h
+Examining brave-core-master/common/importer/imported_browser_window.cc
+Examining brave-core-master/common/importer/brave_referral.cc
+Examining brave-core-master/common/importer/brave_importer_utils.cc
+Examining brave-core-master/common/importer/chrome_importer_utils.cc
+Examining brave-core-master/common/importer/brave_importer_utils_linux.cc
+Examining brave-core-master/common/importer/chrome_importer_utils.h
+Examining brave-core-master/common/brave_content_client.cc
+Examining brave-core-master/common/network_constants.h
+Examining brave-core-master/common/url_constants.h
+Examining brave-core-master/common/brave_channel_info_unittest.cc
+Examining brave-core-master/common/shield_exceptions.cc
+Examining brave-core-master/common/brave_features.h
+Examining brave-core-master/common/pref_names.cc
+Examining brave-core-master/common/brave_switches.cc
+Examining brave-core-master/common/shield_exceptions_unittest.cc
+Examining brave-core-master/common/url_constants.cc
+Examining brave-core-master/common/brave_isolated_worlds.h
+Examining brave-core-master/common/brave_features.cc
+Examining brave-core-master/common/extensions/brave_extensions_api_provider.h
+Examining brave-core-master/common/extensions/brave_extensions_api_provider.cc
+Examining brave-core-master/common/extensions/whitelist.h
+Examining brave-core-master/common/extensions/whitelist.cc
+Examining brave-core-master/common/extensions/api/generated_includes.h
+Examining brave-core-master/common/extensions/extension_constants.h
+Examining brave-core-master/common/extensions/extension_constants.cc
+Examining brave-core-master/common/brave_channel_info_browsertest.cc
+Examining brave-core-master/common/common_message_generator.cc
+Examining brave-core-master/common/webui_url_constants.cc
+Examining brave-core-master/common/brave_content_client_unittest.cc
+Examining brave-core-master/common/brave_switches.h
+Examining brave-core-master/common/translate_network_constants.h
+Examining brave-core-master/common/common_message_generator.h
+Examining brave-core-master/common/brave_paths.cc
+Examining brave-core-master/common/tor/pref_names.cc
+Examining brave-core-master/common/tor/switches.cc
+Examining brave-core-master/common/tor/tor_test_constants.cc
+Examining brave-core-master/common/tor/tor_common.h
+Examining brave-core-master/common/tor/pref_names.h
+Examining brave-core-master/common/tor/tor_test_constants.h
+Examining brave-core-master/common/tor/tor_config_struct_traits.cc
+Examining brave-core-master/common/tor/tor_constants.cc
+Examining brave-core-master/common/tor/tor_common.cc
+Examining brave-core-master/common/tor/switches.h
+Examining brave-core-master/common/tor/tor_config_struct_traits.h
+Examining brave-core-master/common/tor/tor_constants.h
+Examining brave-core-master/common/network_constants.cc
+Examining brave-core-master/common/resource_bundle_helper.cc
+Examining brave-core-master/common/resource_bundle_helper.h
+Examining brave-core-master/common/brave_channel_info_posix.cc
+Examining brave-core-master/common/brave_channel_info_posix.h
+Examining brave-core-master/common/pref_names.h
+Examining brave-core-master/common/brave_paths.h
+Examining brave-core-master/common/translate_network_constants.cc
+Examining brave-core-master/common/webui_url_constants.h
+Examining brave-core-master/third_party/libaddressinput/chromium/chrome_metadata_source_unittest.cc
+Examining brave-core-master/win_build_output/midl/google_update/x64/google_update_idl.dlldata.c
+Examining brave-core-master/win_build_output/midl/google_update/x64/google_update_idl_i.c
+Examining brave-core-master/win_build_output/midl/google_update/x64/google_update_idl.h
+Examining brave-core-master/win_build_output/midl/google_update/x64/google_update_idl_p.c
+Examining brave-core-master/win_build_output/midl/google_update/x86/google_update_idl.dlldata.c
+Examining brave-core-master/win_build_output/midl/google_update/x86/google_update_idl_i.c
+Examining brave-core-master/win_build_output/midl/google_update/x86/google_update_idl.h
+Examining brave-core-master/win_build_output/midl/google_update/x86/google_update_idl_p.c
+Examining brave-core-master/chromium_src/ui/native_theme/native_theme_win.cc
+Examining brave-core-master/chromium_src/ui/native_theme/native_theme.h
+Examining brave-core-master/chromium_src/ui/native_theme/native_theme_win.h
+Examining brave-core-master/chromium_src/ui/native_theme/common_theme.cc
+Examining brave-core-master/chromium_src/ui/views/controls/focus_ring.cc
+Examining brave-core-master/chromium_src/ui/views/controls/button/md_text_button.cc
+Examining brave-core-master/chromium_src/ui/views/controls/button/md_text_button.h
+Examining brave-core-master/chromium_src/ui/base/webui/web_ui_util.cc
+Examining brave-core-master/chromium_src/ui/base/resource/resource_bundle_android.h
+Examining brave-core-master/chromium_src/ui/base/resource/resource_bundle_android.cc
+Examining brave-core-master/chromium_src/net/url_request/url_request_http_job.cc
+Examining brave-core-master/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
+Examining brave-core-master/chromium_src/net/proxy_resolution/proxy_resolution_service.cc
+Examining brave-core-master/chromium_src/net/third_party/quiche/src/quic/core/crypto/transport_parameters.cc
+Examining brave-core-master/chromium_src/net/log/net_log_event_type_list.h
+Examining brave-core-master/chromium_src/net/base/url_util.cc
+Examining brave-core-master/chromium_src/net/base/host_port_pair.cc
+Examining brave-core-master/chromium_src/net/base/host_port_pair.h
+Examining brave-core-master/chromium_src/net/base/url_util.h
+Examining brave-core-master/chromium_src/net/cookies/brave_canonical_cookie_unittest.cc
+Examining brave-core-master/chromium_src/net/cookies/canonical_cookie.cc
+Examining brave-core-master/chromium_src/net/cookies/canonical_cookie.h
+Examining brave-core-master/chromium_src/net/socket/socks5_client_socket.h
+Examining brave-core-master/chromium_src/net/socket/socks5_client_socket.cc
+Examining brave-core-master/chromium_src/google_apis/google_api_keys.h
+Examining brave-core-master/chromium_src/google_apis/google_api_keys.cc
+Examining brave-core-master/chromium_src/content/browser/frame_host/navigation_request.cc
+Examining brave-core-master/chromium_src/content/browser/permissions/permission_controller_impl.cc
+Examining brave-core-master/chromium_src/content/browser/devtools/devtools_url_loader_interceptor.cc
+Examining brave-core-master/chromium_src/content/browser/browser_main_loop.cc
+Examining brave-core-master/chromium_src/content/public/test/browser_test_utils.cc
+Examining brave-core-master/chromium_src/content/public/browser/content_browser_client.h
+Examining brave-core-master/chromium_src/content/public/common/url_constants.h
+Examining brave-core-master/chromium_src/content/public/common/url_constants.cc
+Examining brave-core-master/chromium_src/content/child/runtime_features.cc
+Examining brave-core-master/chromium_src/content/child/child_thread_impl.cc
+Examining brave-core-master/chromium_src/extensions/browser/sandboxed_unpacker.cc
+Examining brave-core-master/chromium_src/extensions/browser/sandboxed_unpacker_unittest.cc
+Examining brave-core-master/chromium_src/extensions/common/permissions/permissions_data_unittest.cc
+Examining brave-core-master/chromium_src/extensions/common/permissions/permissions_data.h
+Examining brave-core-master/chromium_src/extensions/common/permissions/permissions_data.cc
+Examining brave-core-master/chromium_src/components/password_manager/core/browser/password_bubble_experiment_unittest.cc
+Examining brave-core-master/chromium_src/components/password_manager/core/browser/password_bubble_experiment.cc
+Examining brave-core-master/chromium_src/components/metrics/enabled_state_provider.cc
+Examining brave-core-master/chromium_src/components/metrics/enabled_state_provider_unittest.cc
+Examining brave-core-master/chromium_src/components/metrics/metrics_service_accessor.cc
+Examining brave-core-master/chromium_src/components/metrics/machine_id_provider_win.cc
+Examining brave-core-master/chromium_src/components/sync_bookmarks/bookmark_change_processor.h
+Examining brave-core-master/chromium_src/components/sync_bookmarks/bookmark_change_processor.cc
+Examining brave-core-master/chromium_src/components/content_settings/core/browser/brave_content_settings_registry_browsertest.cc
+Examining brave-core-master/chromium_src/components/content_settings/core/browser/host_content_settings_map.cc
+Examining brave-core-master/chromium_src/components/content_settings/core/browser/content_settings_registry.cc
+Examining brave-core-master/chromium_src/components/content_settings/core/common/cookie_settings_base.cc
+Examining brave-core-master/chromium_src/components/translate/core/browser/translate_url_fetcher.h
+Examining brave-core-master/chromium_src/components/translate/core/browser/translate_url_fetcher.cc
+Examining brave-core-master/chromium_src/components/translate/core/browser/translate_manager_unittest.cc
+Examining brave-core-master/chromium_src/components/translate/core/browser/translate_manager.cc
+Examining brave-core-master/chromium_src/components/omnibox/browser/omnibox_edit_model.cc
+Examining brave-core-master/chromium_src/components/omnibox/browser/omnibox_controller.cc
+Examining brave-core-master/chromium_src/components/omnibox/browser/omnibox_controller.h
+Examining brave-core-master/chromium_src/components/variations/service/field_trial_unittest.cc
+Examining brave-core-master/chromium_src/components/safe_browsing/browser/safe_browsing_network_context.cc
+Examining brave-core-master/chromium_src/components/search_engines/brave_template_url_prepopulate_data_unittest.cc
+Examining brave-core-master/chromium_src/components/search_engines/util.cc
+Examining brave-core-master/chromium_src/components/search_engines/brave_template_url_service_util_unittest.cc
+Examining brave-core-master/chromium_src/components/search_engines/template_url_prepopulate_data.cc
+Examining brave-core-master/chromium_src/components/autofill/core/browser/autofill_experiments.cc
+Examining brave-core-master/chromium_src/components/autofill/core/browser/autofill_experiments_unittest.cc
+Examining brave-core-master/chromium_src/components/crash/content/app/crashpad_win.cc
+Examining brave-core-master/chromium_src/components/crash/content/app/crashpad_android.cc
+Examining brave-core-master/chromium_src/components/version_info/brave_version_info_unittest.cc
+Examining brave-core-master/chromium_src/components/version_info/version_info.cc
+Examining brave-core-master/chromium_src/components/bookmarks/browser/bookmark_model.cc
+Examining brave-core-master/chromium_src/components/bookmarks/browser/bookmark_model_unittest.cc
+Examining brave-core-master/chromium_src/components/bookmarks/browser/bookmark_utils.cc
+Examining brave-core-master/chromium_src/components/bookmarks/browser/bookmark_model.h
+Examining brave-core-master/chromium_src/components/zoom/page_zoom_constants.cc
+Examining brave-core-master/chromium_src/components/browsing_data/core/pref_names.cc
+Examining brave-core-master/chromium_src/components/browsing_data/core/pref_names.h
+Examining brave-core-master/chromium_src/components/sync/driver/sync_driver_switches.cc
+Examining brave-core-master/chromium_src/components/sync/driver/glue/sync_engine_backend.cc
+Examining brave-core-master/chromium_src/components/sync/driver/glue/sync_engine_impl.h
+Examining brave-core-master/chromium_src/components/sync/driver/profile_sync_service.h
+Examining brave-core-master/chromium_src/components/sync/driver/profile_sync_service.cc
+Examining brave-core-master/chromium_src/components/sync/engine_impl/sync_scheduler_impl.cc
+Examining brave-core-master/chromium_src/components/sync/engine_impl/get_updates_processor.cc
+Examining brave-core-master/chromium_src/components/sync/engine_impl/syncer.h
+Examining brave-core-master/chromium_src/components/sync/engine_impl/sync_manager_impl.cc
+Examining brave-core-master/chromium_src/components/sync/engine_impl/cycle/sync_cycle.h
+Examining brave-core-master/chromium_src/components/sync/engine_impl/sync_scheduler_impl.h
+Examining brave-core-master/chromium_src/components/sync/engine_impl/process_updates_util.cc
+Examining brave-core-master/chromium_src/components/sync/engine_impl/commit.cc
+Examining brave-core-master/chromium_src/components/sync/engine_impl/syncer.cc
+Examining brave-core-master/chromium_src/components/sync/engine_impl/get_updates_processor.h
+Examining brave-core-master/chromium_src/components/sync/engine/sync_engine.h
+Examining brave-core-master/chromium_src/components/sync/engine/sync_manager.h
+Examining brave-core-master/chromium_src/components/sync/syncable/write_transaction.h
+Examining brave-core-master/chromium_src/components/sync/syncable/write_transaction.cc
+Examining brave-core-master/chromium_src/components/os_crypt/os_crypt_win.cc
+Examining brave-core-master/chromium_src/components/component_updater/component_installer.cc
+Examining brave-core-master/chromium_src/third_party/blink/renderer/platform/exported/web_canonical_cookie.cc
+Examining brave-core-master/chromium_src/third_party/blink/renderer/modules/encryptedmedia/navigator_request_media_key_system_access.cc
+Examining brave-core-master/chromium_src/third_party/blink/renderer/modules/bluetooth/navigator_bluetoothtest.cc
+Examining brave-core-master/chromium_src/third_party/blink/renderer/modules/battery/battery_manager.cc
+Examining brave-core-master/chromium_src/third_party/blink/renderer/modules/battery/navigator_batterytest.cc
+Examining brave-core-master/chromium_src/third_party/blink/public/platform/disable_client_hints_browsertest.cc
+Examining brave-core-master/chromium_src/third_party/blink/public/platform/web_client_hints_type.h
+Examining brave-core-master/chromium_src/third_party/crashpad/crashpad/util/net/http_transport_win.cc
+Examining brave-core-master/chromium_src/android_webview/renderer/aw_key_systems.cc
+Examining brave-core-master/chromium_src/android_webview/browser/cookie_manager.cc
+Examining brave-core-master/chromium_src/android_webview/browser/aw_permission_manager.cc
+Examining brave-core-master/chromium_src/chrome/renderer/media/chrome_key_systems.cc
+Examining brave-core-master/chromium_src/chrome/app/chrome_main.cc
+Examining brave-core-master/chromium_src/chrome/app/chrome_main_delegate.h
+Examining brave-core-master/chromium_src/chrome/app/chrome_main_delegate.cc
+Examining brave-core-master/chromium_src/chrome/app/android/chrome_main_delegate_android.cc
+Examining brave-core-master/chromium_src/chrome/app/android/chrome_main_delegate_android.h
+Examining brave-core-master/chromium_src/chrome/app/chrome_command_ids.h
+Examining brave-core-master/chromium_src/chrome/test/views/accessibility_checker.h
+Examining brave-core-master/chromium_src/chrome/test/base/testing_profile.cc
+Examining brave-core-master/chromium_src/chrome/grit/theme_resources.h
+Examining brave-core-master/chromium_src/chrome/grit/chrome_unscaled_resources.h
+Examining brave-core-master/chromium_src/chrome/grit/generated_resources.h
+Examining brave-core-master/chromium_src/chrome/browser/prefs/browser_prefs.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/omnibox/chrome_omnibox_client.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/omnibox/chrome_omnibox_client.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/browser_commands.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/browser.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/toolbar/toolbar_actions_model_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/browser_navigator.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/app_list/search/omnibox_provider.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/browser.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/extensions/icon_with_badge_image_source.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/page_info/page_info.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/bookmarks/recently_used_folders_combo_model.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/bookmarks/bookmark_utils.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/bookmarks/brave_bookmark_context_menu_controller_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/singleton_tabs.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/settings/settings_ui.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/settings/about_handler.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/settings/settings_localized_strings_provider.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/settings/metrics_reporting_handler.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/settings/metrics_reporting_handler.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/omnibox/omnibox_page_handler.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/history_ui.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/print_preview/print_preview_ui.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/devtools_ui.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/site_settings_helper.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/extensions/extensions_ui.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/version_ui.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/webui/downloads/downloads_ui.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/layout_constants.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/startup/startup_browser_creator_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/startup/google_api_keys_infobar_delegate.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/tabs/tab.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/tabs/tab_hover_card_bubble_view.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/tabs/tab_strip.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/tabs/tab_hover_card_bubble_view_browsertest.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/tabs/tab_hover_card_bubble_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/tabs/tab_icon.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/chrome_layout_provider.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/translate/translate_bubble_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/translate/translate_bubble_view.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/chrome_typography_provider.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/chrome_browser_main_extra_parts_views.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/toolbar/toolbar_button.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/toolbar/toolbar_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/frame/browser_window_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/frame/browser_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/page_action/page_action_icon_container_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/extensions/extension_popup.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/permission_bubble/permission_prompt_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/bookmarks/bookmark_bubble_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/download/download_shelf_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/chrome_browser_main_extra_parts_views_linux_x11.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/profiles/avatar_toolbar_button.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/profiles/profile_menu_view.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/profiles/incognito_menu_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/profiles/profile_menu_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/profiles/avatar_toolbar_button.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/profiles/profile_menu_view_base.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/chrome_layout_provider.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/location_bar/location_bar_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/location_bar/location_bar_view_browsertest.cc
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/location_bar/location_bar_view.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/chrome_typography_provider.h
+Examining brave-core-master/chromium_src/chrome/browser/ui/views/outdated_upgrade_bubble_view.cc
+Examining brave-core-master/chromium_src/chrome/browser/chrome_browser_main_posix.h
+Examining brave-core-master/chromium_src/chrome/browser/content_settings/host_content_settings_map_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/chrome_browser_main_android.h
+Examining brave-core-master/chromium_src/chrome/browser/chrome_browser_main_posix.cc
+Examining brave-core-master/chromium_src/chrome/browser/net/proxy_config_monitor.cc
+Examining brave-core-master/chromium_src/chrome/browser/net/system_network_context_manager.cc
+Examining brave-core-master/chromium_src/chrome/browser/net/proxy_config_monitor.h
+Examining brave-core-master/chromium_src/chrome/browser/importer/external_process_importer_client.h
+Examining brave-core-master/chromium_src/chrome/browser/importer/importer_list.cc
+Examining brave-core-master/chromium_src/chrome/browser/autocomplete/autocomplete_classifier_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/chrome_resource_bundle_helper.cc
+Examining brave-core-master/chromium_src/chrome/browser/shell_integration.cc
+Examining brave-core-master/chromium_src/chrome/browser/browser_process_impl.h
+Examining brave-core-master/chromium_src/chrome/browser/push_messaging/push_messaging_service_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/push_messaging/push_messaging_service_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/chrome_content_browser_client.cc
+Examining brave-core-master/chromium_src/chrome/browser/startup_data.cc
+Examining brave-core-master/chromium_src/chrome/browser/browser_about_handler.cc
+Examining brave-core-master/chromium_src/chrome/browser/search_engines/template_url_service_factory_android.cc
+Examining brave-core-master/chromium_src/chrome/browser/external_protocol/external_protocol_handler_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/permissions/permission_util.cc
+Examining brave-core-master/chromium_src/chrome/browser/permissions/permission_manager.cc
+Examining brave-core-master/chromium_src/chrome/browser/permissions/permission_request_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/permissions/permission_uma_util.cc
+Examining brave-core-master/chromium_src/chrome/browser/permissions/permission_request.h
+Examining brave-core-master/chromium_src/chrome/browser/shell_integration_unittest_mac.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/extension_service.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/extension_action_manager.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/component_extensions_whitelist/whitelist.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/chrome_extensions_browser_client.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/api/bookmarks/bookmarks_api_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/api/settings_private/settings_private_delegate.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/api/settings_private/settings_private_event_router.cc
+Examining brave-core-master/chromium_src/chrome/browser/extensions/extension_system_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/ntp_tiles/chrome_popular_sites_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/chrome_browser_main_win.h
+Examining brave-core-master/chromium_src/chrome/browser/chrome_browser_main_android.cc
+Examining brave-core-master/chromium_src/chrome/browser/supervised_user/supervised_user_settings_service_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/bookmarks/bookmark_model_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/bookmarks/managed_bookmark_service_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/signin/account_consistency_disabled_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/devtools/devtools_ui_bindings.h
+Examining brave-core-master/chromium_src/chrome/browser/devtools/devtools_ui_bindings.cc
+Examining brave-core-master/chromium_src/chrome/browser/first_run/first_run.h
+Examining brave-core-master/chromium_src/chrome/browser/first_run/first_run.cc
+Examining brave-core-master/chromium_src/chrome/browser/chrome_browser_main.cc
+Examining brave-core-master/chromium_src/chrome/browser/android/chrome_feature_list.cc
+Examining brave-core-master/chromium_src/chrome/browser/android/preferences/pref_service_bridge.cc
+Examining brave-core-master/chromium_src/chrome/browser/android/intercept_navigation_delegate_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/android/omnibox/autocomplete_controller_android.cc
+Examining brave-core-master/chromium_src/chrome/browser/android/signin/signin_manager_android.cc
+Examining brave-core-master/chromium_src/chrome/browser/history/history_utils_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/history/history_utils.cc
+Examining brave-core-master/chromium_src/chrome/browser/about_flags.cc
+Examining brave-core-master/chromium_src/chrome/browser/browsing_data/mock_browsing_data_cookie_helper.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_metrics.h
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_metrics.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_window_browsertest.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_window.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_avatar_icon_util_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_io_data.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_shortcut_manager_win.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_avatar_icon_util.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/chrome_browser_main_extra_parts_profiles.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/off_the_record_profile_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_impl.h
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profiles_state.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/bookmark_model_loaded_observer.h
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_avatar_icon_util.h
+Examining brave-core-master/chromium_src/chrome/browser/profiles/profile_manager.cc
+Examining brave-core-master/chromium_src/chrome/browser/profiles/pref_service_builder_utils.cc
+Examining brave-core-master/chromium_src/chrome/browser/sync/profile_sync_service_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/sync/sync_ui_util.cc
+Examining brave-core-master/chromium_src/chrome/browser/themes/theme_service_win.h
+Examining brave-core-master/chromium_src/chrome/browser/themes/theme_service_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/themes/theme_service.h
+Examining brave-core-master/chromium_src/chrome/browser/themes/theme_service_aura_linux.h
+Examining brave-core-master/chromium_src/chrome/browser/renderer_context_menu/render_view_context_menu.cc
+Examining brave-core-master/chromium_src/chrome/browser/renderer_context_menu/render_view_context_menu.h
+Examining brave-core-master/chromium_src/chrome/browser/notifications/notification_handler.h
+Examining brave-core-master/chromium_src/chrome/browser/notifications/notification_handler.cc
+Examining brave-core-master/chromium_src/chrome/browser/notifications/notification_platform_bridge_android.cc
+Examining brave-core-master/chromium_src/chrome/browser/notifications/notifier_state_tracker_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/chrome_browser_main_win.cc
+Examining brave-core-master/chromium_src/chrome/browser/policy/configuration_policy_handler_list_factory.cc
+Examining brave-core-master/chromium_src/chrome/browser/component_updater/chrome_component_updater_configurator.cc
+Examining brave-core-master/chromium_src/chrome/browser/component_updater/widevine_cdm_component_installer_unittest.cc
+Examining brave-core-master/chromium_src/chrome/browser/component_updater/widevine_cdm_component_installer.cc
+Examining brave-core-master/chromium_src/chrome/browser/component_updater/crl_set_component_installer.cc
+Examining brave-core-master/chromium_src/chrome/browser/browser_process_impl.cc
+Examining brave-core-master/chromium_src/chrome/browser/media/router/media_router_feature.cc
+Examining brave-core-master/chromium_src/chrome/browser/media/router/media_router_feature_browsertest.cc
+Examining brave-core-master/chromium_src/chrome/common/chrome_paths_linux.cc
+Examining brave-core-master/chromium_src/chrome/common/importer/importer_bridge.h
+Examining brave-core-master/chromium_src/chrome/common/importer/profile_import_process_param_traits_macros.h
+Examining brave-core-master/chromium_src/chrome/common/pref_names.cc
+Examining brave-core-master/chromium_src/chrome/common/channel_info_posix.cc
+Examining brave-core-master/chromium_src/chrome/common/url_constants.cc
+Examining brave-core-master/chromium_src/chrome/common/chrome_constants_unittest_mac.cc
+Examining brave-core-master/chromium_src/chrome/common/chrome_constants.cc
+Examining brave-core-master/chromium_src/chrome/common/pref_names.h
+Examining brave-core-master/chromium_src/chrome/common/chrome_icon_resources_win.h
+Examining brave-core-master/chromium_src/chrome/common/media/cdm_host_file_path.cc
+Examining brave-core-master/chromium_src/chrome/install_static/brave_install_util_unittest.cc
+Examining brave-core-master/chromium_src/chrome/install_static/chromium_install_modes.h
+Examining brave-core-master/chromium_src/chrome/install_static/chromium_install_modes.cc
+Examining brave-core-master/chromium_src/chrome/install_static/brave_product_install_details_unittest.cc
+Examining brave-core-master/chromium_src/chrome/install_static/brave_user_data_dir_win_unittest.cc
+Examining brave-core-master/chromium_src/chrome/install_static/brave_install_modes_unittest.cc
+Examining brave-core-master/chromium_src/chrome/install_static/brave_install_details_unittest.cc
+Examining brave-core-master/chromium_src/chrome/installer/mini_installer/appid.h
+Examining brave-core-master/chromium_src/chrome/installer/mini_installer/brave_mini_installer_unittest.cc
+Examining brave-core-master/chromium_src/chrome/installer/mini_installer/chrome_appid.cc
+Examining brave-core-master/chromium_src/chrome/installer/mini_installer/mini_installer_constants.cc
+Examining brave-core-master/chromium_src/chrome/installer/setup/setup_main.cc
+Examining brave-core-master/chromium_src/chrome/installer/setup/brave_behaviors.cc
+Examining brave-core-master/chromium_src/chrome/utility/importer/importer_creator.cc
+Examining brave-core-master/chromium_src/services/preferences/tracked/device_id_win.cc
+Examining brave-core-master/chromium_src/services/network/restricted_cookie_manager.cc
+Examining brave-core-master/chromium_src/services/network/public/cpp/cors/cors_unittest.cc
+Examining brave-core-master/chromium_src/services/service_manager/sandbox/win/sandbox_win.cc
+Examining brave-core-master/chromium_src/media/mojo/services/gpu_mojo_media_client.cc
+Examining brave-core-master/chromium_src/media/mojo/services/gpu_mojo_media_client.h
+Examining brave-core-master/chromium_src/media/base/media_switches.cc
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/transaction_info.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/export.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/ledger_client.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/ledger_callback_handler.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/global_constants.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/transactions_info.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/mojom_structs.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/option_keys.h
+Examining brave-core-master/vendor/bat-native-ledger/include/bat/ledger/ledger.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/transaction_info.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/promotion/promotion_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/promotion/promotion.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/promotion/promotion_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/promotion/promotion_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/promotion/promotion.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/ledger_client_mock.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/rapidjson_bat_helper.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bignum.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_helper.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/ledger_impl.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state_keys.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/test/mock_ledger_client.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/test/mock_ledger_client.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/test/niceware_partial_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_util_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/publisher/publisher_server_list.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/publisher/publisher.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/publisher/publisher_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/publisher/publisher_server_list.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/publisher/publisher.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/ledger_impl_mock.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/logging.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/reconcile_request_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/state_reader.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_votes_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/wallet_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/report_balance_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_settings_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/wallet_info_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/wallet_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/transaction_ballot_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_vote_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_vote_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/client_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/transaction_ballot_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_votes_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/surveyor_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/reconcile_direction_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/reconcile_request_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_vote_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/client_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/unsigned_tx_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/wallet_info_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/ballot_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/ballot_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/current_reconcile_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/report_balance_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/reconcile_request_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/client_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/wallet_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/state_writer.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/surveyor_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/unsigned_tx_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/transaction_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/surveyor_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/unsigned_tx_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/transaction_ballot_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/reconcile_direction_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/wallet_info_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/current_reconcile_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/ballot_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/transaction_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/reconcile_direction_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_votes_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/transaction_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_settings_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/current_reconcile_state.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/publisher_settings_state_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/state/report_balance_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_user.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_card.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_util_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_wallet.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_card.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_authorization.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_transfer.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_wallet.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_authorization.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_user.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold_transfer.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/common/time_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/common/bind_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/common/time_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/common/security_helper.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/common/security_helper.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/common/bind_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_state.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/current_reconcile_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_vote_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_vote_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/reconcile_request_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/transaction_ballot_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/transaction_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/transaction_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/winner_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_settings_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/reconcile_request_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/winner_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/current_reconcile_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_settings_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/client_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/reconcile_direction_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/report_balance_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/report_balance_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/unsigned_tx_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/transaction_ballot_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/wallet_info_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_votes_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/wallet_info_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/surveyor_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/ballot_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/surveyor_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/reconcile_direction_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/ballot_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/batch_proof_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/publisher_votes_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/client_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/unsigned_tx_properties.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/properties/batch_proof_properties.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_helper.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_iosx.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_desktop.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_androidx.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_impl.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_desktop.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_iosx.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_impl.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/attestation/attestation_androidx.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/balance.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/recover.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/wallet_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/wallet.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/recover.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/balance.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/wallet_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/wallet_util_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/wallet.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/create.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/wallet/create.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/request/promotion_requests.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/request/attestation_requests.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/request/request_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/request/attestation_requests.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/request/request_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/request/promotion_requests.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/unverified.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/phase_two.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution_unblinded_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/phase_one.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution_unblinded.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution_unblinded.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/phase_two.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution_util.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/phase_two_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/unverified.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/phase_one.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/ledger_client_mock.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_helper_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/ledger_impl.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/ledger_impl_mock.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bignum.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/static_values.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/reddit.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/youtube_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/vimeo_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/helper.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/github.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/twitch.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/media.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/twitch.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/twitter_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/twitter.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/helper_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/vimeo.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/youtube.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/helper.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/vimeo.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/reddit.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/github.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/media.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/twitter.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/github_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/reddit_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/twitch_unittest.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/media/youtube.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bat_util.h
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/transactions_info.cc
+Examining brave-core-master/vendor/bat-native-ledger/src/bat/ledger/ledger.cc
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/notification_event_type.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/ad_history_detail.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/export.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/issuer_info.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/issuers_info.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/result.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/bundle_state.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/confirmation_type.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/client_info_platform_type.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/ad_content.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/ads.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/client_info.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/ads_client.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/ad_info.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/notification_info.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/category_content.h
+Examining brave-core-master/vendor/bat-native-ads/include/bat/ads/ads_history.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/issuer_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/category_content.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/ad_content.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/bundle_state.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/ads_history.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/time.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_segment_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/notifications.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filters/ad_history_confirmation_filter_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filters/ad_history_filter.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filters/ad_history_confirmation_filter.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filters/ad_history_confirmation_filter.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/json_helper.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_blur_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_creative_set_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/client_mock.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_impl.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filtered_category.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/client.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_creative_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_geo_target_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_impl.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_destroy_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/search_provider_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_client_mock.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filtered_category.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/client_state.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_creative_set_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_day_part_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/bundle.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/campaign_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_client_mock.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/locale_helper.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/search_provider_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/search_providers.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/json_helper.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_state.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_serve.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/uri_helper.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/notification_result_type.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/classification_helper.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/notifications.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/logging.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/saved_ad.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_load_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/error_helper.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_payload_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_type_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_creative_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_load_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/uri_helper.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/client.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_tabs_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/flagged_ad.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_serve.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_focus_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_geo_target_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/client_state.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filtered_ad.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ad_preferences.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_os_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_os_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/filtered_ad.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rule.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/ads_per_day_frequency_cap_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/ads_per_hour_frequency_cap.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/ads_per_day_frequency_cap.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/minimum_wait_time_frequency_cap.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/ads_per_hour_frequency_cap.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/ads_per_day_frequency_cap.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/minimum_wait_time_frequency_cap_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/minimum_wait_time_frequency_cap.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/permission_rules/ads_per_hour_frequency_cap_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/total_max_frequency_cap.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/daily_cap_frequency_cap_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/daily_cap_frequency_cap.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/per_hour_frequency_cap.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/per_day_frequency_cap_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/daily_cap_frequency_cap.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/per_hour_frequency_cap.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/per_day_frequency_cap.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/per_hour_frequency_cap_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/per_day_frequency_cap.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/total_max_frequency_cap_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rules/total_max_frequency_cap.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/frequency_capping.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/exclusion_rule.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/frequency_capping/frequency_capping.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/error_helper.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/saved_ad.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_is_mobile_unittest.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/flagged_ad.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/client_mock.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/classification_helper.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_destroy_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_payload_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_blur_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_segment_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_type_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/time.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_state.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/bundle.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ad_preferences.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/locale_helper.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/search_providers.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/catalog_day_part_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/static_values.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/event_type_focus_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/campaign_info.h
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/ad_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/issuers_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/notification_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/client_info.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/ads.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/confirmation_type.cc
+Examining brave-core-master/vendor/bat-native-ads/src/bat/ads/ad_history_detail.cc
+Examining brave-core-master/vendor/brave-ios/Ads/Generated/NativeAdsClientBridge.h
+Examining brave-core-master/vendor/brave-ios/Ads/Generated/NativeAdsClient.h
+Examining brave-core-master/vendor/brave-ios/Ads/BATAdsNotification.h
+Examining brave-core-master/vendor/brave-ios/Ads/BATBraveAds.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Generated/NativeLedgerClientBridge.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Generated/Enums.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Generated/Records+Private.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Generated/NativeLedgerClient.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Generated/Records.h
+Examining brave-core-master/vendor/brave-ios/Ledger/BATBraveLedgerObserver.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Models/BATPromotionSolution.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Models/BATRewardsNotification.h
+Examining brave-core-master/vendor/brave-ios/Ledger/BATBraveLedger.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/DataController.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/RecurringDonation.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ContributionQueue.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ContributionPublisher.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/UnblindedToken.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/CoreDataModels.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/PendingContribution.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ContributionInfo.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ActivityInfo.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/Promotion.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/MediaPublisherInfo.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/PublisherInfo.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ServerPublisherAmount.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ServerPublisherBanner.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ServerPublisherLink.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/PromotionCredentials.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/Model/ServerPublisherInfo.h
+Examining brave-core-master/vendor/brave-ios/Ledger/Data/BATLedgerDatabase.h
+Examining brave-core-master/vendor/brave-ios/BATBraveRewards.h
+Examining brave-core-master/vendor/brave-ios/tests/test_foo.h
+Examining brave-core-master/vendor/brave-ios/Shared/BATCommonOperations.h
+Examining brave-core-master/vendor/brave-ios/Shared/NSURL+Extensions.h
+Examining brave-core-master/vendor/brave-ios/Shared/RewardsLogger.h
+Examining brave-core-master/vendor/brave-ios/Shared/RewardsLogStream.h
+Examining brave-core-master/vendor/brave-ios/Shared/Logger.h
+Examining brave-core-master/vendor/brave-ios/BraveRewards.h
+Examining brave-core-master/vendor/brave-ios/objc-gen/CppTransformations.h
+Examining brave-core-master/vendor/brave_base/random_unittest.cc
+Examining brave-core-master/vendor/brave_base/random.cc
+Examining brave-core-master/vendor/brave_base/random.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/export.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/issuer_info.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/wallet_info.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/issuers_info.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/confirmations_client.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/confirmation_type.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/notification_info.h
+Examining brave-core-master/vendor/bat-native-confirmations/include/bat/confirmations/confirmations.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/issuer_info.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/get_signed_tokens_request.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/time.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/string_helper.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/fetch_payment_token_request.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/redeem_token.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ad_grants.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ads_rewards.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ad_grants.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/redeem_token.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmation_info.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/refill_tokens.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/unblinded_tokens.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_client_mock.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payment_info.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/get_payment_balance_request.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/token_info.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_impl.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/create_confirmation_request.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/get_ad_grants_request.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_unblinded_tokens_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/redeem_payment_tokens_request.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payments_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/request_signed_tokens_request.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/logging.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/refill_tokens.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/security_helper.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payout_tokens.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ads_serve_helper.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/get_signed_tokens_request.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_impl.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_client_mock.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/security_helper.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_redeem_payment_tokens_request_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/unblinded_tokens.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_request_signed_tokens_request_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ads_serve_helper.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_string_helper_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ad_grants_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payments.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_get_signed_tokens_request_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_create_confirmation_request_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmation_info.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payout_tokens.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ledger_serve_helper.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/redeem_payment_tokens_request.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_fetch_payment_token_request_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/get_ad_grants_request.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ledger_serve_helper.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/request_signed_tokens_request.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/time.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/token_info.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ads_rewards.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/create_confirmation_request.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/static_values.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_security_helper_unittest.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/fetch_payment_token_request.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/get_payment_balance_request.h
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payments.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payment_info.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/string_helper.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/issuers_info.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/notification_info.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/confirmation_type.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/wallet_info.cc
+Examining brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/confirmations.cc
+Examining brave-core-master/utility/importer/brave_importer.cc
+Examining brave-core-master/utility/importer/brave_external_process_importer_bridge.cc
+Examining brave-core-master/utility/importer/chrome_importer.cc
+Examining brave-core-master/utility/importer/brave_importer_unittest.cc
+Examining brave-core-master/utility/importer/chrome_importer.h
+Examining brave-core-master/utility/importer/firefox_importer.cc
+Examining brave-core-master/utility/importer/brave_external_process_importer_bridge.h
+Examining brave-core-master/utility/importer/firefox_importer.h
+Examining brave-core-master/utility/importer/firefox_importer_unittest.cc
+Examining brave-core-master/utility/importer/brave_importer.h
+Examining brave-core-master/utility/importer/chrome_importer_unittest.cc
+Examining brave-core-master/utility/brave_content_utility_client.cc
+Examining brave-core-master/utility/brave_content_utility_client.h
+
+FINAL RESULTS:
+
+brave-core-master/browser/importer/chrome_profile_lock_unittest.cc:64:  [5] (race) readlink:
+  This accepts filename arguments; if an attacker can move those files or
+  change the link content, a race condition results. Also, it does not
+  terminate with ASCII NUL. (CWE-362, CWE-20). Reconsider approach.
+brave-core-master/components/brave_rewards/browser/rewards_protocol_handler.cc:29:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_rewards/browser/rewards_protocol_handler.cc:38:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/content_browser_client_helper.h:31:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper.cc:70:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc:90:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc:120:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc:150:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc:187:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc:242:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc:271:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper_unittest.cc:304:  [4] (buffer) StrCat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+brave-core-master/common/brave_channel_info_posix.cc:19:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+brave-core-master/components/brave_ads/browser/locale_helper_linux.cc:20:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+brave-core-master/components/brave_ads/browser/locale_helper_linux.cc:24:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+brave-core-master/components/brave_ads/browser/locale_helper_linux.cc:28:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+brave-core-master/components/brave_referrals/browser/brave_referrals_service.cc:129:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/components/brave_referrals/browser/brave_referrals_service.cc:142:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/components/p3a/brave_p3a_service.cc:76:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_serve.cc:144:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/ads_serve.cc:222:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/ads_rewards.cc:253:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_impl.cc:1105:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/confirmations_impl.cc:1131:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/payout_tokens.cc:149:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-confirmations/src/bat/confirmations/internal/security_helper.cc:69:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/common/security_helper.cc:22:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution.cc:75:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution.cc:385:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/contribution_unblinded.cc:240:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/contribution/phase_two.cc:117:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/promotion/promotion.cc:339:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/publisher/publisher_server_list.cc:138:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold.cc:94:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/uphold/uphold.cc:353:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/brave_base/random.cc:14:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/brave_base/random.h:12:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/brave_base/random_unittest.cc:23:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/brave_base/random_unittest.cc:85:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/brave_base/random_unittest.cc:104:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/vendor/brave_base/random_unittest.cc:142:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+brave-core-master/browser/brave_stats_updater_util.cc:50:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:52:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:58:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:72:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:78:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:84:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:87:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:104:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:112:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:118:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:121:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:145:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:148:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:162:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/extensions/brave_wallet_unittest.cc:165:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/browser/importer/chrome_profile_lock_unittest.cc:63:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/chromium_src/chrome/install_static/brave_install_util_unittest.cc:522:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/chromium_src/net/base/url_util.cc:52:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/chromium_src/net/socket/socks5_client_socket.cc:100:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/brave_prochlo_message.cc:71:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/brave_prochlo_message.cc:81:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/brave_prochlo_message.cc:149:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/brave_prochlo_message.cc:151:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/brave_prochlo_message.cc:200:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/brave_prochlo_message.cc:202:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/prochlo_crypto.cc:45:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+brave-core-master/components/brave_prochlo/prochlo_crypto.cc:336:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_prochlo/prochlo_crypto.cc:440:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/brave_shields/browser/adblock_interceptor.cc:155:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+brave-core-master/components/greaselion/browser/greaselion_service_impl.cc:81:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/components/services/tor/tor_launcher_impl.cc:185:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/vendor/bat-native-ads/src/bat/ads/internal/time.cc:16:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/vendor/bat-native-ledger/src/bat/ledger/internal/bignum.cc:25:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x64/google_update_idl_i.c:55:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x64/google_update_idl_p.c:58:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x64/google_update_idl_p.c:64:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x64/google_update_idl_p.c:70:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x86/google_update_idl_i.c:55:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x86/google_update_idl_p.c:61:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x86/google_update_idl_p.c:67:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/win_build_output/midl/google_update/x86/google_update_idl_p.c:73:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+brave-core-master/chromium_src/chrome/install_static/brave_user_data_dir_win_unittest.cc:19:  [1] (buffer) equal:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+brave-core-master/chromium_src/chrome/install_static/brave_user_data_dir_win_unittest.cc:159:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+brave-core-master/components/services/tor/tor_launcher_impl.cc:188:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+brave-core-master/vendor/brave-ios/Shared/Logger.h:111:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+brave-core-master/vendor/brave-ios/Shared/Logger.h:210:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+
+ANALYSIS SUMMARY:
+
+Hits = 87
+Lines analyzed = 205648 in approximately 2.76 seconds (74404 lines/second)
+Physical Source Lines of Code (SLOC) = 147875
+Hits@level = [0]   0 [1]   5 [2]  41 [3]  29 [4]  11 [5]   1
+Hits@level+ = [0+]  87 [1+]  87 [2+]  82 [3+]  41 [4+]  12 [5+]   1
+Hits/KSLOC@level+ = [0+] 0.588335 [1+] 0.588335 [2+] 0.554522 [3+] 0.277261 [4+] 0.0811496 [5+] 0.00676247
+Dot directories skipped = 3 (--followdotdir overrides)
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
