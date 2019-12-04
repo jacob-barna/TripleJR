@@ -43,6 +43,12 @@ Can be deleted before submission/from textbook and things to consider: A code se
 * Perform manual code review of notable security features from our assurance cases, use and misuse cases
 * Map findings to threats related to CWEs identified in automated and static analysis.
 
+Challenges: 
+1 - No one on the team is an expert in C++ development.  This challenge is overcome by relying heavily on automated scanning.  The team also relied heavily on online sources to learn about the security rules flagged by the analysis tools.  
+
+2 - The codebase is gigantic.  
+For manual review, code search was heavily used to target the code to review manually.  This at least narrowed down the code to review manually and allowed for quick navigation between related files.  This is also mitigated by the heavy reliance on automated tools.
+
 
 ## Code Review Results
 
