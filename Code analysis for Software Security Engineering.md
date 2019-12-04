@@ -55,11 +55,24 @@ For manual review, code search was heavily used to target the code to review man
 
 ### Manual Code Review   
 #### SSL use/misuse cases
-  
+
+Code Review related to Claim C4: the browser uses an encryption scheme suitably resistant to cryptographic attacks
+
+Misuse Case: Side channel attack 
+
+Misuse Case: PRNG attack 
+
+Misuse Case: Man in the middle
+
+Code review Threat Model: 
+CR List 
+SSL Process / Server boundary 
+
+
 ### Automated Code Scanning  
 #### [Codacy](https://www.codacy.com/)
 
-The first tool we used to analyze the Brave tool was Codacy. The tool was able to find 1086 total issues. The brakedown of these issues includes the following:
+The first tool we used to analyze the Brave tool was Codacy. The tool was able to find 1086 total issues. The breakdown of these issues includes the following:
 
 - Security = 27
 - Error Prone = 16
