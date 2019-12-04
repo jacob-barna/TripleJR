@@ -176,6 +176,11 @@ Brave browser is based on Chrome, so the Chrome codebase was also scanned.  Note
 | 1 | 4698  |  
 | 0 | 13739  |  
 
+Key Findings: 
+SSL/TLS and crypto code are one of the most important features of the browser, and a key finding is that the automated scan found _no_ flaws (with severity level 3+) in the boringSSL library which implements TLS for Chrome/Brave-browser.
+
+Because of the high number of hits, only those hits with the keyword crypto are examined below: 
+
 
 [Full Flawfinder Report (Chrome)](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/chrome_static_analysis.html)
 
