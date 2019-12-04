@@ -47,7 +47,7 @@ Can be deleted before submission/from textbook and things to consider: A code se
 ## Code Review Results
 
 ### Manual Code Review   
-- stuff will go here  
+#### SSL use/misuse cases
   
 ### Automated Code Scanning  
 The first tool we used to analyze the Brave tool was [Codacy](https://www.codacy.com/). The tool was able to find 1086 total issues. The brakedown of these issues includes the following:
