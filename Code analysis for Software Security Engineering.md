@@ -44,7 +44,8 @@ Can be deleted before submission/from textbook and things to consider: A code se
 * Map findings to threats related to CWEs identified in automated and static analysis.
 
 #### Challenges: 
-1 - No one on the team is an expert in C++ development.  This challenge is overcome by relying heavily on automated scanning.  The team also relied heavily on online sources to learn about the security rules flagged by the analysis tools.  
+1 - No one on the team is an expert in C++ development.  
+This challenge is overcome by relying heavily on automated scanning.  The team also relied heavily on online sources to learn about the security rules flagged by the analysis tools.  
 
 2 - The codebase is gigantic.  
 For manual review, code search was heavily used to target the code to review manually.  This at least narrowed down the code to review manually and allowed for quick navigation between related files.  This is also mitigated by the heavy reliance on automated tools.
@@ -121,6 +122,24 @@ Our group decided to also analyze some of the other repositories that make up th
     *  [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
 
 [Full Flawfinder Report](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/SA-Flawfinder-Report.txt) 
+
+Brave browser is based on Chrome, so the Chrome codebase was also scanned.  Note that the total number of hits only reflects those hits with severity 3+ as the report was too lengthy when all hits were included.
+
+##### Total Hits/Issue = 4536 
+##### Lines of code analyzed = 17676056
+##### Hits by Risk Level  
+
+| Hits Level | Total Risk(s) |   
+|---|---|
+| 5 | 101  |  
+| 4 | 3612  |  
+| 3 | 823 |   
+| 2 | 11120  |   
+| 1 | 4698  |  
+| 0 | 13739  |  
+
+
+[Full Flawfinder Report (Chrome)](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/chrome_static_analysis.html)
 
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
 - Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
