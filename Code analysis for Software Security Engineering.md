@@ -123,6 +123,32 @@ Next, we began looking at our results at the issues noted for “Error Prone.”
 
 ![issue3-SA](https://user-images.githubusercontent.com/45551925/70160782-aa7a7b00-1680-11ea-88c7-41e52e1df5cf.png)
 
+Nevertheless, we then proceeded to review the security issues mentioned. The first security issue reported here was that many code lines contained a non literal argument at the index position of 0. 
+
+More specifically, when looking at the first one: 
+
+```js
+const chromiumSrcDirLen = chromiumSrcDir.length
+  sourceFiles.forEach(chromiumSrcFile => {
+    var overriddenFile = path.join(config.srcDir, chromiumSrcFile.slice(chromiumSrcDirLen))
+    if (!fs.existsSync(overriddenFile)) {
+      // Try to check that original file is in gen dir.
+      overriddenFile = path.join(config.outputDir, 'gen', chromiumSrcFile.slice(chromiumSrcDirLen))
+```
+
+[Line 28](https://github.com/brave/brave-browser/blob/master/lib/build.js) is what the tool highlighted that raised some security concerns. When looking into the [nodejs](https://nodejs.org/api/fs.html#fs_fs_existssync_path) documentation, this function takes in a path and will return true if it exists and false otherwise. But as you can see on [line 27](https://github.com/brave/brave-browser/blob/master/lib/build.js), the developers declare the variable used for the path that will be taking in. Thus, this was another security false positive that the tool warns when analyzing the repository. Other similar warnings can be seen in the Brave repository folder for [calculateFileChecksum.js](https://github.com/brave/brave-browser/blob/master/lib/calculateFileChecksum.js) as shown during the filestream filepath call; code example shown below.  
+
+```js
+module.exports = function CalculateFileChecksum(filePath, algorithm = 'sha256') {
+  return new Promise((resolve, reject) => {
+    try {
+      const checksumGenerator = crypto.createHash(algorithm);
+      const fileStream = fs.createReadStream(filePath)
+      fileStream.on('error', function (err) {
+        err.message = `CalculateFileChecksum error in FileStream at path "${filePath}": ${err.message}`
+        reject(err)
+      })
+````
 
 #### [Flawfinder](https://github.com/david-a-wheeler/flawfinder) 
 Our group decided to also analyze some of the other repositories that make up the Brave application. Using Flawfinder mentioned from class, wanted to analyze a different repository to see what kind of results we would be able to find, so we looked at the [Brave Core Engine](https://github.com/brave/brave-core) which is 56.1% C++. Here are out results:
