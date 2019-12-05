@@ -176,7 +176,7 @@ Brave browser is based on Chrome, so the Chrome codebase was also scanned.  Note
 | 1 | 4698  |  
 | 0 | 13739  |  
 
-Key Findings: 
+##### Key Findings: 
 SSL/TLS and crypto code are one of the most important features of the browser, and a key finding is that the automated scan found _no_ flaws (with severity level 3+) in the boringSSL library which implements TLS for Chrome/Brave-browser.
 
 Because of the high number of hits, only those hits with the keyword crypto are examined below.  There are 19 hits related to crypto in the results.  Two of these hits are excluded from the stats below as they are in "SQLLite" unit tests and are not production code (and may in fact be intentional weaknesses).
@@ -189,6 +189,13 @@ Here are the breakdown of the remaining flaws by severity and their location in 
 |  /chrome/utils/importer/nss* | Import settings from Mozilla |         8         |          3         |      0     |
 |  /chrome/components/gcm_driver/crypto/ | Google Cloud Messaging |         0         |          3         |      0     |
 | /chrome/components/password_manager/core/browser/leak* | Password leak detection |         0         |          3         |      0   |
+
+##### Importer
+The warnings from the importer are all about weak encryption.  The schemes used are probably required to decrypt the Mozilla settings and are seemingly low risk.  
+
+##### Google Cloud Messaging
+
+##### Browser Leak Detection
 
 [Full Flawfinder Report (Chrome)](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/chrome_static_analysis.html)
 
