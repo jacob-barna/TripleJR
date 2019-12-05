@@ -198,7 +198,7 @@ Here are the hits for Google Cloud Messaging, all severity 4 and relating to:
 
 *  [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
 
-•	C:\chromium\components\gcm_driver\crypto\gcm_encryption_provider.cc:404: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
+•	[gcm_encryption_provider.cc](https://cs.chromium.org/chromium/src/components/gcm_driver/crypto/gcm_encryption_provider.cc?q=gcm_encryption_provider.cc&dr&l=404):404: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
 	  std::string payload = base::StrCat(
 	  
 The code in question is: 
