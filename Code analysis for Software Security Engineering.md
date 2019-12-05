@@ -84,7 +84,7 @@ CR List
 Chromium uses the concept of CRLSets (a curated list of revoked certificates) due to the performance impact of the growing list of revoked certificates.  
 https://dev.chromium.org/Home/chromium-security/crlsets
 
-This has been argued by some to be a weakness.
+This has been argued by some to be a weakness [1].
 
 The CRLSet is used in the certificate verification code, some of which can be viewed here: 
 https://cs.chromium.org/search/?q=crlset&type=cs
@@ -255,7 +255,7 @@ There are no more deliverables so I don't have anything to contribute in this se
 
 Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
 
-
+[1]: https://www.grc.com/revocation/crlsets.htm
 
 ## Team GitHub 
 [Team Repo](https://github.com/jacob-barna/TripleJR)  
