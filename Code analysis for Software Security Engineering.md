@@ -56,14 +56,14 @@ For manual review, code search was heavily used to target the code to review man
 ### Manual Code Review   
 #### SSL use/misuse cases
 
-Code Review related to Claim C4: the browser uses an encryption scheme suitably resistant to cryptographic attacks
+##### Code Review related to Claim C4: the browser uses an encryption scheme suitably resistant to cryptographic attacks
 
-Misuse Case: Side channel attack 
+##### Misuse Case: Side channel attack 
 
 There is an official project page describing the mitigations against known side channel attacks:
 https://www.chromium.org/Home/chromium-security/ssca
 
-Misuse Case: PRNG attack 
+##### Misuse Case: PRNG attack 
 
 There is an official security policy, and in this linked document, the subject of FIPS certification and PRNGS is explained in detail:
 https://cs.chromium.org/chromium/src/third_party/boringssl/src/crypto/fipsmodule/FIPS.md?type=cs&q=PRNG+boring&sq=package:chromium&g=0&l=43
@@ -71,16 +71,16 @@ https://cs.chromium.org/chromium/src/third_party/boringssl/src/crypto/fipsmodule
 The code for the PRNG is found here: 
 https://cs.chromium.org/chromium/src/third_party/boringssl/src/crypto/fipsmodule/rand/rand.c?type=cs&sq=package:chromium&g=0
 
-Misuse Case: Man in the middle (MitM)
+##### Misuse Case: Man in the middle (MitM)
 
 As discussed here, there are some downgrade attacks that could potentially lead to MitM attacks:
 https://www.chromium.org/Home/tls13
 Code can be found here: 
 https://cs.chromium.org/chromium/src/third_party/boringssl/src/ssl/tls13_server.cc
 
-Code review Threat Model: 
+##### Code review Threat Model: 
 
-CR List 
+###### CR List 
 Chromium uses the concept of CRLSets (a curated list of revoked certificates) due to the performance impact of the growing list of revoked certificates.  
 https://dev.chromium.org/Home/chromium-security/crlsets
 
@@ -95,7 +95,7 @@ Here is where a certificate is verified:
 https://cs.chromium.org/chromium/src/net/socket/ssl_server_socket_impl.cc?type=cs&q=sslserversocketimpl&g=0&l=53
 
 
-SSL Process / Server boundary 
+###### SSL Process / Server boundary 
 
 From the threat model, it is important to point out the trust boundary between the server and the web browser.  This trust boundary is crossed in SSL mode by performing a TLS Handshake as shown here: 
 https://cs.chromium.org/chromium/src/third_party/boringssl/src/ssl/handshake.cc?q=tls+handshake&dr=CSs
