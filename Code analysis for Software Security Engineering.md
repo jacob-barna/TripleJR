@@ -218,7 +218,21 @@ fprintf
 [Full Flawfinder Report (Chrome)](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/chrome_static_analysis.html)
 
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
-- Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
+
+
+### Team Reflection
+Jacob: 
+What went well
+Having the work session on 12/4 was a life-saver.  I had some doubt as to what was expected or what to do with flaws found.  I was able to work with the team and the instructor as a sounding board.
+
+What didn't go well
+I can only skim c++ as I haven't used it in years.  I feel like I could contribute more to a JavaScript/TypeScript project, or C# (or at the very least Java).
+
+What we should try next time
+There are no more deliverables so I don't have anything to contribute in this section.  It was a pleasure working on this team.
+
+Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
+
 
 
 ## Team GitHub 
