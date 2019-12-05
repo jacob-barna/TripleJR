@@ -200,6 +200,11 @@ Here are the hits for Google Cloud Messaging, all severity 4 and relating to:
 
 •	C:\chromium\components\gcm_driver\crypto\gcm_encryption_provider.cc:404: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
 	  std::string payload = base::StrCat(
+	  
+The code in question is: 
+```c++
+fprintf
+```
 
 •	C:\chromium\components\gcm_driver\crypto\json_web_token_util.cc:59: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
 	  std::string data = base::StrCat({header_base64, ".", payload_base64});
