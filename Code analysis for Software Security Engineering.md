@@ -182,6 +182,8 @@ SSL/TLS and crypto code are one of the most important features of the browser, a
 Because of the high number of hits, only those hits with the keyword crypto are examined below.  There are 19 hits related to crypto in the results.  Two of these hits are excluded from the stats below as they are in "SQLLite" unit tests and are not production code (and may in fact be intentional weaknesses).
 
 Here are the breakdown of flaws:  
+
+                                                        Number of Flaws (by severity)
                                                      
 | Feature | Description (inferred from code) |         3           |         4          |       5    |
 |---------|----------------------------------|---------------------|--------------------|------------|
