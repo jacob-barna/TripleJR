@@ -201,16 +201,31 @@ Here are the hits for Google Cloud Messaging, all severity 4 and relating to:
 •	[gcm_encryption_provider.cc](https://cs.chromium.org/chromium/src/components/gcm_driver/crypto/gcm_encryption_provider.cc?q=gcm_encryption_provider.cc&dr&l=404):404: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
 	  std::string payload = base::StrCat(
 	  
-The code in question is: 
-```c++
-fprintf
-```
-
-•	C:\chromium\components\gcm_driver\crypto\json_web_token_util.cc:59: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
+•	[json_web_token_util.cc](https://cs.chromium.org/chromium/src/components/gcm_driver/crypto/json_web_token_util.cc?q=json_web_token&sq=package:chromium&g=0&l=59):59: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
 	  std::string data = base::StrCat({header_base64, ".", payload_base64});
 
-•	C:\chromium\components\gcm_driver\crypto\json_web_token_util.cc:79: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
+•	[json_web_token_util.cc](https://cs.chromium.org/chromium/src/components/gcm_driver/crypto/json_web_token_util.cc?q=json_web_token&sq=package:chromium&g=0&l=79):79: [4] (buffer) StrCat: Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).
   return base::StrCat({data, ".", signature_base64});
+	  
+The code in question is the call to base::StrCat, such as this one from the gcm_encryption_provider.cc source file:
+```c++
+  std::string payload = base::StrCat(
+      {salt, rs_str, key_length_str, sender_public_key, ciphertext});
+```
+
+It turns out that this is a custom "safe" strCat that automatically grows the size of the buffer using the [strAppendT](https://cs.chromium.org/chromium/src/base/strings/strcat.cc?dr&g=0&l=29) function, rendering these flaws as false positives:
+```c++
+template <typename DestString, typename InputString>
+void StrAppendT(DestString* dest, span<const InputString> pieces) {
+  size_t additional_size = 0;
+  for (const auto& cur : pieces)
+    additional_size += cur.size();
+  ReserveAdditional(dest, additional_size);
+
+  for (const auto& cur : pieces)
+    dest->append(cur.data(), cur.size());
+}
+```
 
 
 ##### Browser Leak Detection
