@@ -230,10 +230,13 @@ void StrAppendT(DestString* dest, span<const InputString> pieces) {
 
 ##### Browser Leak Detection
 
+There are 3 reports of [CWE-120](https://cwe.mitre.org/data/definitions/120.html) "Classic Buffer Overflow," but these are all using the custom StrCat function as described above and are thusly also regarded as false positives in our analysis.
+
 [Full Flawfinder Report (Chrome)](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/chrome_static_analysis.html)
 
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
 
+The assurance claim that Brave browser provides adequate confidentiality of communications when using SSL/TLS is evident in the code base.  By conducting manual analysis we found that TLS is implemented using a secure PRNG and robust encryption schemes.  We also find detailed documentation of the security concerns and mitigation in the project documentation.  Using the static analysis tool FlawFinder, we found many "hits" that are potential flaws.  The BoringSSL library triggered no "hits" which is reassuring.  In examining the flaws related to crypto implementations in ancillary packages (importer, cloud messaging, and password manager), we found that all of the "hits" were false positives as the open-source project uses custom implementations of commonly misused functions that prevent such misuse.  
 
 ### Team Reflection
 Jacob: 
