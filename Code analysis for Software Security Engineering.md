@@ -181,13 +181,14 @@ SSL/TLS and crypto code are one of the most important features of the browser, a
 
 Because of the high number of hits, only those hits with the keyword crypto are examined below.  There are 19 hits related to crypto in the results.  Two of these hits are excluded from the stats below as they are in "SQLLite" unit tests and are not production code (and may in fact be intentional weaknesses).
 
-Here are the breakdown of flaws:  
+Here are the breakdown of the remaining flaws by severity and their location in the code:
 
-                                                        Number of Flaws (by severity)
                                                      
-| Feature | Description (inferred from code) |         3           |         4          |       5    |
+| Source Location | Description (inferred from code) |        severity 3   |     severity 4     | severity 5 |
 |---------|----------------------------------|---------------------|--------------------|------------|
-|         |                                  |          2          |          2         |      3     |
+|  /chrome/utils/importer/nss* | Import settings from Mozilla |         8         |          3         |      0     |
+|  /chrome/components/gcm_driver/crypto/ | Google Cloud Messaging |         0         |          3         |      0     |
+| /chrome/components/password_manager/core/browser/leak* | Password leak detection |         0         |          3         |      0   |
 
 [Full Flawfinder Report (Chrome)](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/chrome_static_analysis.html)
 
