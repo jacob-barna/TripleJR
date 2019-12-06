@@ -100,6 +100,30 @@ https://cs.chromium.org/chromium/src/net/socket/ssl_server_socket_impl.cc?type=c
 From the threat model, it is important to point out the trust boundary between the server and the web browser.  This trust boundary is crossed in SSL mode by performing a TLS Handshake as shown here: 
 https://cs.chromium.org/chromium/src/third_party/boringssl/src/ssl/handshake.cc?q=tls+handshake&dr=CSs
 
+###### Extensions & Other Security Findings 
+Another manual approach we conducted after a few of our automated tools, was to look into how the Chromium browser which is what our application is built on handles some of these race conditions and buffer overflow attacks. We looked at a few other code repositories to see if we could find any similar examples to [line 64](https://github.com/brave/brave-core/blob/master/browser/importer/chrome_profile_lock_unittest.cc) but weren’t able to. However, we came across a few [Chromium blog posts](https://chromereleases.googleblog.com/2019/03/stable-channel-update-for-desktop_12.html) that talk about the recent security updates/fixes they have conducted. 
+
+
+*[$N/A][918861] Medium CVE-2019-5796: Race condition in Extensions. Reported by Mark Brand of Google Project Zero on 2019-01-03*
+
+There was a race condition finding in the Chromium’s Extensions reported by a Google member which was recently fixed during the release. Here is the code snippet from that previous issue. 
+
+ ``` c
+ ExtensionsGuestViewMessageFilter::~ExtensionsGuestViewMessageFilter() {
+  DCHECK_CURRENTLY_ON(BrowserThread::IO);
+  // This map is created and accessed on the UI thread. Remove the reference to
+  // |this| here so that it will not be accessed again; but leave erasing the
+  // key from the global map to UI thread to avoid races when accessing the
+  // underlying data structure (https:/ crbug.com/869791 ).
+  (*GetProcessIdToFilterMap())[render_process_id_] = nullptr;
+  base::PostTaskWithTraits(
+      FROM_HERE, BrowserThread::UI,
+      base::BindOnce(RemoveProcessIdFromGlobalMap, render_process_id_));
+}
+```
+As you can see, this was an example of a race condition that existed in the Extensions code base. [For the full details on the bug finding.](https://bugs.chromium.org/p/chromium/issues/detail?id=918861) Other security findings that doesn’t apply much to the areas we were focusing on for our application, can be found [here.](https://chromereleases.googleblog.com/2019/11/stable-channel-update-for-desktop_18.html) This is just another representation of the mature and active community always working on improving and findings possible flaws to the Chromium code base. 
+
+
 ### Automated Code Scanning  
 #### [Codacy](https://www.codacy.com/)
 
