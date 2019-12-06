@@ -424,19 +424,7 @@ As stated above in the key findings, the Brave project is fairly large and has a
 For beginners, such as us, the community recommends that we first review all the threads and try to replicate issues that others have found. This would familiarize the user with the project along with learning what to look for and how to problem solve any issues found. For those with more experience the thread lists seasoned contributors to contact to get started with making recommendations and contributions to issues.
 
 ### Team Reflection
-Jacob: 
-What went well
-Having the work session on 12/4 was a life-saver.  I had some doubt as to what was expected or what to do with flaws found.  I was able to work with the team and the instructor as a sounding board.
-
-What didn't go well
-I can only skim c++ as I haven't used it in years.  I feel like I could contribute more to a JavaScript/TypeScript project, or C# (or at the very least Java).
-
-What we should try next time
-There are no more deliverables so I don't have anything to contribute in this section.  It was a pleasure working on this team.
-
-Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
-
-Jeff: Regarding the online automated analysis tools, such as mir-swamp, I found it hard to try and get any of the C/C++ code for build and run. This resulted in finding other solutions such as testing for web scripting and running local tools like flawfinder on the C/C++ code.
+Initially, since this assignment was in between the Thanksgiving holiday, we didn’t have a whole lot of time to discuss in class together, but we are able to communicate everything we need through discord and GitHub. Our group was able to separate tasks individually to accomplish this assignment on time. Having the working session on 12/4 was also a lifesaver. A couple of our members from our team had some doubts as to what was expected or what to do with flaws found, but we were able to work with the team and receive feedback from the instructor to make sure we were on track. However, there were a few things that didn’t go well, such as not being too familiar with C++, a language many of us haven’t used in years. A couple of us on our team felt that we could contribute more to a JavaScript/TypeScript project, or C# (or at the very least Java) since that was something, we were more comfortable with. Regarding the online automated analysis tools, such as mir-swamp, a member from our team found it hard to try and get any of the C/C++ code for build and run. This resulted in finding other solutions such as testing for web scripting and running local tools like flawfinder on the C/C++ code. Overall, I think our groups great communication and teamwork really made it easier for us to accomplish these assignments. It was truly a pleasure to work with everyone on this team.  
 
 [1]: https://www.grc.com/revocation/crlsets.htm
 
