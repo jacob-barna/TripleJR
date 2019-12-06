@@ -1,0 +1,305 @@
+Flawfinder version 1.31, (C) 2001-2014 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 169
+Examining ./tracking-protection-master/FirstPartyHost.cpp
+Examining ./tracking-protection-master/test/tracking-protection-test.cpp
+Examining ./tracking-protection-master/test/test-main.cpp
+Examining ./tracking-protection-master/main.cpp
+Examining ./tracking-protection-master/TPParser.h
+Examining ./tracking-protection-master/node_addon/TPParserWrap.cpp
+Examining ./tracking-protection-master/node_addon/addon.cpp
+Examining ./tracking-protection-master/node_addon/TPParserWrap.h
+Examining ./tracking-protection-master/FirstPartyHost.h
+Examining ./tracking-protection-master/TrackerData.cpp
+Examining ./tracking-protection-master/TrackerData.h
+Examining ./tracking-protection-master/TPParser.cpp
+
+FINAL RESULTS:
+
+./tracking-protection-master/FirstPartyHost.h:24:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/FirstPartyHost.h:28:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:23:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:44:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:48:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:52:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:63:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:64:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:69:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:85:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:152:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:177:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/TPParser.cpp:215:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  (CWE-120). Consider using strcat_s, strncat, or strlcat (warning, strncat
+  is easily misused).
+./tracking-protection-master/TPParser.cpp:219:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  (CWE-120). Consider using strcat_s, strncat, or strlcat (warning, strncat
+  is easily misused).
+./tracking-protection-master/TrackerData.h:25:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused).
+./tracking-protection-master/FirstPartyHost.h:60:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./tracking-protection-master/FirstPartyHost.h:63:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/FirstPartyHost.h:67:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/FirstPartyHost.h:73:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/FirstPartyHost.h:77:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/FirstPartyHost.h:102:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/FirstPartyHost.h:117:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/TPParser.cpp:260:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./tracking-protection-master/TPParser.cpp:262:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/TPParser.cpp:265:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/TPParser.cpp:269:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/TPParser.cpp:271:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/TrackerData.h:53:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./tracking-protection-master/TrackerData.h:57:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/TrackerData.h:62:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/TrackerData.h:85:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/node_addon/TPParserWrap.cpp:198:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/node_addon/TPParserWrap.cpp:220:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./tracking-protection-master/FirstPartyHost.cpp:19:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:23:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:27:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:44:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:45:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:61:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./tracking-protection-master/FirstPartyHost.h:61:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:67:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:69:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:71:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./tracking-protection-master/FirstPartyHost.h:71:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:77:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:79:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:97:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/FirstPartyHost.h:112:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:22:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:38:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:39:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:47:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:51:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:55:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:56:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:71:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:72:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:73:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:81:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:96:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:109:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:146:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:153:  [1] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Consider using strcpy_s, strncpy, or strlcpy (warning, strncpy is easily
+  misused). Risk is low because the source is a constant character.
+./tracking-protection-master/TPParser.cpp:173:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:180:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:205:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:207:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:216:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  (CWE-120). Consider using strcat_s, strncat, or strlcat (warning, strncat
+  is easily misused). Risk is low because the source is a constant character.
+./tracking-protection-master/TPParser.cpp:261:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./tracking-protection-master/TPParser.cpp:268:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./tracking-protection-master/TPParser.cpp:291:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TPParser.cpp:300:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.cpp:16:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.h:24:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.h:37:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.h:38:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.h:54:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./tracking-protection-master/TrackerData.h:54:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.h:62:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.h:64:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/TrackerData.h:80:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./tracking-protection-master/main.cpp:108:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+
+ANALYSIS SUMMARY:
+
+Hits = 82
+Lines analyzed = 1251 in approximately 0.02 seconds (52223 lines/second)
+Physical Source Lines of Code (SLOC) = 957
+Hits@level = [0]   0 [1]  49 [2]  18 [3]   0 [4]  15 [5]   0
+Hits@level+ = [0+]  82 [1+]  82 [2+]  33 [3+]  15 [4+]  15 [5+]   0
+Hits/KSLOC@level+ = [0+] 85.6844 [1+] 85.6844 [2+] 34.4828 [3+] 15.674 [4+] 15.674 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming for Linux and Unix HOWTO'
+(http://www.dwheeler.com/secure-programs) for more information.
