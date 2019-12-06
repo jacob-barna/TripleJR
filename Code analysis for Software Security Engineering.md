@@ -147,6 +147,7 @@ const chromiumSrcDirLen = chromiumSrcDir.length
 
 [Line 28](https://github.com/brave/brave-browser/blob/master/lib/build.js) is what the tool highlighted that raised some security concerns. When looking into the [nodejs](https://nodejs.org/api/fs.html#fs_fs_existssync_path) documentation, this function takes in a path and will return true if it exists and false otherwise. But as you can see on [line 27](https://github.com/brave/brave-browser/blob/master/lib/build.js), the developers declare the variable used for the path that will be taking in. Thus, this was another security false positive that the tool warns when analyzing the repository. Other similar warnings can be seen in the Brave repository folder for [calculateFileChecksum.js](https://github.com/brave/brave-browser/blob/master/lib/calculateFileChecksum.js) as shown during the filestream filepath call; code example shown below.  
 
+
 ```js
 module.exports = function CalculateFileChecksum(filePath, algorithm = 'sha256') {
   return new Promise((resolve, reject) => {
@@ -158,6 +159,8 @@ module.exports = function CalculateFileChecksum(filePath, algorithm = 'sha256') 
         reject(err)
       })
 ````
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1f824366aa2b4609a521a94137ff0189)](https://www.codacy.com/manual/ramirezronald/brave-browser?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ramirezronald/brave-browser&amp;utm_campaign=Badge_Grade) 
+[Full Codacy Report](https://app.codacy.com/manual/ramirezronald/brave-browser/dashboard?bid=15417058)  
 
 #### [Flawfinder](https://github.com/david-a-wheeler/flawfinder) 
 Our group decided to also analyze some of the other repositories that make up the Brave application. Using Flawfinder mentioned from class, wanted to analyze a different repository to see what kind of results we would be able to find, so we looked at the [Brave Core Engine](https://github.com/brave/brave-core) which is 56.1% C++. Here are out results:
