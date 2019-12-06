@@ -6,21 +6,6 @@
 
 **Team Name:** TripleJR
 
-Code analysis for Software Security Engineering: A markdown report that describes the following:
-
-- A short summary of your code review strategy.
--- What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
-- Findings from manual code review of critical security functions identified in misuse cases, assurance cases and threat models.
-- Findings from automated code scanning (if available). Include links to full reports.
-- Summary of key findings from manual and/or automated scanning. This summary may include categorization, mappings to CWEs, CAPECs, Risk Levels, etc.
-- Links to any pull requests, issues, discussion, etc. from the team to the original project and any follow-up interactions.
-- Link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task. Also, include a summary of your team reflection meeting. What issues occurred? What did you plan to change moving forward?  
-
-Can be deleted before submission/from textbook and things to consider: A code security review helps you find possible security flaws, share knowledge of how to design secure code, and improve the overall design.  the overall design of the code, while paying extra attention to things like the implementation or absence of secure code constructs. Another aspect to think about is which people should take part in the code security review. Should you only involve people within the team, or should you also include people from outside the team?
-
-## Rubric 
-![image](https://user-images.githubusercontent.com/45551925/69557223-d8b6d700-0f6b-11ea-997b-96c15819f889.png)
-
 ## Code Review Strategy 
 
 ### Security features that should be involved in the code review:
@@ -445,6 +430,8 @@ What we should try next time
 There are no more deliverables so I don't have anything to contribute in this section.  It was a pleasure working on this team.
 
 Jill: Not a whole lot of time to discuss in class together but we are able to communicate everything we need through discord and github.  We have separated tasks to give indivdually. 
+
+Jeff: Regarding the online automated analysis tools, such as mir-swamp, I found it hard to try and get any of the C/C++ code for build and run. This resulted in finding other solutions such as testing for web scripting and running local tools like flawfinder on the C/C++ code.
 
 [1]: https://www.grc.com/revocation/crlsets.htm
 
