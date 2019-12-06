@@ -297,6 +297,7 @@ Using Flawfinder the [Brave Tracking Protection](https://github.com/brave/tracki
     * [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
     * [CWE-126](https://cwe.mitre.org/data/definitions/126.html) 'Buffer Over-read'
 
+
 #### [Flawfinder Results For Brave Ad-Block](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/ad-block-flawfinder.txt) 
 Using Flawfinder the [Brave Ad-Block](https://github.com/brave/ad-block) was examined which is 42.9% C++. The results are as follows:
 
@@ -325,6 +326,30 @@ Using Flawfinder the [Brave Ad-Block](https://github.com/brave/ad-block) was exa
 
 * Hits Risk Level 1
     * [CWE-126](https://cwe.mitre.org/data/definitions/126.html) 'Buffer Over-read'
+
+
+#### [MIR-SWAMP Results For Brave Tracking Protection](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/brave_tracking-protection.pdf) 
+Using MIR-SWAMP the [Brave Tracking Protection](https://github.com/brave/tracking-protection) was examined for web scripting which is 8.6% JavaScript. The results are as follows:
+
+<img width="838" alt="Screen Shot 2019-12-05 at 8 22 38 PM" src=https://user-images.githubusercontent.com/25576618/70290375-4f8a7600-179d-11ea-87df-4c270968a151.png>
+
+##### Findings details:
+
+* CVE-2015-9251
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
+
+* CVE-2012-6708
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
+
+* CVE-2011-4969
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
+
+* CVE-2019-11358
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
+    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
 
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
