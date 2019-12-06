@@ -369,6 +369,12 @@ Using Flawfinder the [Brave Ad-Block](https://github.com/brave/ad-block) was exa
 * Hits Risk Level 1
     * [CWE-126](https://cwe.mitre.org/data/definitions/126.html) 'Buffer Over-read'
 
+##### Examination of results
+
+```C++
+#define snprintf c99_snprintf
+#define vsnprintf c99_vsnprintf
+```
 
 #### [MIR-SWAMP Results For Brave Tracking Protection](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/brave_tracking-protection.pdf) 
 Using MIR-SWAMP the [Brave Tracking Protection](https://github.com/brave/tracking-protection) was examined for web scripting which is 8.6% JavaScript. The results are as follows:
