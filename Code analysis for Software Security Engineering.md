@@ -411,22 +411,18 @@ Using MIR-SWAMP the [Brave Tracking Protection](https://github.com/brave/trackin
 
 * [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
     * Description: jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a cross-domain Ajax request is performed without the dataType option, causing text/javascript responses to be executed.
-    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
 * [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
     * Description: jQuery before 1.9.0 is vulnerable to Cross-site Scripting (XSS) attacks. The jQuery(strInput) function does not differentiate selectors from HTML in a reliable fashion. In vulnerable versions, jQuery determined whether the input was HTML by looking for the '<' character anywhere in the string, giving attackers more flexibility when attempting to construct a malicious payload. In fixed versions, jQuery only deems the input to be HTML if it explicitly starts with the '<' character, limiting exploitability only to attackers who can control the beginning of a string, which is far less common.
-    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
 * [CVE-2011-4969](https://nvd.nist.gov/vuln/detail/CVE-2011-4969)
     * Description: Cross-site scripting (XSS) vulnerability in jQuery before 1.6.3, when using location.hash to select elements, allows remote attackers to inject arbitrary web script or HTML via a crafted tag.
-    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
 * [CVE-2019-11358](https://nvd.nist.gov/vuln/detail/CVE-2019-11358)
     * Description: jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable __proto__ property, it could extend the native Object.prototype.
-    * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
 
