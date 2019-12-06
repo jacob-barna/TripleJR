@@ -266,6 +266,67 @@ There are 3 reports of [CWE-120](https://cwe.mitre.org/data/definitions/120.html
 
 [Full Flawfinder Report (Chrome)](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/chrome_static_analysis.html)
 
+
+#### [Flawfinder Results For Brave Tracking Protection](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/tracking-protection-flawfinder.txt) 
+Using Flawfinder the [Brave Tracking Protection](https://github.com/brave/tracking-protection) was examined which is 83% C++. The results are as follows:
+
+##### Total Hits/Issue = 82
+##### Lines of code analyzed = 1251
+##### Hits by Risk Level  
+
+| Hits Level | Total Risk(s) |   
+|---|---|
+| 5 | 0 |  
+| 4 | 15 |  
+| 3 | 0 |   
+| 2 | 18 |   
+| 1 | 49 |  
+| 0 | 0 |  
+
+##### Findings based on Hits Level:
+
+* Hits Risk Level 4
+    * [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
+
+* Hits Risk Level 2
+    * [CWE-119](https://cwe.mitre.org/data/definitions/119.html) 'Improper Restriction of Operations within the Bounds of a Memory Buffer'
+    * [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
+
+* Hits Risk Level 1
+    * [CWE-20](https://cwe.mitre.org/data/definitions/20.html) 'Improper Input Validation'
+    * [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
+    * [CWE-126](https://cwe.mitre.org/data/definitions/126.html) 'Buffer Over-read'
+
+#### [Flawfinder Results For Brave Ad-Block](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/ad-block-flawfinder.txt) 
+Using Flawfinder the [Brave Ad-Block](https://github.com/brave/ad-block) was examined which is 42.9% C++. The results are as follows:
+
+##### Total Hits/Issue = 125
+##### Lines of code analyzed = 31468
+##### Hits by Risk Level  
+
+| Hits Level | Total Risk(s) |   
+|---|---|
+| 5 | 0 |  
+| 4 | 2 |  
+| 3 | 0 |   
+| 2 | 56 |   
+| 1 | 67 |  
+| 0 | 0 |  
+
+##### Findings based on Hits Level:
+
+* Hits Risk Level 4
+    * [CWE-134](https://cwe.mitre.org/data/definitions/134.html) 'Use of Externally-Controlled Format String'
+
+* Hits Risk Level 2
+    * [CWE-119](https://cwe.mitre.org/data/definitions/119.html) 'Improper Restriction of Operations within the Bounds of a Memory Buffer'
+    * [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
+    * [CWE-362](https://cwe.mitre.org/data/definitions/362.html) 'Race Condition'
+
+* Hits Risk Level 1
+    * [CWE-126](https://cwe.mitre.org/data/definitions/126.html) 'Buffer Over-read'
+
+
 ### Summary of Key Findings from Manual/Automated (Mappings to CWEs, CAPECs, Risk Levels, etc.) 
 
 The assurance claim that Brave browser provides adequate confidentiality of communications when using SSL/TLS is evident in the code base.  By conducting manual analysis we found that TLS is implemented using a secure PRNG and robust encryption schemes.  We also find detailed documentation of the security concerns and mitigation in the project documentation.  Using the static analysis tool FlawFinder, we found many "hits" that are potential flaws.  The BoringSSL library triggered no "hits" which is reassuring.  In examining the flaws related to crypto implementations in ancillary packages (importer, cloud messaging, and password manager), we found that all of the "hits" were false positives as the open-source project uses custom implementations of commonly misused functions that prevent such misuse.  
