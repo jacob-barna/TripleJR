@@ -1,0 +1,473 @@
+Flawfinder version 1.31, (C) 2001-2014 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 169
+Examining ./ad-block-master/ad_block_client_wrap.cc
+Examining ./ad-block-master/main.cc
+Examining ./ad-block-master/test/rule_types_test.cc
+Examining ./ad-block-master/test/util.h
+Examining ./ad-block-master/test/test_main.cc
+Examining ./ad-block-master/test/orig_filters_test.cc
+Examining ./ad-block-master/test/parser_test.cc
+Examining ./ad-block-master/test/util.cc
+Examining ./ad-block-master/test/serialization_test.cc
+Examining ./ad-block-master/test/options_test.cc
+Examining ./ad-block-master/test/protocol_test.cc
+Examining ./ad-block-master/test/cosmetic_filter_test.cc
+Examining ./ad-block-master/cosmetic_filter.cc
+Examining ./ad-block-master/filter_list.h
+Examining ./ad-block-master/ad_block_client.cc
+Examining ./ad-block-master/lists/malware.h
+Examining ./ad-block-master/lists/default.h
+Examining ./ad-block-master/lists/regions.h
+Examining ./ad-block-master/addon.cc
+Examining ./ad-block-master/no_fingerprint_domain.cc
+Examining ./ad-block-master/protocol.cc
+Examining ./ad-block-master/filter.h
+Examining ./ad-block-master/bad_fingerprints7.h
+Examining ./ad-block-master/context_domain.h
+Examining ./ad-block-master/no_fingerprint_domain.h
+Examining ./ad-block-master/filter_list.cc
+Examining ./ad-block-master/ad_block_client.h
+Examining ./ad-block-master/bad_fingerprints8.h
+Examining ./ad-block-master/bad_fingerprints.h
+Examining ./ad-block-master/bad_fingerprints5.h
+Examining ./ad-block-master/context_domain.cc
+Examining ./ad-block-master/bad_fingerprint.h
+Examining ./ad-block-master/ad_block_client_wrap.h
+Examining ./ad-block-master/perf.cc
+Examining ./ad-block-master/base.h
+Examining ./ad-block-master/data_file_version.h
+Examining ./ad-block-master/protocol.h
+Examining ./ad-block-master/bad_fingerprints6.h
+Examining ./ad-block-master/filter.cc
+Examining ./ad-block-master/cosmetic_filter.h
+Examining ./ad-block-master/bad_fingerprints4.h
+
+FINAL RESULTS:
+
+./ad-block-master/base.h:18:  [4] (format) snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./ad-block-master/base.h:19:  [4] (format) vsnprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+./ad-block-master/ad_block_client.cc:77:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:79:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:83:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:85:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:196:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:246:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:286:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:349:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:354:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:372:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:400:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:435:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:441:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:443:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:648:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:653:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1492:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:1517:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1600:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/ad_block_client.cc:1679:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1684:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1689:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1694:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1700:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1706:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1712:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:1718:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client_wrap.cc:347:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client_wrap.cc:376:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client_wrap.cc:492:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client_wrap.cc:503:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client_wrap.cc:527:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client_wrap.cc:531:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/bad_fingerprint.h:36:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/bad_fingerprint.h:55:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/bad_fingerprint.h:63:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/bad_fingerprint.h:78:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+./ad-block-master/cosmetic_filter.h:33:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/cosmetic_filter.h:52:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/cosmetic_filter.h:60:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/cosmetic_filter.h:91:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/cosmetic_filter.h:96:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:124:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:137:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:260:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:264:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:704:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/filter.cc:709:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:713:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:721:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:733:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/filter.cc:741:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/no_fingerprint_domain.cc:33:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/no_fingerprint_domain.cc:63:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119:CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+./ad-block-master/no_fingerprint_domain.cc:67:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/no_fingerprint_domain.cc:71:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+./ad-block-master/ad_block_client.cc:120:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:183:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:650:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:763:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:774:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:961:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:967:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1495:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/ad_block_client.cc:1499:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/ad_block_client.cc:1507:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/ad_block_client.cc:1509:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1525:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/ad_block_client.cc:1527:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1533:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/ad_block_client.cc:1535:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1601:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/ad_block_client.cc:1652:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/ad_block_client.cc:1653:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1737:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1743:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1766:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1774:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client.cc:1808:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client_wrap.cc:488:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client_wrap.cc:499:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/ad_block_client_wrap.cc:513:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/bad_fingerprint.h:29:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/bad_fingerprint.h:31:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/bad_fingerprint.h:35:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/bad_fingerprint.h:36:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/bad_fingerprint.h:55:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/bad_fingerprint.h:57:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/bad_fingerprint.h:61:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.cc:12:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.h:26:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.h:28:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/cosmetic_filter.h:32:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.h:33:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.h:52:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.h:54:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.h:58:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/cosmetic_filter.h:89:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:111:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:129:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:131:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/filter.cc:144:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:146:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/filter.cc:152:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:154:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/filter.cc:401:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:543:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:560:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:603:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:696:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:705:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/filter.cc:719:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:739:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:767:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:775:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.cc:798:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.h:162:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/filter.h:167:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/no_fingerprint_domain.cc:25:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/no_fingerprint_domain.cc:64:  [1] (port) snprintf:
+  On some very old systems, snprintf is incorrectly implemented and permits
+  buffer overflows; there are also incompatible standard definitions of it.
+  Check it during installation, or use something else.
+./ad-block-master/no_fingerprint_domain.cc:83:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/test/protocol_test.cc:56:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+./ad-block-master/test/protocol_test.cc:62:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+
+ANALYSIS SUMMARY:
+
+Hits = 125
+Lines analyzed = 31468 in approximately 0.21 seconds (152696 lines/second)
+Physical Source Lines of Code (SLOC) = 30180
+Hits@level = [0]   0 [1]  67 [2]  56 [3]   0 [4]   2 [5]   0
+Hits@level+ = [0+] 125 [1+] 125 [2+]  58 [3+]   2 [4+]   2 [5+]   0
+Hits/KSLOC@level+ = [0+] 4.14182 [1+] 4.14182 [2+] 1.9218 [3+] 0.0662691 [4+] 0.0662691 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming for Linux and Unix HOWTO'
+(http://www.dwheeler.com/secure-programs) for more information.
