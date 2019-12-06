@@ -191,6 +191,24 @@ Our group decided to also analyze some of the other repositories that make up th
     * [CWE-20](https://cwe.mitre.org/data/definitions/20.html) 'Improper Input Validation'
     *  [CWE-120](https://cwe.mitre.org/data/definitions/120.html) 'Classic Buffer Overflow'
 
+Based on these results, we quickly focused on level 5 and 4 findings and began analyzing the improper input validation and race conditions noted by the tool. Looking at the [line 64](https://github.com/brave/brave-core/blob/master/browser/importer/chrome_profile_lock_unittest.cc) for the function "readlink" we looked to see how it was set up.
+
+```c
+#if defined(OS_POSIX)
+  struct stat statbuf;
+  if (expect) {
+    ASSERT_EQ(0, lstat(lock_file_path_.value().c_str(), &statbuf));
+    ASSERT_TRUE(S_ISLNK(statbuf.st_mode));
+    char buf[PATH_MAX];
+    ssize_t len = readlink(lock_file_path_.value().c_str(), buf, PATH_MAX);
+    ASSERT_GT(len, 0);
+  } else {
+    ASSERT_GT(0, lstat(lock_file_path_.value().c_str(), &statbuf));
+  }
+  ```
+From our brief experience with C, after looking at the the [documentation](http://man7.org/linux/man-pages/man2/readlink.2.html) for this function we came to the conclusion that it is setup properly. In this function, a symbolic link of the path will be placed in the buf which has a buf size set. If this wasn't the case, it could be an exploitable area for a malicious user to conduct a buffer overflow attack. 
+
+
 [Full Flawfinder Report](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/SA-Flawfinder-Report.txt) 
 
 Brave browser is based on Chrome, so the Chrome codebase was also scanned.  Note that the total number of hits only reflects those hits with severity 3+ as the report was too lengthy when all hits were included.
