@@ -401,6 +401,7 @@ inline int c99_snprintf(char *outBuf, size_t size,
 }
 #endif
 ```
+Reviewing the [documentation](https://cwe.mitre.org/data/definitions/134.html) for CWE-134 it states "When an attacker can modify an externally-controlled format string, this can lead to buffer overflows, denial of service, or data representation problems." Researching more on snprintf (Write formatted output to sized buffer) and vsprintf (Write formatted data from variable argument list to sized buffer) it appears that these, when implemented properly, protect against buffer overflows as they limit the characters written. This is due to these functions outputted to a sized buffer. The implementation seems to be properly implemented and follows the required parameters to ensure the buffer size and formatting.
 
 #### [MIR-SWAMP Results For Brave Tracking Protection](https://github.com/jacob-barna/TripleJR/blob/master/AnalysisReports/brave_tracking-protection.pdf) 
 Using MIR-SWAMP the [Brave Tracking Protection](https://github.com/brave/tracking-protection) was examined for web scripting which is 8.6% JavaScript. The results are as follows:
