@@ -335,19 +335,19 @@ Using MIR-SWAMP the [Brave Tracking Protection](https://github.com/brave/trackin
 
 ##### Findings details:
 
-* CVE-2015-9251
+* [CVE-2015-9251](https://nvd.nist.gov/vuln/detail/CVE-2015-9251)
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
-* CVE-2012-6708
+* [CVE-2012-6708](https://nvd.nist.gov/vuln/detail/CVE-2012-6708)
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
-* CVE-2011-4969
+* [CVE-2011-4969](https://nvd.nist.gov/vuln/detail/CVE-2011-4969)
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
-* CVE-2019-11358
+* [CVE-2019-11358](https://nvd.nist.gov/vuln/detail/CVE-2019-11358)
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/ jquery-1.4.3.min.js
     * Location: tracking-protection/node_modules/hashset-cpp/vendor/depot_tools/third_party/coverage/htmlfiles/jquery.min.js
 
