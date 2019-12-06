@@ -371,7 +371,7 @@ Using Flawfinder the [Brave Ad-Block](https://github.com/brave/ad-block) was exa
 
 ##### Examination of results
 
-Flawfinder detection two Level 4 risks inside the Ad-Block code [base.h](https://github.com/brave/ad-block/blob/master/base.h) file at lines 18 and 19 as follows:
+Flawfinder detected two Level 4 risks inside the Ad-Block code [base.h](https://github.com/brave/ad-block/blob/master/base.h) file at lines 18 and 19 as follows:
 
 ```C++
 #if defined(_MSC_VER) && _MSC_VER < 1900
